@@ -33,12 +33,12 @@ const Index = () => {
           <Player
             autoplay
             loop
-            src="https://assets1.lottiefiles.com/packages/lf20_g2es3iti.json"
+            src="https://assets4.lottiefiles.com/packages/lf20_mlp3zxve.json"
             className=" xl:w-[500px] xl:h-[500px] lg:w-[380px] lg:h-[400px] md:w-[400px] md:h-[400px] sm:w-[360px] sm:h-[360px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
           ></Player>
         </div>
         <div className="p-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
-          <div className=" rounded-md flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
             <div>
               <div className="flex justify-center items-center rounded-md">
                 <Image src={s1} width={100} height={100} />
@@ -60,7 +60,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className=" rounded-md flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
             <div>
               <div className="flex justify-center items-center rounded-md">
                 <Image src={s2} width={100} height={100} />
@@ -82,7 +82,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className=" rounded-md flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
             <div>
               <div className="flex justify-center items-center rounded-md">
                 <Image src={s3} width={100} height={100} />
@@ -104,7 +104,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className=" rounded-md flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
             <div>
               <div className="flex justify-center items-center rounded-md">
                 <Image src={s1} width={100} height={100} />
