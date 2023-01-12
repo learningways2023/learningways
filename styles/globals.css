@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background-color: #111010 !important;
+}
+.dropbtn {
+  background-color: #085464;
+  color: #fff;
+
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn-black {
+  background-color: black;
+  color: #ffff;
+
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content-black {
+  color: #ffff;
+  display: none;
+  position: absolute;
+  background-color: #000000;
+
+  min-width: 160px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 99 !important;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: #085464;
+  min-width: 160px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 99 !important;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content-black {
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.log {
+  width: auto;
+  padding: 10px 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #085464;
+  color: #ffff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.log:hover {
+  background-color: #fff;
+  color: #085464;
+  border-color: #fff;
+
+}
+.heading{
+  font-size: 25px;
+  font-weight: 600;
+}
+.getstarted{
+  background-color: #085464;
+  
+}
+.getstarted:hover{
+  background-color: #fff;
+  color: #085464;
+  border: 2px solid #085464;
+ 
+}
+.wwd{
+  border: 1px solid black;
+}
+.bd{
+  border: 1px solid #085464;
+}
