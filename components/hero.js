@@ -44,8 +44,8 @@ function Newhero() {
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:gap-6 lg:gap-5 sm:gap-4 gap-4">
                 <div className="  rounded-md flex items-center justify-center">
                   <span className="xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#c47993] font-medium text-center lg:text-left xl:text-left">
-                    "It's not what you achieve, it's what you overcome. That's
-                    what defines your career."
+                    Education is the most powerful weapon which you can use to
+                    change the world." - Nelson Mandela
                   </span>
                 </div>
                 <div className="xl:text-[26px] lg:text-[25px] sm:text-[25px] text-[18px] flex items-center justify-center text-center lg:text-left xl:text-left">

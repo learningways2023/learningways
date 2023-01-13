@@ -17,24 +17,24 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3 gap-2 lg:gap-4 px-5">
           <div className="p-2 rounded-md flex sm:justify-start justify-center sm:text-left text-center">
             <div>
-              <span className="heading">Solutions</span>
+              <span className="heading">Resourses</span>
               <br />
               <ul>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">8th - 9th</Link>
+                  <Link href="/">NCERT </Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">10th - 12th</Link>
+                  <Link href="/">UPSC Material</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="">College Graduates</Link>
+                  <Link href="">Skill Development Material </Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Working</Link>
+                  <Link href="/">Coding Tutorials</Link>
                 </li>
 
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Professionals</Link>
+                  <Link href="/">NCERT Solutions</Link>
                 </li>
               </ul>
             </div>
@@ -45,30 +45,33 @@ function Footer() {
               <br />
               <ul>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">SKIDO for Schools</Link>
+                  <Link href="/">LearningWays for Schools</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">SKIDO for Corporates</Link>
+                  <Link href="/">LearningWays for Competetive exam</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">SKIDO for Counsellors</Link>
+                  <Link href="/">LearningWays for Upskilling</Link>
+                </li>
+                <li className="py-1 foottext hover:text-[#79c5d4]">
+                  <Link href="/">LearningWays for College</Link>
                 </li>
               </ul>
             </div>
           </div>
           <div className="p-2 rounded-md flex sm:justify-start justify-center sm:text-left text-center">
             <div>
-              <span className="heading">Knowledge Gateway</span>
+              <span className="heading">Library</span>
               <br />
               <ul>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Career library</Link>
+                  <Link href="/">Career Arena</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">SKIDO blog</Link>
+                  <Link href="/">Blogs</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Career webinars</Link>
+                  <Link href="/">Webinars</Link>
                 </li>
               </ul>
             </div>
@@ -82,7 +85,7 @@ function Footer() {
                   <Link href="/teams#bod">Who we are?</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Team SKIDO</Link>
+                  <Link href="/">Teams</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
                   <Link href="/">Work with us</Link>
@@ -109,16 +112,16 @@ function Footer() {
               <span className="heading">Contact us</span>
               <br />
               <ul>
-                <li className="py-1 foottext hover:text-[#79c5d4] flex  items-center justify-center md:justify-start lg:justify-start xl:justify-start">
+                {/* <li className="py-1 foottext hover:text-[#79c5d4] flex  items-center justify-center md:justify-start lg:justify-start xl:justify-start">
                   <Image src={call} width={20} height={20} />
                   <Link href="/" className="ml-3">
                     +91 812345678
                   </Link>
-                </li>
+                </li> */}
                 <li className="py-1 foottext hover:text-[#79c5d4] flex  items-center justify-center md:justify-start lg:justify-start xl:justify-start">
                   <Image src={mail} width={20} height={20} />
                   <Link href="/" className="ml-3">
-                    info@skido.com
+                    info.learningways@gmail.com
                   </Link>
                 </li>
                 <li className="py-4 foottext flex  items-center justify-center md:justify-start lg:justify-start xl:justify-start">

@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@capacitor/android": "^4.6.1",
+    "@capacitor/core": "^4.6.1",
+    "@capacitor/ios": "^4.6.1",
     "@lottiefiles/react-lottie-player": "^3.5.0",
     "@next/font": "13.1.1",
     "cookies-next": "^2.1.1",
@@ -20,6 +23,7 @@
     "swiper": "^8.4.5"
   },
   "devDependencies": {
+    "@capacitor/cli": "^4.6.1",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
