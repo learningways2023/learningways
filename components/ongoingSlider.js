@@ -5,7 +5,7 @@ import code from "../public/code.png";
 import Link from "next/link";
 const OngoingSlider = (props) => {
   return (
-    <div className="bg-[#4bca80] rounded-md h-full">
+    <div className="bg-[#22A39F] rounded-md h-full">
       <div className="pb-5 flex justify-center items-start lg:justify-start xl:items-center lg:items-center xl:justify-start  pl-4">
         <Image src={logo} width={200} height={100} />
       </div>

@@ -6,6 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Blogs from "../components/blogs";
 import s1 from "../public/s1.jpg";
+import s4 from "../public/s4.jpg";
+import s5 from "../public/s5.jpg";
 import kid from "../public/kid.png";
 import upsc from "../public/upsc.png";
 import parent from "../public/parent.png";
@@ -41,7 +43,7 @@ const Index = () => {
               className=" w-[300px] h-[300px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
             ></Player>
           </div>
-          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s1} width={100} height={100} />
@@ -63,7 +65,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s2} width={100} height={100} />
@@ -85,7 +87,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s3} width={100} height={100} />
@@ -107,10 +109,10 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow-lg-lg  cursor-pointer text-black wwd">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
-                <Image src={s1} width={100} height={100} />
+                <Image src={s5} width={100} height={100} />
               </div>
               <div className="text-[20px] font-medium flex justify-center items-center px-3 py-3">
                 <span>Upgrade Skill </span>
@@ -129,10 +131,10 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+          <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
-                <Image src={s1} width={100} height={100} />
+                <Image src={s4} width={100} height={100} />
               </div>
               <div className="text-[20px] font-medium flex justify-center items-center px-3 py-3">
                 <span>Competetive Exams</span>
@@ -267,7 +269,7 @@ const Index = () => {
         <div className="p-4  ">
           <div className="flex justify-center items-center">
             <div className="p-2 lg:p-9 md:p-4 xl:p-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-12">
-              <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+              <div className=" rounded-md infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
                 <div>
                   <div className="flex justify-center items-center rounded-md px-3 py-3">
                     <Image src={s1} width={100} height={100} />
@@ -290,7 +292,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-5 rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+              <div className="p-5 rounded-md infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
                 <div>
                   <div className="flex justify-center items-center rounded-md px-3 py-3">
                     <Image src={s2} width={100} height={100} />
@@ -313,7 +315,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-5 rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+              <div className="p-5 rounded-md infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
                 <div>
                   <div className="flex justify-center items-center rounded-md px-3 py-3">
                     <Image src={s3} width={100} height={100} />
@@ -336,7 +338,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-5 rounded-md infPic flex items-center justify-center bg-white drop-shadow  cursor-pointer text-black wwd">
+              <div className="p-5 rounded-md infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
                 <div>
                   <div className="flex justify-center items-center rounded-md px-3 py-3">
                     <Image src={s1} width={100} height={100} />
@@ -474,7 +476,7 @@ const Index = () => {
           </span>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
-          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow  cursor-pointer text-white wwd">
+          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
             <div>
               <div className="px-3 py-3 flex justify-center items-center rounded-md">
                 <Image src={kid} width={100} height={100} />
@@ -492,7 +494,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow  cursor-pointer text-white wwd">
+          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
             <div>
               <div className="px-3 py-3 flex justify-center items-center rounded-md">
                 <Image src={upsc} width={100} height={100} />
@@ -509,7 +511,7 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow  cursor-pointer text-white wwd">
+          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
             <div>
               <div className="px-3 py-3 flex justify-center items-center rounded-md">
                 <Image src={parent} width={100} height={100} />
