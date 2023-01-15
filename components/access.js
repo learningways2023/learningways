@@ -6,10 +6,11 @@ import Image from "next/image";
 
 import Link from "next/link";
 
-import s1 from "../public/s1.jpg";
+import s1 from "../public/s11.png";
 
-import s2 from "../public/s2.jpg";
-import s3 from "../public/s3.jpg";
+import s2 from "../public/s12.png";
+import s3 from "../public/s13.png";
+import s4 from "../public/s14.png";
 
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
@@ -112,7 +113,7 @@ const Access = () => {
             <div className="h-auto w-full    infPic flex items-center justify-center  ">
               <div className="w-[250px] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
                 <div className="flex justify-center items-center rounded-md px-3 py-3">
-                  <Image src={s1} width={100} height={100} />
+                  <Image src={s4} width={100} height={100} />
                 </div>
                 <div className="text-[18px] lg:text-[20px] xl:text-[23px] font-medium flex justify-center items-center px-3 py-3">
                   <span>Skill fit</span>

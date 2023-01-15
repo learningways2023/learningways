@@ -1,43 +1,12 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-import Newhero from "../components/hero";
-import Image from "next/image";
-import Link from "next/link";
-import Ongoing from "../components/ongoing";
-import Categories from "../components/categories";
-import ment from "../public/john.png";
-import Blogs from "../components/blogs";
-import s1 from "../public/s1.jpg";
-import s4 from "../public/s4.jpg";
-import Upcoming from "../components/upcoming";
-import s5 from "../public/s5.jpg";
-import kid from "../public/kid.png";
-import upsc from "../public/upsc.png";
-import parent from "../public/parent.png";
-import paint from "../public/paint.png";
-import s2 from "../public/s2.jpg";
-import Mentor from "../components/mentor";
-import s3 from "../public/s3.jpg";
-import code from "../public/code.png";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-// import required modules
-import { Autoplay, Pagination, Navigation, EffectCube } from "swiper";
-import "swiper/css/effect-cube";
-import UpCommingSlider from "../components/upcommingSlider";
-import OngoingSlider from "../components/ongoingSlider";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 const ApptitudeSlide = () => {
   return (
     <div className="w-full bg-[#085464] min-h-screen px-4 pt-7 flex justify-center items-center">
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8 lg:gap-4 xl:gap-4">
         <div className="w-full h-full flex justify-start items-center">
-          <div className="h-[400px]">
+          <div className="">
             <Player
               autoplay
               loop

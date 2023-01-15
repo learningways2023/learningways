@@ -5,12 +5,12 @@ import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 import Link from "next/link";
 
-import s1 from "../public/s1.jpg";
-import s4 from "../public/s4.jpg";
-import s5 from "../public/s5.jpg";
+import s1 from "../public/s11.png";
+import s4 from "../public/s14.png";
+import s5 from "../public/s15.png";
 
-import s2 from "../public/s2.jpg";
-import s3 from "../public/s3.jpg";
+import s2 from "../public/s12.png";
+import s3 from "../public/s13.png";
 
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
@@ -37,7 +37,7 @@ const Categories = () => {
         <div className="w-full h-full flex justify-center items-center">
           <Player
             autoplay
-            loopmin-h-screen
+            loop
             src="https://assets4.lottiefiles.com/packages/lf20_mlp3zxve.json"
             className=" w-[300px] h-[300px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
           ></Player>
