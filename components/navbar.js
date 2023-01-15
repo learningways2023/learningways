@@ -21,13 +21,8 @@ export default function Navbar() {
                   router.push("/");
                   setNavbar(false);
                 }}
-                
               >
-                <Image
-                  src={logo}
-                  className="cursor-pointer"
-
-                />
+                <Image src={logo} className="cursor-pointer" />
               </div>
               <div className="lg:hidden">
                 <button
@@ -147,16 +142,7 @@ export default function Navbar() {
                           setNavbar(false);
                         }}
                       >
-                        Class 5-8
-                      </div>
-                      <div
-                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
-                        onClick={function handleLogo() {
-                          router.push("/");
-                          setNavbar(false);
-                        }}
-                      >
-                        Class 9-10
+                        Class 5-10
                       </div>
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
@@ -167,6 +153,7 @@ export default function Navbar() {
                       >
                         Class 11-12
                       </div>
+
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
@@ -241,6 +228,24 @@ export default function Navbar() {
                         }}
                       >
                         Practice Questions
+                      </div>
+                      <div
+                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        onClick={function handleLogo() {
+                          router.push("/");
+                          setNavbar(false);
+                        }}
+                      >
+                        UPSC General Studies
+                      </div>
+                      <div
+                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        onClick={function handleLogo() {
+                          router.push("/");
+                          setNavbar(false);
+                        }}
+                      >
+                        UPSC Current affairs
                       </div>
                     </div>
                   </div>
