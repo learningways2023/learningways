@@ -15,7 +15,7 @@ import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 const Access = () => {
   const squareVariants = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
     hidden: { opacity: 0, scale: 0 },
   };
   const controls = useAnimation();
