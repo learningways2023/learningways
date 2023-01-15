@@ -71,7 +71,7 @@ function Newhero() {
                 </div>
               </div>
             </div>
-            <div className="w-auto h-auto -z-50">
+            <div className="w-auto h-auto ">
               <Player
                 autoplay
                 loop

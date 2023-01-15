@@ -11,10 +11,10 @@ const OngoingSlider = (props) => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
         <div className="grid grid-cols-1 gap-auto">
-          <div className="pb-5 flex justify-center items-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#fff] font-bold text-center">
+          <div className="px-3 pb-5 flex justify-center items-center xl:text-[38px] lg:text-[28px] sm:text-[28px] text-[20px] text-[#fff] font-semi-bold text-center md:text-left lg:text-left xl:text-left">
             {props.tittle}
           </div>
-          <div className="pb-5  flex justify-center items-center xl:text-[26px] lg:text-[25px] sm:text-[25px] text-[18px] text-[#fff] font-medium text-center">
+          <div className="px-3 pb-5  flex justify-center items-center xl:text-[26px] lg:text-[22px] sm:text-[22px] text-[17px] text-[#fff] font-semi-bold text-center  lg:text-left xl:text-left">
             {props.sub}
           </div>
           <div className="rounded-md flex items-center justify-center pt-3 pb-5">
