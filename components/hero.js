@@ -71,12 +71,12 @@ function Newhero() {
                 </div>
               </div>
             </div>
-            <div className="w-auto h-auto ">
+            <div className="w-auto h-auto  pt-9">
               <Player
                 autoplay
                 loop
                 src="https://assets1.lottiefiles.com/packages/lf20_g2es3iti.json"
-                className=" xl:w-[500px] xl:h-[500px] lg:w-[380px] lg:h-[400px] md:w-[400px] md:h-[400px] sm:w-[360px] sm:h-[360px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
+                className=" xl:w-[400px] xl:h-[400px] lg:w-[380px] lg:h-[400px] md:w-[400px] md:h-[400px] sm:w-[360px] sm:h-[360px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
               ></Player>
             </div>
           </div>

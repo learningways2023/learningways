@@ -73,6 +73,7 @@
   justify-content: center;
   border-radius: 5px;
   background-color: #085464;
+  border: 1px solid #fff;
   color: #ffff;
   cursor: pointer;
   transition: 0.2s;
@@ -89,6 +90,7 @@
 }
 .getstarted {
   background-color: #085464;
+  border: 2px solid #085464;
 }
 .getstarted:hover {
   background-color: #fff;
@@ -122,5 +124,141 @@
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
     padding: 8px 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .headerTitle {
+    font-weight: 600;
+    color: #2cb67d;
+    font-size: 2rem;
+  }
+  .new {
+    margin-top: -50px;
+    padding: "4.5rem 2rem 0 0";
+  }
+}
+.new {
+  margin-top: -50px;
+}
+.new1 {
+  margin-top: 50px;
+}
+
+.loginImg {
+  width: 650px;
+}
+@media screen and (max-width: 625px) {
+  .loginImg {
+    visibility: none;
+  }
+}
+.loginContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.newloginContainer {
+  width: 100%;
+}
+@media screen and (min-width: 1023px) {
+  .newloginContainer {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .loginContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.newLoginForm {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 380px) {
+  .newLoginForm {
+    padding: 0px;
+  }
+}
+.newLoginForm input {
+  margin: 3.5px 0 1rem;
+}
+.formBottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 0;
+}
+.missionpage {
+  background-image: url(../public/mwavedesk.svg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+@media screen and (max-width: 790px) {
+  .missionpage {
+    background-image: url(../public/mwavetab.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+  }
+}
+@media screen and (max-width: 590px) {
+  .missionpage {
+    background-image: url(../public/mwavemobile.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #mission {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+.contactpage {
+  background-image: url(../public/cwavedesk.svg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+@media screen and (max-width: 790px) {
+  .contactpage {
+    background-image: url(../public/cwavetab.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+  }
+}
+@media screen and (max-width: 590px) {
+  .contactpage {
+    background-image: url(../public/cwavemobile.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #cntct {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }

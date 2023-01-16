@@ -352,7 +352,7 @@ export default function Navbar() {
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
-                          router.push("/");
+                          router.push("/about#what_we_do");
                           setNavbar(false);
                         }}
                       >
@@ -361,7 +361,7 @@ export default function Navbar() {
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
-                          router.push("/");
+                          router.push("/about#career");
                           setNavbar(false);
                         }}
                       >
@@ -370,7 +370,7 @@ export default function Navbar() {
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
-                          router.push("/");
+                          router.push("/about#contact");
                           setNavbar(false);
                         }}
                       >
@@ -397,7 +397,7 @@ export default function Navbar() {
                   <li
                     className="text-white flex justify-center cursor-pointer"
                     onClick={function handleLogo() {
-                      router.push("/");
+                      router.push("/login");
                       setNavbar(false);
                     }}
                   >

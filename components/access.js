@@ -150,7 +150,7 @@ const Access = () => {
                   <span>Let us Learn- Practice & Grow together</span>
                 </div>
                 <div className=" rounded-md flex items-center justify-center lg:justify-start xl:justify-start pt-4">
-                  <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-3 px-6  rounded-md ">
+                  <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-2 px-9  rounded-md ">
                     <button className="font-medium">Signup </button>
                   </div>
                 </div>
