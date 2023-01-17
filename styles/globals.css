@@ -262,3 +262,7 @@
     flex-direction: column-reverse;
   }
 }
+.ipSvg {
+  position: absolute;
+  margin: 1.1rem;
+}

@@ -82,22 +82,22 @@ function Footer() {
               <br />
               <ul>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/teams#bod">Who we are?</Link>
+                  <Link href="/about#what_we_do">Who we are?</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Teams</Link>
+                  <Link href="/about#teams">Teams</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Work with us</Link>
+                  <Link href="/about#career">Work with us</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Refund & cancellation</Link>
+                  <Link href="/about#refund">Refund & cancellation</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Privacy & policy</Link>
+                  <Link href="/about#refund">Privacy & policy</Link>
                 </li>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
-                  <Link href="/">Terms & conditions</Link>
+                  <Link href="/about#terms">Terms & conditions</Link>
                 </li>
                 {/* <li className="py-1 foottext hover:text-[#79c5d4]">
                   <Link href="/teams#bod">Advisors</Link>
