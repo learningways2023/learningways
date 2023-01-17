@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/navbar";
 
-import login from "../public/login.png";
 import Image from "next/image";
 import eyeoff from "../public/eyeoff.svg";
 import Footer from "../components/footer";
@@ -11,6 +10,8 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import Link from "next/link";
 import Axios from "axios";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
+
 import { useRouter } from "next/router";
 import { useReducer, useEffect, useState, useRef } from "react";
 
@@ -151,12 +152,17 @@ function Login() {
   return (
     <div>
       <Navbar isLogedIn={false} />
-      <section className="min-h-screen new flex justify-center items-center">
-        <div className="px-6 h-full text-gray-800">
-          <div className=" flex xl:justify-center lg:justify-center justify-center items-center flex-wrap h-full g-6">
-            <div className="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-8/12 md:w-9/12  new1">
-              <Image src={login} />
-            </div>
+      <div className="about_hero1 pt-10">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
+          <div className=" rounded-md flex items-center justify-center px-8">
+            <Player
+              autoplay
+              loop
+              src="https://assets2.lottiefiles.com/packages/lf20_jcikwtux.json"
+              className="  xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
+            ></Player>
+          </div>
+          <div className=" p-4 rounded-md flex items-center justify-center">
             <div className="newloginContainer">
               <div className="newLoginTop flex items-center justify-center">
                 <FormHeader title="LOG IN" />
@@ -266,7 +272,8 @@ function Login() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
       <Footer />
     </div>
   );

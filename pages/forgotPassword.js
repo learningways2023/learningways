@@ -10,13 +10,13 @@ import { getCookie, setCookies, removeCookies, setCookie } from "cookies-next";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import Link from "next/link";
-import Axios from "axios";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
+import Axios from "axios";
 import { useRouter } from "next/router";
 import { useReducer, useEffect, useState, useRef } from "react";
 
-function Signup() {
+function ForgotPassword() {
   const FormHeader = (props) => (
     <h2 className="font-[500] text-[#085464] xl:text-[40px] lg:text-[32px] sm:text-[32px] text-[20px]">
       {props.title}
@@ -159,14 +159,14 @@ function Signup() {
             <Player
               autoplay
               loop
-              src="https://assets2.lottiefiles.com/packages/lf20_nc1bp7st.json"
+              src="https://assets5.lottiefiles.com/packages/lf20_dneo0c5x.json"
               className="  xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
             ></Player>
           </div>
           <div className=" p-4 rounded-md flex items-center justify-center">
             <div className="pt-7 newloginContainer">
               <div className="newLoginTop flex items-center justify-center">
-                <FormHeader title="SIGN UP" />
+                <FormHeader title="Forgot Password" />
               </div>
               <ToastContainer />
               <form className="newLoginForm" onSubmit={loginSubmitHandler}>
@@ -194,7 +194,7 @@ function Signup() {
                   </p>
                 )}
                 <div className="flex justify-between pr-[1.5rem]">
-                  <label className="text-lg font-medium ">Password</label>
+                  <label className="text-lg font-medium ">New Password</label>
                   <p
                     style={{ position: "relative", top: "2.9rem" }}
                     className="cursor-pointer"
@@ -214,7 +214,7 @@ function Signup() {
                 <input
                   className={classes + passClass}
                   type={pass}
-                  placeholder="Enter your password"
+                  placeholder="Enter your New password"
                   onChange={passwordChangeHandler}
                   ref={passRef}
                   onBlur={passBlurHandler}
@@ -235,7 +235,7 @@ function Signup() {
                 )}
                 <div className="flex justify-between pr-[1.5rem]">
                   <label className="text-lg font-medium ">
-                    Confirm Password
+                    Confirm New Password
                   </label>
                   <p
                     style={{ position: "relative", top: "2.9rem" }}
@@ -256,7 +256,7 @@ function Signup() {
                 <input
                   className={classes + passClass}
                   type={pass}
-                  placeholder="Confirm your password"
+                  placeholder="Confirm your New password"
                   onChange={passwordChangeHandler}
                   ref={passRef}
                   onBlur={passBlurHandler}
@@ -276,22 +276,15 @@ function Signup() {
                   </p>
                 )}
 
-                <div className=" flex justify-center items-center">
+                <div className=" flex justify-center items-center pt-9 ">
                   <div className="getstarted gt text-[18px] text-white py-2 px-9 rounded-md flex justify-center items-center">
                     <button type="submit" className="font-medium">
-                      Signup
+                      Reset Password
                     </button>
                   </div>
                 </div>
 
-                <div className="signDesc" style={{ margin: "1.5rem auto" }}>
-                  <p className="font-medium">
-                    Already have an account?{"    "}
-                    <span className="text-[#085464] ml-2  font-medium">
-                      <Link href="/login">Login here</Link>
-                    </span>
-                  </p>
-                </div>
+                
               </form>
             </div>
           </div>
@@ -302,4 +295,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default ForgotPassword;
