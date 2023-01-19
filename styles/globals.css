@@ -104,26 +104,26 @@
   border: 1px solid #085464;
 }
 .infPic:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
   transition: 300ms ease-out;
 }
 .high1 {
   border-bottom-left-radius: 15px;
   border-top-right-radius: 15px;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
 }
 @media screen and (max-width: 769px) {
   .high1 {
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
   }
 }
 @media screen and (max-width: 430px) {
   .high1 {
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px;
-    padding: 8px 10px;
+    /* padding: 8px 10px; */
   }
 }
 @media screen and (max-width: 1024px) {

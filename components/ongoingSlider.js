@@ -10,24 +10,23 @@ const OngoingSlider = (props) => {
         <Image src={logo} width={200} height={100} />
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
-        <div className="grid grid-cols-1 gap-auto">
-          <div className="px-3 pb-5 flex justify-center items-center xl:text-[38px] lg:text-[28px] sm:text-[28px] text-[20px] text-[#fff] font-semi-bold text-center md:text-left lg:text-left xl:text-left">
-            {props.tittle}
+        <div className="pb-7">
+          <div className=" pl-5 pt-7 flex lg:justify-start xl:justify-start justify-start items-center xl:text-[26px] lg:text-[25px] sm:text-[25px] text-[18px] text-[#fff] font-medium">
+            {props.head}
           </div>
-          <div className="px-3 pb-5  flex justify-center items-center xl:text-[26px] lg:text-[22px] sm:text-[22px] text-[17px] text-[#fff] font-semi-bold text-center  lg:text-left xl:text-left">
-            {props.sub}
+
+          <div className=" pl-5 pt-3 flex lg:justify-start xl:justify-start justify-start items-center  xl:text-[18px] lg:text-[18px] sm:text-[18px] text-[10px] text-[#fff] ">
+            {props.content}
           </div>
-          <div className="rounded-md flex items-center justify-center pt-3 pb-5">
-            <Link href={`/dashboard/`}>
-              <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-2 px-8  rounded-md text-center">
-                <button className="font-medium">Apply Now</button>
-              </div>
-            </Link>
+          <div className="px-4 pt-8 flex justify-start items-center">
+            <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-3 px-6 rounded-md ">
+              <button className="font-medium">Explore Now</button>
+            </div>
           </div>
         </div>
 
         <div className="flex justify-center items-start">
-          <Image src={code} />
+          <Image src={code} height={200} />
         </div>
       </div>
     </div>

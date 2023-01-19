@@ -27,12 +27,7 @@ const Access = () => {
     }
   }, [controls, inView]);
   return (
-    <motion.div
-      ref={ref}
-      animate={controls}
-      initial="hidden"
-      variants={squareVariants}
-    >
+    <div>
       <div className="w-full min-h-screen py-9">
         <div className="px-4 py-7  flex justify-center items-center">
           <span className="xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#c47993] font-semi-bold text-center">
@@ -167,7 +162,7 @@ const Access = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

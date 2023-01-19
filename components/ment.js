@@ -19,11 +19,8 @@ const Ment = () => {
     }
   }, [controls, inView]);
   return (
-    <motion.div
-      ref={ref}
-      animate={controls}
-      initial="hidden"
-      variants={squareVariants}
+    <div
+      
     >
       <div className="px-4 pt-9">
         <div className="py-9 flex justify-center items-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#c47993] font-semi-bold text-center pb-7">
@@ -162,7 +159,7 @@ const Ment = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
