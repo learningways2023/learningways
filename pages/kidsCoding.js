@@ -65,14 +65,14 @@ const KidsCoding = () => {
           All practice quizzes
         </div>
 
-        <div>
-          <div className="py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:mx-4 mx-1">
-            <div className="sm:p-6 p-4 rounded-lg flex border border-[#085464] items-center justify-center bg-[#fff]  drop-shadow-lg">
+        <div className="w-full flex justify-center items-center">
+          <div className="py-9 w-[93%]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:mx-4 mx-1">
+            <div className="max-h-[97vh]  sm:p-6 p-4 rounded-lg flex border border-[#085464] items-center justify-center bg-[#fff]  drop-shadow-lg">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
                 <div className="w-full rounded-md flex items-center justify-center">
                   <Image src={kc1} height={300} className="rounded-lg" />
                 </div>
-                <div className="flex justify-between ">
+                <div className="flex justify-between space-x-3 ">
                   <div className="pl-9 -mt-6">
                     <div className="bg-white  border border-1 border-[#085464] flex justify-center items-center w-[100px] h-[30px] rounded-md text-[#085464] lg:text-lg md:text-lg text-[14px]">
                       Que . 10
@@ -105,19 +105,19 @@ const KidsCoding = () => {
                   </div>
                 </div>
 
-                <div className="pt-7 flex justify-center items-center pb-4">
+                <div className="pt-7 flex justify-center items-start ">
                   <div className="text-[#085464] hover:text-white hover:bg-[#085464] rounded-lg  border border-1 border-[#085464] ">
                     <button className="px-9 py-2 ">Play Now</button>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="sm:p-6 p-4 rounded-lg flex border border-[#085464] items-center justify-center bg-[#fff]  drop-shadow-lg">
+            <div className="max-h-[97vh] sm:p-6 p-4 rounded-lg flex border border-[#085464] items-center justify-center bg-[#fff]  drop-shadow-lg">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
                 <div className="w-full rounded-md flex items-center justify-center">
                   <Image src={kc2} height={300} className="rounded-lg" />
                 </div>
-                <div className="flex justify-between ">
+                <div className="flex justify-between space-x-3 ">
                   <div className="pl-9 -mt-6">
                     <div className="bg-white  border border-1 border-[#085464] flex justify-center items-center w-[100px] h-[30px] rounded-md text-[#085464] lg:text-lg md:text-lg text-[14px]">
                       Que . 10
@@ -157,12 +157,12 @@ const KidsCoding = () => {
                 </div>
               </div>
             </div>
-            <div className="sm:p-6 p-4 rounded-lg flex border border-[#085464] items-center justify-center bg-[#fff]  drop-shadow-lg">
+            <div className="max-h-[97vh]  sm:p-6 p-4 rounded-lg flex border border-[#085464] items-center justify-center bg-[#fff]  drop-shadow-lg">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
                 <div className="w-full rounded-md flex items-center justify-center">
                   <Image src={kc3} height={300} className="rounded-lg" />
                 </div>
-                <div className="flex justify-between ">
+                <div className="flex justify-between space-x-3 ">
                   <div className="pl-9 -mt-6">
                     <div className="bg-white  border border-1 border-[#085464] flex justify-center items-center w-[100px] h-[30px] rounded-md text-[#085464] lg:text-lg md:text-lg text-[14px]">
                       Que . 10

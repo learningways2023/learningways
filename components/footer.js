@@ -120,7 +120,7 @@ function Footer() {
                 </li> */}
                 <li className="py-1 foottext hover:text-[#79c5d4] flex  items-center justify-center md:justify-start lg:justify-start xl:justify-start">
                   <Image src={mail} width={20} height={20} />
-                  <Link href="/" className="ml-3">
+                  <Link href="https://mail.google.com/mail/u/0/?fs=1&to=info.learningways@gmail.com&su=Regarding+LearningWays&body=&tf=cm" target="_blank" className="ml-3">
                     info.learningways@gmail.com
                   </Link>
                 </li>

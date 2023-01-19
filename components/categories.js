@@ -110,7 +110,7 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <Link href="/login">
+                <Link href="/courses">
                   <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-2 px-4 rounded-md ">
                     <button className="font-medium">Lets Empower</button>
                   </div>
