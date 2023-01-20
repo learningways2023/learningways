@@ -285,3 +285,14 @@
   position: absolute;
   margin: 1.1rem;
 }
+.c-card img {
+  transition: transform 0.3s ease-in-out;
+}
+.c-card:hover img {
+  transform: scale(1.05);
+}
+.wwd1:hover {
+  z-index: 10;
+  transform: scale(1.05);
+  transition: all 300ms ease-out;
+}

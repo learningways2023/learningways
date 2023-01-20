@@ -5,6 +5,9 @@ import sq from "../public/sq.svg";
 import eq from "../public/eq.svg";
 import endq from "../public/endq.svg";
 import kid1 from "../public/kid1.png";
+import wb from "../public/wb.jpg";
+import robot from "../public/robot.jpg";
+import ag from "../public/ag.jpg";
 import Footer from "../components/footer.js";
 import kid2 from "../public/kid2.png";
 import star from "../public/start.png";
@@ -13,7 +16,7 @@ import cap from "../public/cap.png";
 import graph from "../public/graph.png";
 import kc2 from "../public/kc2.jpg";
 import kc3 from "../public/kc3.jpg";
-
+import CourseCard from "../components/courseCard";
 import kids1 from "../public/kids1.png";
 import Navbar from "../components/navbar";
 const KidsCoding = () => {
@@ -202,6 +205,54 @@ const KidsCoding = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="min-h-[100vh] flex-row items-center">
+        <div className="p-4 pt-7 flex justify-center items-center">
+          <span className="xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#c47993] font-semi-bold text-center">
+            Featured Courses
+          </span>
+        </div>
+        <div className="lg:p-4 xl:p-4 p-1 flex flex-wrap justify-between">
+          <CourseCard
+            img={ag}
+            tittle="Code Your Own Adventure Game"
+            s1="Learn basic programming concepts while creating an interactive adventure game. "
+            s2="Create an interactive adventure game using basic programming concepts in a fun and engaging way."
+          />
+          <CourseCard
+            img={robot}
+            tittle="Robotics for Kids"
+            s1="Build and program robots using a visual programming language. "
+            s2="Learn the basics of robotics by building and programming robots in a fun and interactive way."
+          />
+          <CourseCard
+            img={wb}
+            tittle="Make Your Own Website"
+            s1="Learn the basics of web development and create your own website. "
+            s2="Learn the basics of web development and create your own website in this fun and interactive course."
+          />
+        </div>
+      </div>
+      <div className="min-h-[80vh] flex-row items-center">
+        <div className="p-4 pt-7 flex justify-center items-center">
+          <span className="xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#c47993] font-semi-bold text-center">
+            Fun and Interactive Learning Resources for Kids
+          </span>
+        </div>
+        <div className="lg:p-4 xl:p-4 p-1 pt-7 flex flex-wrap justify-between items-center">
+          <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            Coding for Beginners: A Step-by-Step Guide
+          </div>
+          <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            Fun Coding Projects for Kids
+          </div>
+          <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            Coding Games and Challenges
+          </div>
+          <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            Recommended Tools and Resources for Learning to Code
           </div>
         </div>
       </div>

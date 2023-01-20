@@ -5,7 +5,7 @@ import Image from "next/image";
 import mission from "../public/mission.svg";
 import vission from "../public/vission.svg";
 import Footer from "../components/footer";
-import refund from "../public/refund.png"
+import refund from "../public/refund.png";
 import team from "../public/team.png";
 import Contact from "../components/contact";
 import Career from "../components/career";
@@ -57,19 +57,12 @@ const About = () => {
                 </div>
                 <div className="mt-[1rem] rounded-md flex items-center justify-center xl:text-xl lg:text-lg md:text-lg xl:leading-[197%] lg:leading-[197%] sm:leading-[197%] md:leading-[197%] leading-[197%] lg:text-left md:text-center text-center ">
                   <span className="text-gray-700 font-medium ">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Eius voluptatem minima ex delectus deserunt vitae aperiam,
-                    explicabo soluta accusantium saepe quos deleniti alias
-                    reprehenderit, autem laborum aut sed quia earum.
-                    <div className="py-2">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Eius voluptatem minima ex delectus deserunt vitae aperiam,
-                      explicabo soluta accusantium saepe quos deleniti alias
-                      reprehenderit, autem laborum aut sed quia earum.
-                    </div>
-                    <div className="py-2">
-                      Ideopedia is a non-profit founded in 2005.
-                    </div>
+                    Experience quality and affordable education with
+                    LearningWays. Our interactive platform caters to learners of
+                    all levels, from class 5th to higher education and even
+                    helps to ace most prestigious exam of UPSC. Our
+                    multimedia-rich courses, designed by industry experts, keep
+                    learners engaged and motivated.
                   </span>
                 </div>
               </div>
@@ -79,34 +72,6 @@ const About = () => {
         <br />
         <br />
         <div className="missionpage ">
-          <div
-            className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:gap-8 md:gap-4 gap-10 lg:py-14 md:py-14 py-8"
-            id="mission"
-          >
-            <div className=" rounded-md flex items-center justify-center px-8">
-              <Image src={mission} width={400} height={400} />
-            </div>
-            <div className=" rounded-md flex items-center justify-center">
-              <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
-                <div className=" rounded-md flex items-center justify-center">
-                  <h1 className="xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-[#c47993] font-semibold pb-5 lg:pr-20 text-center">
-                    MISSION
-                  </h1>
-                </div>
-                <div className=" rounded-md flex items-center  justify-center xl:text-xl lg:text-lg md:text-lg xl:leading-[197%] lg:leading-[197%] md:leading-[197%] sm:leading-[197%] leading-[197%] font-medium text-gray-700 xl:px-28 lg:px-12 md:px-28 px-10 lg:text-center md:text-center text-center md:pb-10">
-                  We envision a world where every student, regardless of their
-                  background or location, has access to personalized and
-                  effective learning experiences that empower them to reach
-                  their full potential. At LearningWays, we're committed to
-                  bridge the gap between access to education and student
-                  outcomes. Join us in creating a future where technology is
-                  seamlessly integrated into education and where students are
-                  able to learn at their own pace, and have the ability to
-                  succeed in their chosen paths.
-                </div>
-              </div>
-            </div>
-          </div>
           <div
             className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:gap-8 md:gap-4 gap-10 lg:py-14 md:py-14 py-8 pt-10"
             id="vission"
@@ -134,6 +99,34 @@ const About = () => {
             <div className=" rounded-md flex items-center justify-center px-8">
               <div className="">
                 <Image src={vission} width={400} height={400} />
+              </div>
+            </div>
+          </div>
+          <div
+            className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:gap-8 md:gap-4 gap-10 lg:py-14 md:py-14 py-8"
+            id="mission"
+          >
+            <div className=" rounded-md flex items-center justify-center px-8">
+              <Image src={mission} width={400} height={400} />
+            </div>
+            <div className=" rounded-md flex items-center justify-center">
+              <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+                <div className=" rounded-md flex items-center justify-center">
+                  <h1 className="xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-[#c47993] font-semibold pb-5 lg:pr-20 text-center">
+                    MISSION
+                  </h1>
+                </div>
+                <div className=" rounded-md flex items-center  justify-center xl:text-xl lg:text-lg md:text-lg xl:leading-[197%] lg:leading-[197%] md:leading-[197%] sm:leading-[197%] leading-[197%] font-medium text-gray-700 xl:px-28 lg:px-12 md:px-28 px-10 lg:text-center md:text-center text-center md:pb-10">
+                  We envision a world where every student, regardless of their
+                  background or location, has access to personalized and
+                  effective learning experiences that empower them to reach
+                  their full potential. At LearningWays, we're committed to
+                  bridge the gap between access to education and student
+                  outcomes. Join us in creating a future where technology is
+                  seamlessly integrated into education and where students are
+                  able to learn at their own pace, and have the ability to
+                  succeed in their chosen paths.
+                </div>
               </div>
             </div>
           </div>
@@ -275,7 +268,10 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className=" rounded-md flex items-center justify-center" id="terms">
+          <div
+            className=" rounded-md flex items-center justify-center"
+            id="terms"
+          >
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
               <div className=" rounded-md flex items-center justify-center">
                 <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-[#c47993] font-semibold pb-5 lg:pr-20 ">
