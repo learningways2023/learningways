@@ -241,18 +241,26 @@ const KidsCoding = () => {
             Fun and Interactive Learning Resources for Kids
           </span>
         </div>
-        <div className="lg:p-4 xl:p-4 p-1 pt-7 flex flex-wrap justify-between items-center">
-          <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
-            Coding for Beginners: A Step-by-Step Guide
+        <div className="p-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6">
+          <div className="w-full h-full flex justify-center items-center">
+            <div className=" w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+              Coding for Beginners: A Step-by-Step Guide
+            </div>
           </div>
-          <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
-            Fun Coding Projects for Kids
+          <div className="w-full h-full flex justify-center items-center">
+            <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+              Fun Coding Projects for Kids
+            </div>
           </div>
-          <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
-            Coding Games and Challenges
+          <div className="w-full h-full flex justify-center items-center">
+            <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+              Coding Games and Challenges
+            </div>
           </div>
-          <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
-            Recommended Tools and Resources for Learning to Code
+          <div className="w-full h-full flex justify-center items-center">
+            <div className="w-[300px] h-[200px] bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex px-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+              Recommended Tools and Resources for Learning to Code
+            </div>
           </div>
         </div>
       </div>
