@@ -296,3 +296,8 @@
   transform: scale(1.05);
   transition: all 300ms ease-out;
 }
+.cbg {
+  background-image: url("../public/kc2.jpg");
+  background-position: center;
+
+}

@@ -5,14 +5,17 @@ import chero from "../public/chero.jpg";
 import endq from "../public/endq.svg";
 import { useState } from "react";
 import ment from "../public/john.png";
-import wd from "../public/wd.jpg"
+import wd from "../public/wd.jpg";
 import dsa from "../public/dsa.jpg";
-import dbms from "../public/dbms.png"
+import dbms from "../public/dbms.png";
 import startq from "../public/startq.svg";
 import kc3 from "../public/kc3.jpg";
 
 import Image from "next/image";
 const Courses = () => {
+  const classes =
+    "border-2 border-[#085464] text-gray-900 text-base font-medium w-full h-full rounded-md focus:ring-[#085464] focus:border-[#085464]  block py-2.5 lg:px-5 xl:px-5 px-12 ";
+
   const [free, setFree] = useState(false);
   const [premium, setPre] = useState(false);
   function handleFree() {
@@ -36,10 +39,12 @@ const Courses = () => {
               </div>
               <div className="mt-[1rem] rounded-md flex items-center justify-center xl:text-xl lg:text-lg md:text-lg xl:leading-[197%] lg:leading-[197%] sm:leading-[197%] md:leading-[197%] leading-[197%] lg:text-left md:text-center text-center ">
                 <span className="text-[#085464] font-medium ">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
-                  voluptatem minima ex delectus deserunt vitae aperiam,
-                  explicabo soluta accusantium saepe quos deleniti alias
-                  reprehenderit, autem laborum aut sed quia earum.
+                  Welcome to our comprehensive skill development platform.
+                  Discover a wide range of courses and resources to help you
+                  learn new skills, improve existing ones and advance your
+                  career. With our expert-led training, interactive practice
+                  exercises and real-world examples, you'll have everything you
+                  need to succeed in your professional and personal life.
                 </span>
               </div>
               <div className="flex justify-end aboutQuote sm:mr-[1rem] mr-[0rem] pr-2">
@@ -69,6 +74,83 @@ const Courses = () => {
             ADVANCED
           </div>
         </div>
+        <div className="pt-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 min-h-[70vh] gap-4">
+          <div className="w-full h-full pt-9  flex justify-center items-center">
+            <div className="flex-row justify-between items-center space-y-12">
+              <div className="flex justify-center items-center text-center lg:text-left xl:text-left text-[#c47993]  xl:text-4xl lg:text-3xl md:text-3xl text-[26px]">
+                Hey, welcome to the world of infinite possibilities.
+              </div>
+              <div className="flex justify-center items-center text-center lg:text-left xl:text-left  text-[#085464]  xl:text-3xl lg:text-2xl md:text-2xl text-[24px]">
+                Discover yourself, learn the skills and ace the opportunities
+              </div>
+            </div>
+          </div>
+          <div className="w-full h-full flex justify-center items-center p-4">
+            <form
+              method="POST"
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc_QJ0517TP7rdLkVNpYs49aiK3qiH__gMYL8MdvoFop15jEw/formResponse"
+            >
+              <table class="table-auto bg-[#085464] rounded-md">
+                <tbody>
+                  <tr>
+                    <td className="px-12 py-2 border border-1 border-white text-xl text-white">
+                      NAME
+                    </td>
+                    <td className="px-12 py-2 border border-1 border-white text-xl text-white">
+                      <input
+                        className={classes}
+                        type="text"
+                        name="entry.2005620554"
+                        placeholder="Enter your Name"
+                        required={true}
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-12 py-2 border border-1 border-white text-xl text-white">
+                      EMAIL
+                    </td>
+                    <td className="px-12 py-2 border border-1 border-white text-xl text-white">
+                      <input
+                        className={classes}
+                        type="email"
+                        name="entry.1045781291"
+                        placeholder="Enter your email"
+                        required={true}
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-12 py-2 border border-1 border-white text-xl text-white">
+                      PHONE NO.
+                    </td>
+                    <td className="px-12 py-2 border border-1 border-white text-xl text-white">
+                      <input
+                        className={classes}
+                        type="number"
+                        name="entry.1166974658"
+                        placeholder="Enter your email"
+                        required={true}
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-12 py-2 border border-1 border-white text-xl text-white col-span-2">
+                      SCHEDULE A CALL FOR ASSISTANCE
+                    </td>
+                    <td className="px-1 py-2 border border-1 border-white text-xl text-white">
+                      <div className="flex justify-center">
+                        <div className="log">
+                          <button type="submit">Schedule Now</button>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </form>
+          </div>
+        </div>
         <div className="py-7 flex justify-center items-center text-[#085464] text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px]">
           Career Goal
         </div>
@@ -87,31 +169,31 @@ const Courses = () => {
           <div className="w-full h-full">
             <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
-              NCERT
+              Free Courses
             </div>
           </div>
           <div className="w-full h-full">
             <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
-              NCERT
+              Certification Courses
             </div>
           </div>
           <div className="w-full h-full">
             <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
-              Coding
+              Test Your Skills
             </div>
           </div>
           <div className="w-full h-full">
             <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
-              Skill Test
+              Mentoring
             </div>
           </div>
           <div className="w-full h-full">
             <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
-              UPSC General Studies
+              Read. Learn
             </div>
           </div>
         </div>
@@ -125,31 +207,31 @@ const Courses = () => {
               onClick={handleFree}
             >
               {" "}
-              NCERT
+              Digital Marketing
             </div>
           </div>
           <div className="w-full h-full">
             <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
-              NCERT
+              Data Science
+            </div>
+          </div>
+          <div className="w-full h-full">
+            <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
+              {" "}
+              Product Management
+            </div>
+          </div>
+          <div className="w-full h-full">
+            <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
+              {" "}
+              Business Analytics
             </div>
           </div>
           <div className="w-full h-full">
             <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
               Coding
-            </div>
-          </div>
-          <div className="w-full h-full">
-            <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-              {" "}
-              Skill Test
-            </div>
-          </div>
-          <div className="w-full h-full">
-            <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-              {" "}
-              UPSC General Studies
             </div>
           </div>
         </div>
@@ -290,40 +372,35 @@ const Courses = () => {
         <div className="py-7 flex justify-center items-center text-[#085464] text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px]">
           Premium Courses
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 pt-9 gap-6 ">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
           <div className="w-full h-full">
             <div
               className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal"
               onClick={handlePre}
             >
               {" "}
-              NCERT
+              Digital marketing
             </div>
           </div>
           <div className="w-full h-full">
             <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
-              NCERT
+              Data Science
             </div>
           </div>
           <div className="w-full h-full">
             <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
-              Coding
+              Product Management
             </div>
           </div>
           <div className="w-full h-full">
             <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
-              Skill Test
+              Business Analytics
             </div>
           </div>
-          <div className="w-full h-full">
-            <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-              {" "}
-              UPSC General Studies
-            </div>
-          </div>
+          
         </div>
         {premium ? (
           <div className="w-full flex justify-center items-center">
