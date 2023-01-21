@@ -42,6 +42,13 @@ const FreeCourseCard = (props) => {
                         {n}
                       </div>
                     ))}
+                    <div className=" flex justify-center items-center pt-7 pb-3  ">
+                      <div className="getstarted gt text-[18px] text-white py-2 px-7 rounded-md flex justify-center items-center">
+                        <button type="submit" className="font-medium">
+                          START NOW !
+                        </button>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -129,7 +136,7 @@ const FreeCourseCard = (props) => {
             </div>
           </div>
           <div className="p-4 flex items-center justify-center text-lg text-[#085464]   cursor-pointer">
-            Start
+            Start Now !
           </div>
         </div>
       </div>

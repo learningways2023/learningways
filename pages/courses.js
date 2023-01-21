@@ -18,7 +18,7 @@ const Courses = () => {
 
   const [free, setFree] = useState(1);
   const [premium, setPre] = useState(false);
-  console.log(free)
+  console.log(free);
   return (
     <div>
       <Navbar />
@@ -83,11 +83,15 @@ const Courses = () => {
             </div>
             <div className=" p-4 rounded-md flex items-center justify-center">
               <div className="newloginContainer">
-                <form className="newLoginForm">
+                <form
+                  className="newLoginForm"
+                  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc_QJ0517TP7rdLkVNpYs49aiK3qiH__gMYL8MdvoFop15jEw/formResponse"
+                >
                   <label className="text-lg font-medium pb-1">Name</label>
                   <input
                     className={classes}
                     type="text"
+                    name="entry.2005620554"
                     placeholder="Enter your Name"
                   />
 
@@ -96,7 +100,8 @@ const Courses = () => {
                   </div>
                   <input
                     className={classes}
-                    type="text"
+                    type="email"
+                    name="entry.1045781291"
                     placeholder="Enter your Email"
                   />
                   <div className="flex justify-between pr-[1.5rem] pb-1">
@@ -105,6 +110,7 @@ const Courses = () => {
                   <input
                     className={classes}
                     type="number"
+                    name="entry.1166974658"
                     placeholder="Enter your Mobile Number"
                   />
                   <div className="flex justify-between pr-[1.5rem] pt-1 pb-3">
@@ -112,19 +118,19 @@ const Courses = () => {
                       Choose your Experience Level
                     </label>
                   </div>
-                  <select className={classes}>
-                    <option value="Begineer">BEGINEER</option>
-                    <option value="Intermediate">INTERMEDIATE</option>
-                    <option value="Advanced">ADVANCED</option>
+                  <select className={classes} name="entry.337514865_sentine">
+                    <option value="BEGINEER">BEGINEER</option>
+                    <option value="INTERMEDIATE">INTERMEDIATE</option>
+                    <option value="ADVANCED">ADVANCED</option>
                   </select>
                   <div className="flex justify-between pr-[1.5rem] py-3">
                     <label className="text-lg font-medium ">
                       Choose Your Career Goal
                     </label>
                   </div>
-                  <select className={classes}>
-                    <option value="learning">LEARNING</option>
-                    <option value="changing job">CHANGING JOB</option>
+                  <select className={classes} name="entry.680783309_sentinel">
+                    <option value="LEARNING">LEARNING</option>
+                    <option value="CHANGING JOB">CHANGING JOB</option>
                   </select>
                   <div className=" flex justify-center items-center pt-7 pb-3  ">
                     <div className="getstarted gt text-[18px] text-white py-2 px-7 rounded-md flex justify-center items-center">
@@ -401,20 +407,70 @@ const Courses = () => {
           <div className="w-full flex flex-wrap">
             <FreeCourseCard
               img={dbms}
-              tittle="Email Marketing "
-              s1="Learn how to use email marketing to build relationships with customers and drive sales."
-              s2="Understand the basics of email marketing"
+              tittle="Introduction to Data Science "
+              s1="Learn the basics of data science, including data exploration, visualization, and modeling."
+              s2="Understand the role of data science in today's business environment"
               array={[
-                "Understand the basics of email marketing",
-                "Learn how to create and manage an email marketing list",
-                "Discover how to use email marketing to build relationships with customers",
-                "Learn how to use email marketing to generate leads and sales",
-                "Understand the role of email marketing in customer retention",
-                "Learn how to create and design effective email marketing campaigns",
-                "Discover how to use email marketing automation",
-                "Learn how to measure and analyze the effectiveness of your email marketing efforts",
-                "Understand how to stay up-to-date with the latest email marketing trends and best practices",
-                "Learn the basics of GDPR and Email marketing.",
+                "Understand the role of data science in today's business environment",
+                "Learn the different stages of the data science process",
+                "Discover how to collect and clean data",
+                "Learn the basics of data exploration and visualization",
+                "Understand the role of statistical modeling in data science",
+                "Learn how to use Python and R for data science",
+                "Discover how to use machine learning algorithms",
+                "Learn how to evaluate and communicate the results of your data science projects",
+                "Understand how to stay up-to-date with the latest data science trends and best practices",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Data Exploration and Visualization "
+              s1="Learn how to explore and visualize data to gain insights and communicate your findings."
+              s2="Understand the importance of data exploration and visualization in data science"
+              array={[
+                "Understand the importance of data exploration and visualization in data science",
+                "Learn how to use Python and R for data visualization",
+                "Discover the most popular data visualization libraries and tools",
+                "Learn the basics of data exploration and visualization",
+                "Understand the role of data visualization in data storytelling",
+                "Learn how to use interactive visualizations",
+                "Discover how to use data visualization for data exploration",
+                "Learn how to evaluate the effectiveness of your data visualizations",
+                "Understand how to stay up-to-date with the latest data visualization trends and best practices",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Machine Learning "
+              s1="Learn how to use machine learning algorithms to build predictive models and solve real-world problems."
+              s2="Understand the basics of machine learning"
+              array={[
+                "Understand the basics of machine learning",
+                "Learn how to use Python and R for machine learning",
+                "Discover the most popular machine learning algorithms",
+                "Learn how to use supervised and unsupervised learning",
+                "Understand the role of deep learning in machine learning",
+                "Learn how to evaluate and improve the performance of your machine learning models",
+                "Discover how to use machine learning for natural language processing (NLP) and computer vision",
+                "Learn how to use machine learning for time series forecasting",
+                "Understand how to stay up-to-date with the latest machine learning trends and best practices",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Big Data and Cloud Computing "
+              s1="Learn how to process and analyze large datasets using big data and cloud computing technologies."
+              s2="Understand the basics of big data and cloud computing"
+              array={[
+                "Understand the basics of big data and cloud computing",
+                "Learn how to use Hadoop and Spark for big data processing",
+                "Discover the most popular cloud computing platforms, such as AWS, Azure, and GCP",
+                "Learn how to use big data tools, such as Hive and Pig",
+                "Understand the role of NoSQL databases in big data",
+                "Learn how to use cloud computing for machine learning and data visualization",
+                "Discover how to use cloud computing for data warehousing and data lakes",
+                "Learn how to evaluate the costs and benefits of different big data and cloud computing solutions",
+                "Understand how to stay up-to-date with the latest big data and cloud computing trends and best practices",
               ]}
             />
           </div>
@@ -422,17 +478,224 @@ const Courses = () => {
           <div></div>
         )}
         {free === 3 ? (
-          <div className="w-full flex justify-center items-center"></div>
+          <div className="w-full flex flex-wrap">
+            <FreeCourseCard
+              img={dbms}
+              tittle="Introduction to Product Management "
+              s1="Learn the basics of product management, including product strategy, development, and launch."
+              s2="Understand the role of product management in a company"
+              array={[
+                "Understand the role of product management in a company",
+                "Learn the different stages of the product management process",
+                "Discover how to conduct market research and identify customer needs",
+                "Learn the basics of product strategy and planning",
+                "Understand the role of product development and design",
+                "Learn how to use agile methodologies for product development",
+                "Discover how to launch and market a new product",
+                "Learn how to measure and analyze the performance of a product",
+                "Understand how to stay up-to-date with the latest product management trends and best practices",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Product Strategy and Planning "
+              s1="Learn how to develop a product strategy and plan that aligns with your company's goals and meets customer needs."
+              s2="Understand the importance of product strategy and planning"
+              array={[
+                "Understand the importance of product strategy and planning",
+                "Learn how to conduct market research and analyze competitors",
+                "Discover how to identify customer needs and pain points",
+                "Learn how to use customer feedback to inform product development",
+                "Understand the role of product roadmaps and backlogs",
+                "Learn how to use business models and metrics to measure success",
+                "Discover how to create a product vision and mission statement",
+                "Learn how to use the Lean Startup method for product development",
+                "Understand how to stay up-to-date with the latest product strategy and planning trends and best practices",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle=" Product Development and Design "
+              s1="Learn how to design and develop a product that is user-friendly, visually appealing and meets customer needs."
+              s2="Understand the basics of product development and design"
+              array={[
+                "Understand the basics of product development and design",
+                "Learn how to use user-centered design methodologies",
+                "Discover the most popular design tools and software",
+                "Learn how to create wireframes, prototypes and mock-ups",
+                "Understand the role of user testing in product development",
+                "Learn how to use design thinking for problem-solving",
+                "Discover how to use design sprints for product development",
+                "Learn how to evaluate the usability of a product",
+                "Understand how to stay up-to-date with the latest product development and design trends and best practices",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Product Launch and Marketing"
+              s1="Learn how to launch and market a new product to reach the right audience and achieve success."
+              s2="Understand the basics of product launch and marketing"
+              array={[
+                "Understand the basics of product launch and marketing",
+                "Learn how to create a product launch plan",
+                "Discover how to create a product positioning statement",
+                "Learn how to use content marketing to promote a new product",
+                "Understand the role of PR in product launch",
+                "Learn how to use social media to promote a new product",
+                "Discover how to use influencer marketing to promote a new product",
+                "Learn how to measure and analyze the performance of a product launch",
+                "Understand how to stay up-to-date with the latest product launch and marketing trends and best practices.",
+              ]}
+            />
+          </div>
         ) : (
           <div></div>
         )}
         {free === 4 ? (
-          <div className="w-full flex justify-center items-center"></div>
+          <div className="w-full flex flex-wrap">
+            <FreeCourseCard
+              img={dbms}
+              tittle="Introduction to Business Analytics "
+              s1="Learn the basics of business analytics, including data analysis, modeling, and decision-making."
+              s2="Understand the role of business analytics in today's business environment"
+              array={[
+                "Learn the different stages of the business analytics process",
+                "Discover how to collect and clean data",
+                "Learn the basics of data analysis and visualization",
+                "Understand the role of statistical modeling in business analytics",
+                "Learn how to use Excel and other tools for business analytics",
+                "Discover how to use machine learning algorithms for business analytics",
+                "Learn how to evaluate and communicate the results of your business analytics projects",
+                "Understand how to stay up-to-date with the latest business analytics trends and best practices",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Data Analysis and Visualization "
+              s1="Learn how to analyze and visualize data to gain insights and communicate your findings in business."
+              s2="Understand the importance of data analysis and visualization in business analytics"
+              array={[
+                "Understand the importance of data analysis and visualization in business analytics",
+                "Learn how to use Excel and other tools for data visualization",
+                "Discover the most popular data visualization libraries and tools",
+                "Learn how to create effective data visualizations",
+                "Understand the role of data visualization in data storytelling",
+                "Learn how to use interactive visualizations for business",
+                "Discover how to use data visualization for data exploration",
+                "Learn how to evaluate the effectiveness of your data visualizations",
+                "Understand how to stay up-to-date with the latest data visualization trends and best practices",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Predictive Modeling"
+              s1=" Learn how to use predictive modeling techniques to build models that can forecast future outcomes and make data-driven decisions."
+              s2="Understand the basics of predictive modeling"
+              array={[
+                "Understand the basics of predictive modeling",
+                "Learn how to use Excel and other tools for predictive modeling",
+                "Discover the most popular predictive modeling algorithms and techniques",
+                "Learn how to use supervised and unsupervised learning for predictive modeling",
+                "Understand the role of data preparation and feature engineering in predictive modeling",
+                "Learn how to evaluate and improve the performance of your predictive models",
+                "Discover how to use predictive modeling for forecasting and optimization in business",
+                "Learn how to use predictive modeling for anomaly detection and fraud detection",
+                "Understand how to stay up-to-date with the latest predictive modeling trends and best practices  ",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Business Intelligence and Dashboarding"
+              s1="Learn how to use Business Intelligence (BI) tools and dashboarding to turn data into actionable insights for decision-making."
+              s2="Understand the basics of Business Intelligence and dashboarding"
+              array={[
+                "Understand the basics of Business Intelligence and dashboarding",
+                "Learn how to use popular BI tools such as Tableau and Power BI",
+                "Discover how to create interactive dashboards and reports",
+                "Learn how to use data visualization best practices to create effective dashboards",
+                "Understand the role of data governance in BI",
+                "Learn how to use BI for data-driven decision making",
+                "Discover how to use BI for performance monitoring and reporting",
+                "Learn how to evaluate the effectiveness of your BI and dashboarding",
+                "Understand how to stay up-to-date with the latest BI and dashboarding trends and best practices.",
+              ]}
+            />
+          </div>
         ) : (
           <div></div>
         )}
         {free === 5 ? (
-          <div className="w-full flex justify-center items-center"></div>
+          <div className="w-full flex flex-wrap">
+            <FreeCourseCard
+              img={dbms}
+              tittle="Introduction to Programming "
+              s1="Learn the basics of programming, including data types, variables, control structures, and functions."
+              s2="Understand the fundamentals of programming and its importance in today's digital world"
+              array={[
+                "Understand the fundamentals of programming and its importance in today's digital world",
+                "Learn the basics of different programming languages such as Python, Java and JavaScript",
+                "Discover how to write basic code using different data types, variables, and control structures",
+                "Learn how to use functions, loops and conditional statements",
+                "Understand the role of debugging and testing in the programming process",
+                "Learn how to use code libraries and modules",
+                "Discover how to work with data structures such as lists, arrays and dictionaries",
+                "Learn how to design and implement simple programs",
+                "Understand the best practices for coding and how to stay up-to-date with the latest trends.",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Web Development "
+              s1="Learn how to create and design websites using HTML, CSS, and JavaScript."
+              s2="Understand the basics of web development and its importance in today's digital world"
+              array={[
+                "Understand the basics of web development and its importance in today's digital world",
+                "Learn how to use HTML, CSS, and JavaScript to create and design websites",
+
+                "Discover how to use responsive design techniques and frameworks such as Bootstrap",
+                "Learn how to use JavaScript to add interactivity and dynamic functionality to websites",
+                "Understand the role of web development in website optimization and user experience",
+                "Learn how to use web development tools such as Chrome DevTools",
+                "Discover how to use web development best practices such as accessibility and security",
+                "Learn how to use libraries and frameworks such as React and AngularJS",
+                "Understand the best practices for web development and how to stay up-to-date with the latest trends.",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Object-Oriented Programming (OOP) "
+              s1="Learn how to use OOP concepts and principles to create efficient, reusable, and scalable code."
+              s2="Understand the basics of OOP and its importance in programming"
+              array={[
+                "Understand the basics of OOP and its importance in programming",
+                "Learn how to use OOP concepts such as classes, objects, inheritance, and polymorphism",
+                "Discover how to use design patterns and principles such as SOLID and DRY",
+                "Learn how to use OOP in different programming languages such as Python, Java, and C++",
+                "Understand the role of OOP in software design and development",
+                "Learn how to use OOP best practices such as encapsulation and abstraction",
+                "Discover how to use OOP libraries and frameworks such as Java Spring and .NET",
+                "Learn how to use OOP for Object Relational Mapping (ORM)",
+                "Understand the best practices for OOP and how to stay up-to-date with the latest trends.",
+              ]}
+            />
+            <FreeCourseCard
+              img={dbms}
+              tittle="Database and SQL "
+              s1="Learn how to use SQL to interact with databases, create tables, retrieve data, and run queries."
+              s2="Understand the basics of databases and SQL"
+              array={[
+                "Understand the basics of databases and SQL",
+                "Learn how to use SQL to interact with databases",
+                "Discover how to create tables and define relationships",
+                "Learn how to use SQL to retrieve, insert, update, and delete data",
+                "Understand the role of SQL in data analysis and reporting",
+                "Learn how to use SQL to run queries and join tables",
+                "Discover how to use database best practices such as indexing and normalization",
+                "Learn how to use SQL with different database management systems such as MySQL, PostgreSQL, and SQL Server",
+                "Understand the best practices for databases and SQL and how to stay up-to-date with the latest trends.",
+              ]}
+            />
+          </div>
         ) : (
           <div></div>
         )}
