@@ -46,7 +46,7 @@ const Categories = () => {
                 <Image src={s1} width={100} height={100} />
               </div>
               <div className="text-[20px] font-medium flex justify-center items-center px-3 py-7">
-                <span>5th - 101th</span>
+                <span>5th - 10th</span>
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
