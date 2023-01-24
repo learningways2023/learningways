@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import expand from "../public/expand.png";
 import { useRouter } from "next/router";
-import logo from "../public/logo2.svg";
+import logo from "../public/logo2.png";
 
 import { getCookies, getCookie, setCookies, removeCookies } from "cookies-next";
 export default function Navbar() {
@@ -16,13 +16,13 @@ export default function Navbar() {
             <div className="flex items-center justify-between py-1  md:py-1 lg:block">
               <div
                 href="/"
-                className="cursor-pointer w-40 h-15"
+                className="cursor-pointer lg:w-60 xl:w-60 w-40 h-15"
                 onClick={function handleLogo() {
                   router.push("/");
                   setNavbar(false);
                 }}
               >
-                <Image src={logo} className="cursor-pointer" height={40} width={100} />
+                <Image src={logo} className="cursor-pointer" />
               </div>
               <div className="lg:hidden">
                 <button
