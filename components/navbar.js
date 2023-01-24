@@ -2,7 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import expand from "../public/expand.png";
 import { useRouter } from "next/router";
-import logo from "../public/logo2.png";
+import logo from "../public/logo2.svg";
 
 import { getCookies, getCookie, setCookies, removeCookies } from "cookies-next";
 export default function Navbar() {
@@ -22,7 +22,7 @@ export default function Navbar() {
                   setNavbar(false);
                 }}
               >
-                <Image src={logo} className="cursor-pointer" />
+                <Image src={logo} className="cursor-pointer" height={40} width={100} />
               </div>
               <div className="lg:hidden">
                 <button

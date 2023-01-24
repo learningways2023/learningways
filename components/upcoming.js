@@ -1,17 +1,14 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 // import required modules
 import { Autoplay, Pagination, Navigation, EffectCube } from "swiper";
 import "swiper/css/effect-cube";
 import UpCommingSlider from "../components/upcommingSlider";
-
 const Upcoming = () => {
   const squareVariants = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.1 } },
