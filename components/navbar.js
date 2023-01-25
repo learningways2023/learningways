@@ -138,7 +138,7 @@ export default function Navbar() {
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464] "
                         onClick={function handleLogo() {
-                          router.push("/");
+                          router.push("/classFivetoTen");
                           setNavbar(false);
                         }}
                       >
