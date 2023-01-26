@@ -105,6 +105,7 @@ export default function Navbar() {
                       >
                         Skill Development
                       </div>
+
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
@@ -122,6 +123,15 @@ export default function Navbar() {
                         }}
                       >
                         Mentoring
+                      </div>
+                      <div
+                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        onClick={function handleLogo() {
+                          router.push("/UPSC_Current_Affairs");
+                          setNavbar(false);
+                        }}
+                      >
+                        UPSC
                       </div>
                     </div>
                   </div>
@@ -230,7 +240,7 @@ export default function Navbar() {
                         Practice Questions
                       </div>
                       <div
-                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        className="flex justify-center items-center px-[2px] py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
                           router.push("/");
                           setNavbar(false);
@@ -239,7 +249,7 @@ export default function Navbar() {
                         UPSC General Studies
                       </div>
                       <div
-                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        className="flex justify-center items-center px-1 py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
                           router.push("/");
                           setNavbar(false);

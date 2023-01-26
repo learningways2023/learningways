@@ -110,7 +110,10 @@ const ClassFivetoTen = () => {
         </div>
       </div>
       <div className="p-4 py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-        <div id="coding" className="text-[#085464] font-medium flex  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+        <div
+          id="coding"
+          className="text-[#085464] font-medium flex  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left"
+        >
           Coding Course
         </div>
         <div className="p-4 flex-row md:flex lg:flex xl:flex justify-center  md:justify-between xl:justify-between lg:justify-between space-x-4 md:items-center ">
@@ -234,7 +237,10 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div id="private_tutor" className="p-4 pt-9 pb-4  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+      <div
+        id="private_tutor"
+        className="p-4 pt-9 pb-4  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2"
+      >
         <div className="text-[#085464] font-medium flex  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
           Private Tutor
         </div>
@@ -288,7 +294,10 @@ const ClassFivetoTen = () => {
         </div>
       </div>
       <div className="p-4 py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-        <div id="personality_developement" className="text-[#085464] font-medium flex  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+        <div
+          id="personality_developement"
+          className="text-[#085464] font-medium flex  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left"
+        >
           Personality Development
         </div>
         <div className="p-4 flex-row md:flex lg:flex xl:flex justify-center  md:justify-between xl:justify-between lg:justify-between space-x-4 md:items-center ">
@@ -413,7 +422,10 @@ const ClassFivetoTen = () => {
         </div>
       </div>
 
-      <div id="quiz" className="text-[#085464] p-4 py-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+      <div
+        id="quiz"
+        className="text-[#085464] p-4 py-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left"
+      >
         Quiz Section
       </div>
 
@@ -622,7 +634,10 @@ const ClassFivetoTen = () => {
         />
       </div>
       <div className="pt-9"></div>
-      <div id="summer_camp" className="p-4 pt-9 pb-3 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1">
+      <div
+        id="summer_camp"
+        className="p-4 pt-9 pb-3 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1"
+      >
         <div className="text-[#085464]  flex-row  items-center text-center  lg:text-left xl:text-left">
           <div className="xl:text-[42px] font-medium lg:text-[32px] sm:text-[32px] text-[20px]">
             Summer Camps
@@ -730,7 +745,8 @@ const ClassFivetoTen = () => {
                 <div className="pl-5">
                   <div className="lg:text-lg md:text-lg text-base  font-semibold">
                     Danielle Dodder | Parent, Naples, FL
-                    personality_developement        </div>
+                    personality_developement{" "}
+                  </div>
                 </div>
               </div>
             </div>
