@@ -299,5 +299,7 @@
 .cbg {
   background-image: url("../public/kc2.jpg");
   background-position: center;
-
+}
+.whiteBox {
+  width: 100%;
 }
