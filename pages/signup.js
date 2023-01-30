@@ -27,6 +27,7 @@ function Signup() {
     "border-2 border-[#085464] text-gray-900 text-base font-medium rounded-md focus:ring-[#085464] focus:border-[#085464]  block p-2.5 ";
   const emailRef = useRef();
   const passRef = useRef();
+  const inviteRef = useRef();
   const [formValid, setFormValid] = useState(false);
   const [pass, setPass] = useState("password");
   const [update, setUpdate] = useState(false);
@@ -44,7 +45,7 @@ function Signup() {
     });
   };
   const toastifyFailure = () => {
-    toast.error("Invail Email or Password !", {
+    toast.error("Invail Email or Invite Code !", {
       position: "top-right",
       autoClose: 5000,
       hideProgressBar: false,
@@ -61,7 +62,9 @@ function Signup() {
       case "input":
         return {
           value: action.val,
+
           isValid: action.val.includes("@"),
+
           // isValid: true,
         };
       case "validate":
@@ -84,6 +87,7 @@ function Signup() {
         return { value: "", isValid: false };
     }
   };
+
   const [email, dispatchEmail] = useReducer(emailReducer, {
     value: "",
     isValid: true,
@@ -92,6 +96,7 @@ function Signup() {
     value: "",
     isValid: true,
   });
+
   const { isValid: emailValid } = email;
   const { isValid: passValid } = password;
   useEffect(() => {
@@ -103,34 +108,34 @@ function Signup() {
     };
   }, [emailValid, passValid]);
   const loginSubmitHandler = async (e) => {
-    console.log("e");
-    // e.preventDefault();
-    // if (formValid) {
+    // console.log("e");
+    // console.log(email,password);
+    e.preventDefault();
+    if (formValid) {
+      await Axios.post("/api/auth/SignUp", {
+        email: email.value,
+        password: password.value,
+      }).then((data) => {
+        setUpdate(data.data);
 
-    //   await Axios.post("/api/UserCredit/Login", {
-    //     Email: email.value,
-    //     Password: password.value,
-    //   }).then((data) => {
-    //     setUpdate(data.data);
-
-    //     if (data.data === null) {
-    //       console.log(data.data);
-    //       toastifyFailure();
-    //     } else {
-    //       console.log(data.data);
-    //       setCookie("user", data.data.User_Id, { maxAge: 10000 });
-    //       toastifySuccess();
-    //       router.push(`/dashboard/${data.data.User_Id}`);
-    //     }
-    //   });
-    // }
-    // if (!emailValid) {
-    //   emailRef.current.focus();
-    //   return;
-    // }
-    // if (!passValid) {
-    //   passRef.current.focus();
-    // }
+        if (data.data === null) {
+          console.log(data.data);
+          toastifyFailure();
+        } else {
+          console.log(data.data);
+          setCookie("user", data.data.email, { maxAge: 10000 });
+          toastifySuccess();
+          // router.push(`/dashboard/`);
+        }
+      });
+    }
+    if (!emailValid) {
+      emailRef.current.focus();
+      return;
+    }
+    if (!passValid) {
+      passRef.current.focus();
+    }
   };
   const emailChangeHandler = (e) => {
     dispatchEmail({ type: "input", val: e.target.value });
