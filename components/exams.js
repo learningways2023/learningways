@@ -100,7 +100,7 @@ const Exams = (props) => {
                 setModal(true);
               }}
             >
-              Learning Ways Guidliness
+              Learning Ways guidelines
             
           </div>
           {/* <div className="p-4 flex items-center justify-center text-lg text-[#085464]   cursor-pointer">
