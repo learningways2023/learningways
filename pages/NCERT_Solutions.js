@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import bullet from "../public/bulletwhite.svg";
 import Image from "next/image";
 import dbms from "../public/dbms.png";
+import Uparrow from "../components/uparrow";
 import Exams from "../components/exams";
 import PremiumCourseCard from "../components/premiumCourseCard";
 const NCERTSolutions = () => {
@@ -13,6 +14,7 @@ const NCERTSolutions = () => {
   return (
     <div>
       <Navbar />
+      <Uparrow url="NCERT_Solutions" />
       <div className="m-4 min-h-[100vh] bg-[#085464]">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="w-full h-full flex-row justify-center items-center">

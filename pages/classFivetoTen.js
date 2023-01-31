@@ -13,6 +13,7 @@ import UpcommingCard from "../components/upcommingCard";
 import twitter from "../public/twitter.png";
 import dbms from "../public/dbms.png";
 import john from "../public/john.png";
+import Uparrow from "../components/uparrow";
 const ClassFivetoTen = () => {
   const router = useRouter();
   const classes =
@@ -25,6 +26,7 @@ const ClassFivetoTen = () => {
   return (
     <div>
       <Navbar />
+      <Uparrow url="classFivetoTen" />
       <div className="p-4 min-h-[50vh]">
         <div className="py-9 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
           <div className="w-full h-full flex justify-center items-center">

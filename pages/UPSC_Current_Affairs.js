@@ -7,7 +7,7 @@ import { useState, useCallback, useEffect } from "react";
 import PremiumCourseCard from "../components/premiumCourseCard";
 import YouTube from "react-youtube";
 import dbms from "../public/dbms.png";
-
+import Uparrow from "../components/uparrow";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 const UPSCCurrentAffairs = () => {
@@ -57,6 +57,7 @@ const UPSCCurrentAffairs = () => {
   return (
     <div>
       <Navbar />
+      <Uparrow url="UPSC_Current_Affairs" />
       <div>
         <div className=" lg:h-[70vh]">
           <div className="lg:flex justify-center items-center lg:pt-9 sm:pt-10 p-4">

@@ -10,6 +10,7 @@ import startq from "../public/startq.svg";
 import linkedin from "../public/linkedinp.png";
 import naukri from "../public/naukri.png";
 import indeed from "../public/indeed.png";
+import Uparrow from "../components/uparrow";
 import quikr from "../public/quikr.png";
 import { useState, useCallback, useEffect } from "react";
 import PremiumCourseCard from "../components/premiumCourseCard";
@@ -63,6 +64,7 @@ const Professional = () => {
   return (
     <div>
       <Navbar />
+      <Uparrow url="professional" />
       <div>
         <div className="text-[#c47993] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
           Welcome to our Skill Development Webpage, where you can learn and

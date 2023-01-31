@@ -5,6 +5,7 @@ import sq from "../public/sq.svg";
 import eq from "../public/eq.svg";
 import endq from "../public/endq.svg";
 import kid1 from "../public/kid1.png";
+import Uparrow from "../components/uparrow";
 import wb from "../public/wb.jpg";
 import robot from "../public/robot.jpg";
 import ag from "../public/ag.jpg";
@@ -23,6 +24,7 @@ const KidsCoding = () => {
   return (
     <div className="">
       <Navbar />
+      <Uparrow url="kidsCoding" />
       <div className=" lg:h-screen">
         <div className="lg:flex justify-center items-center ">
           <div className="lg:flex lg:justify-between lg:items-center sm:p-5 py-5 px-0">

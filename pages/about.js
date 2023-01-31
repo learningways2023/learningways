@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import about from "../public/aboutus.svg";
 import Image from "next/image";
+import Uparrow from "../components/uparrow";
 import mission from "../public/mission.svg";
 import vission from "../public/vission.svg";
 import Footer from "../components/footer";
@@ -42,6 +43,7 @@ const About = () => {
   return (
     <div>
       <Navbar isLogedIn={false} />
+      <Uparrow url="about" />
       <div className="pb-9">
         <div className="about_hero1 pt-10" id="what_we_do">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">

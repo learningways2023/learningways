@@ -6,6 +6,7 @@ import test1 from "../public/test1.png";
 import test2 from "../public/test2.png";
 import search from "../public/search.png";
 import filter from "../public/filter.png";
+import Uparrow from "../components/uparrow";
 import test3 from "../public/test3.png";
 const Assesment = () => {
   const classes =

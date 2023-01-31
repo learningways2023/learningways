@@ -8,6 +8,7 @@ import ment from "../public/john.png";
 import wd from "../public/wd.jpg";
 import FreeCourseCard from "../components/freeCourseCard";
 import dbms from "../public/dbms.png";
+import Uparrow from "../components/uparrow";
 import startq from "../public/startq.svg";
 import kc3 from "../public/kc3.jpg";
 
@@ -22,6 +23,7 @@ const Courses = () => {
   return (
     <div>
       <Navbar />
+      <Uparrow url="courses" />
       <div className="p-4">
         <div className="min-h-[100vh] grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
           <div className=" p-4 rounded-md flex items-center justify-center">

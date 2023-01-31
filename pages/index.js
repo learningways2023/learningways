@@ -11,10 +11,11 @@ import Upcoming from "../components/upcoming";
 import ApptitudeSlide from "../components/apptitudeSlide";
 
 import Access from "../components/access";
-
+import Uparrow from "../components/uparrow";
 const Index = () => {
   return (
     <div className="bg-white">
+      <Uparrow url="/" />
       <Navbar />
       <Newhero />
       <Categories />
