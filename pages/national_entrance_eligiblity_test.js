@@ -18,7 +18,7 @@ const NationalEntranceEligiblityTest = () => {
   return (
     <div>
       <Navbar />
-      <Uparrow />
+      <Uparrow url="national_entrance_eligiblity_test" />
       <div className="m-4 min-h-[100vh] bg-[#085464]">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="w-full h-full flex-row justify-center items-center">
