@@ -13,7 +13,7 @@ const CodingTutorials = () => {
   return (
     <div>
       <Navbar />
-      <header class="relative flex items-center justify-center h-screen  overflow-hidden">
+      <header class="relative flex items-center justify-center h-screen vid  overflow-hidden">
         <div class="relative z-30  text-white pb-8">
           <div className="xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] py-5 flex justify-center items-center text-center">
             Master the Art of Coding with Our Tutorials
@@ -29,7 +29,7 @@ const CodingTutorials = () => {
           loop
           muted
           ref={vidRef}
-          class="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+          class="absolute vid w-auto min-w-full min-h-full max-w-none"
         >
           <source
             src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4"
@@ -39,7 +39,6 @@ const CodingTutorials = () => {
         </video>
       </header>
 
-     
       <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
         Learn and Explore
       </div>
@@ -93,65 +92,13 @@ const CodingTutorials = () => {
           </div>
         </div>
       </div>
-      <div className="p-1 md:p-4 lg:p-4 xl:p-4  w-full flex flex-wrap">
-        <PremiumCourseCard
-          img={dbms}
-          tittle="NEET Mastery: Biology    "
-          s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
-          s2="Understand the importance of digital marketing in today's business environment"
-          array={[
-            "Understand the importance of digital marketing in today's business environment",
-            "Learn the different channels and tactics used in digital marketing",
-            "Discover how to create a digital marketing strategy",
-            "Learn the basics of website design and optimization",
-            "Understand the role of search engine optimization (SEO) in digital marketing",
-            "Learn how to use social media for business",
-            "Understand the basics of online advertising, including pay-per-click and display advertising",
-            "Learn how to measure and analyze the effectiveness of your digital marketing efforts",
-            "Discover how to stay up-to-date with the latest digital marketing trends and best practices",
-          ]}
-        />
-        <PremiumCourseCard
-          img={dbms}
-          tittle="NEET Mastery: Chemistry"
-          s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
-          s2="Understand the importance of digital marketing in today's business environment"
-          array={[
-            "Understand the importance of digital marketing in today's business environment",
-            "Learn the different channels and tactics used in digital marketing",
-            "Discover how to create a digital marketing strategy",
-            "Learn the basics of website design and optimization",
-            "Understand the role of search engine optimization (SEO) in digital marketing",
-            "Learn how to use social media for business",
-            "Understand the basics of online advertising, including pay-per-click and display advertising",
-            "Learn how to measure and analyze the effectiveness of your digital marketing efforts",
-            "Discover how to stay up-to-date with the latest digital marketing trends and best practices",
-          ]}
-        />
-        <PremiumCourseCard
-          img={dbms}
-          tittle="NEET Mastery: Physics"
-          s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
-          s2="Understand the importance of digital marketing in today's business environment"
-          array={[
-            "Understand the importance of digital marketing in today's business environment",
-            "Learn the different channels and tactics used in digital marketing",
-            "Discover how to create a digital marketing strategy",
-            "Learn the basics of website design and optimization",
-            "Understand the role of search engine optimization (SEO) in digital marketing",
-            "Learn how to use social media for business",
-            "Understand the basics of online advertising, including pay-per-click and display advertising",
-            "Learn how to measure and analyze the effectiveness of your digital marketing efforts",
-            "Discover how to stay up-to-date with the latest digital marketing trends and best practices",
-          ]}
-        />
-      </div>
+
       <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
         Web Development
       </div>
       <div className="p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
         <Coding
-          tittle="Kishore Vigyan Protsahan Yojana (KVPY)"
+          tittle="Build a Responsive Website "
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
           s2="Understand the importance of digital marketing in today's business environment"
           array={[
@@ -167,7 +114,7 @@ const CodingTutorials = () => {
           ]}
         />
         <Coding
-          tittle="Kishore Vigyan Protsahan Yojana (KVPY)"
+          tittle="Get Started with React "
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
           s2="Understand the importance of digital marketing in today's business environment"
           array={[
@@ -183,7 +130,23 @@ const CodingTutorials = () => {
           ]}
         />
         <Coding
-          tittle="Kishore Vigyan Protsahan Yojana (KVPY)"
+          tittle="Build a RESTful API with Express.js"
+          s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
+          s2="Understand the importance of digital marketing in today's business environment"
+          array={[
+            "Understand the importance of digital marketing in today's business environment",
+            "Learn the different channels and tactics used in digital marketing",
+            "Discover how to create a digital marketing strategy",
+            "Learn the basics of website design and optimization",
+            "Understand the role of search engine optimization (SEO) in digital marketing",
+            "Learn how to use social media for business",
+            "Understand the basics of online advertising, including pay-per-click and display advertising",
+            "Learn how to measure and analyze the effectiveness of your digital marketing efforts",
+            "Discover how to stay up-to-date with the latest digital marketing trends and best practices",
+          ]}
+        />
+        <Coding
+          tittle="Developing a Progressive Web App (PWA)"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
           s2="Understand the importance of digital marketing in today's business environment"
           array={[
@@ -204,7 +167,7 @@ const CodingTutorials = () => {
       </div>
       <div className=" p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
         <Coding
-          tittle="Kishore Vigyan Protsahan Yojana (KVPY)"
+          tittle="Introduction to Python for Data Science"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
           s2="Understand the importance of digital marketing in today's business environment"
           array={[
@@ -220,7 +183,7 @@ const CodingTutorials = () => {
           ]}
         />
         <Coding
-          tittle="Kishore Vigyan Protsahan Yojana (KVPY)"
+          tittle="Data Visualization with Matplotlib"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
           s2="Understand the importance of digital marketing in today's business environment"
           array={[
@@ -236,7 +199,23 @@ const CodingTutorials = () => {
           ]}
         />
         <Coding
-          tittle="Kishore Vigyan Protsahan Yojana (KVPY)"
+          tittle="Machine Learning with scikit-learn"
+          s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
+          s2="Understand the importance of digital marketing in today's business environment"
+          array={[
+            "Understand the importance of digital marketing in today's business environment",
+            "Learn the different channels and tactics used in digital marketing",
+            "Discover how to create a digital marketing strategy",
+            "Learn the basics of website design and optimization",
+            "Understand the role of search engine optimization (SEO) in digital marketing",
+            "Learn how to use social media for business",
+            "Understand the basics of online advertising, including pay-per-click and display advertising",
+            "Learn how to measure and analyze the effectiveness of your digital marketing efforts",
+            "Discover how to stay up-to-date with the latest digital marketing trends and best practices",
+          ]}
+        />
+        <Coding
+          tittle="Exploring and Cleaning Data with Pandas"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
           s2="Understand the importance of digital marketing in today's business environment"
           array={[
