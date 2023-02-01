@@ -79,7 +79,7 @@ const Coding = (props) => {
                 setModal(true);
               }}
             >
-              View Syllabus
+              Read More
             </div>
           </div>
 
@@ -89,7 +89,7 @@ const Coding = (props) => {
               setModal(true);
             }}
           >
-            Learning Ways guidelines
+            Start Now !
           </div>
           {/* <div className="p-4 flex items-center justify-center text-lg text-[#085464]   cursor-pointer">
               Start Now !

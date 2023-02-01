@@ -1,8 +1,7 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 import Navbar from "../components/navbar";
-import PremiumCourseCard from "../components/premiumCourseCard";
-import dbms from "../public/dbms.png";
+import Uparrow from "../components/uparrow";
 import Coding from "../components/Coding";
 import Footer from "../components/footer";
 const CodingTutorials = () => {
@@ -13,13 +12,14 @@ const CodingTutorials = () => {
   return (
     <div>
       <Navbar />
+      <Uparrow url="Coding_tutorials" />
       <header class="relative flex items-center justify-center h-screen vid  overflow-hidden">
         <div class="relative z-30  text-white pb-8">
           <div className="xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] py-5 flex justify-center items-center text-center">
             Master the Art of Coding with Our Tutorials
           </div>
           <div className="flex justify-center items-center py-8">
-            <div className="p-5 xl:text-[28px] lg:text-[26px] sm:text-[20px] text-[18px] bg-[#085464] opacity-[0.8] rounded-xl cursor-pointer">
+            <div className="p-5 xl:text-[28px] lg:text-[26px] sm:text-[20px] text-[18px] bg-[#085464] opacity-[0.8]  rounded-xl cursor-pointer">
               Explore Now !
             </div>
           </div>
