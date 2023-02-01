@@ -206,6 +206,15 @@ export default function Navbar() {
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
+                          router.push("/national_entrance_eligiblity_test");
+                          setNavbar(false);
+                        }}
+                      >
+                        NEET
+                      </div>
+                      <div
+                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        onClick={function handleLogo() {
                           router.push("/");
                           setNavbar(false);
                         }}
