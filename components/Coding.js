@@ -60,7 +60,7 @@ const Coding = (props) => {
         <div></div>
       )}
       <div className="w-full sm:w-1/2 md:w-1/2  xl:w-4/12  p-4 ">
-        <div className="c-card block  glass drop-shadow-2xl    overflow-hidden">
+        <div className="c-card block  card-col drop-shadow-2xl min-h-[70vh]   overflow-hidden">
           <div className="p-4">
             <h2 className="mt-2 mb-2 text-xl  font-bold text-[#085464] text-center">
               {props.tittle}
