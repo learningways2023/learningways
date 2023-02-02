@@ -1,8 +1,8 @@
-import { Halant } from "@next/font/google";
+import { Halant, Lato } from "@next/font/google";
 import { ParallaxProvider } from "react-scroll-parallax";
 import "../styles/globals.css";
 import Head from "next/head";
-const inter = Halant({ weight: "400", subsets: ["latin"] });
+const inter = Lato({ subsets: ["latin"], weight:["100","300","400","700","900"] });
 
 export default function App({ Component, pageProps }) {
   return (
