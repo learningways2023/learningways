@@ -22,38 +22,38 @@ const JointEntranceExam = () => {
       <div className="m-4 min-h-[100vh] bg-[#085464]">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="w-full h-full flex-row justify-center items-center">
-            <div className="text-[#ffff] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+            <div className="text-[#ffff] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
               Join the most comprehensive course
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex  items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               Interactive Classes
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               Comprehensive Study Material
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               Performance Analytics
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               Personalized Feedback
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               Mock Exams
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               Study Schedules
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               Online Resources
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               Video Lectures.
             </div>
@@ -112,10 +112,10 @@ const JointEntranceExam = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         CATEGORIES
       </div>
-      <div className="p-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
         <div className="w-full h-full flex justify-center items-center">
           <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] focus:bg-[#085464] focus:text-white rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
             {" "}
@@ -165,10 +165,10 @@ const JointEntranceExam = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         ANNOUNUCEMENTS
       </div>
-      <div className="min-h-[50vh] px-1 md:px-5 lg:px-7 xl:px-7 pt-5  flex-wrap justify-center items-center pb-9">
+      <div className="min-h-[50vh]  px-4 py-9 lg:px-7 xl:px-7  flex-wrap justify-center items-center pb-9">
         <div className="">
           <div className="p-1.5 w-full inline-block align-middle">
             <div className="overflow-x-auto  border rounded-lg bg-white drop-shadow-2xl">
@@ -235,18 +235,18 @@ const JointEntranceExam = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4  font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7  font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         JEE COURSES
       </div>
       <div className="m-4 min-h-[60vh] ">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="flex  items-center">
             <div className="">
-              <div className="text-[#c47993] p-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+              <div className="text-[#c47993] p-2  font-medium flex  items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
                 <Image src={bullet1} width={40} height={40} className="mr-3" />
                 Interactive Classes
               </div>
-              <div className="text-[#c47993] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+              <div className="text-[#c47993] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
                 <Image src={bullet1} width={40} height={40} className="mr-3" />
                 Comprehensive Study Material
               </div>
@@ -264,30 +264,30 @@ const JointEntranceExam = () => {
         </div>
       </div>
 
-      <div className="p-4 py-9">
-        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7">
+        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
           <Image src={bullet1} width={40} height={40} className="mr-3" />
           Video lectures by experienced JEE instructors
         </div>
-        <div className=" p-2 py-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+        <div className=" p-2 py-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
           <Image src={bullet1} width={40} height={40} className="mr-3" />
           Practice quizzes and mock exams to assess your learning
         </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
           <Image src={bullet1} width={40} height={40} className="mr-3" />
           Personalized feedback and support from instructors
         </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
           <Image src={bullet1} width={40} height={40} className="mr-3" />
           Study materials, including notes and interactive simulations
         </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
           <Image src={bullet1} width={40} height={40} className="mr-3" />
           Access to a community of JEE aspirants for peer-to-peer learning and
           support
         </div>
       </div>
-      <div className="w-full flex flex-wrap">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 w-full flex flex-wrap">
         <PremiumCourseCard
           img={dbms}
           tittle="JEE Mastery: Maths    "
@@ -340,70 +340,90 @@ const JointEntranceExam = () => {
           ]}
         />
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         What you get?
       </div>
-
-      <div className="p-4">
-        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Concept explanations
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-6">
+        <div className="px-4 py-9 lg:px-7 xl:px-7">
+          <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Concept explanations
+          </div>
+          <div className=" p-2 py-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Practice problems
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Problem-solving strategies
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Assessments and mock tests
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Interactive sessions and mentoring
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Performance tracking.
+          </div>
         </div>
-        <div className=" p-2 py-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Practice problems
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Problem-solving strategies
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Assessments and mock tests
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Interactive sessions and mentoring
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Performance tracking.
+        <div className="w-auto h-auto ">
+          <Player
+            autoplay
+            loop
+            src="https://assets7.lottiefiles.com/packages/lf20_inti4oxf.json"
+            className=" xl:w-[400px] xl:h-[400px] lg:w-[380px] lg:h-[400px] md:w-[400px] md:h-[400px] sm:w-[360px] sm:h-[360px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
+          ></Player>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         JEE PRATICE TEST
       </div>
-      <div className=" p-4 text-[#c47993]  font-medium flex justify-center items-center text-center   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className=" px-4  lg:px-7 xl:px-7 text-[#c47993]  font-medium flex justify-center items-center text-center   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         Boost Your JEE Performance with JEE Mastery: Practice and Mock Test
       </div>
-
-      <div className="p-4">
-        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Realistic JEE-style math questions
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-6">
+        <div className="px-4 py-9 lg:px-7 xl:px-7">
+          <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Realistic JEE-style math questions
+          </div>
+          <div className=" p-2 py-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Time-bound simulation of the JEE exam
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Detailed solution explanations
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Performance analysis and feedback
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Opportunity to identify strengths and weaknesses
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Improved test-taking skills and confidence.
+          </div>
         </div>
-        <div className=" p-2 py-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Time-bound simulation of the JEE exam
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Detailed solution explanations
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Performance analysis and feedback
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Opportunity to identify strengths and weaknesses
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Improved test-taking skills and confidence.
+        <div className="w-auto h-auto flex justify-center items-center ">
+          <Player
+            autoplay
+            loop
+            src="https://assets7.lottiefiles.com/packages/lf20_inti4oxf.json"
+            className=" xl:w-[400px] xl:h-[400px] lg:w-[380px] lg:h-[400px] md:w-[400px] md:h-[400px] sm:w-[360px] sm:h-[360px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
+          ></Player>
         </div>
       </div>
-      <div className="w-full flex flex-wrap">
+
+      <div className="px-4 py-9 lg:px-7 xl:px-7 w-full flex flex-wrap">
         <PremiumCourseCard
           img={dbms}
           tittle="JEE Mastery: Maths    "
@@ -456,43 +476,52 @@ const JointEntranceExam = () => {
           ]}
         />
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         Study Material
       </div>
-      <div className=" p-4 text-[#c47993]  font-medium flex justify-center items-center text-center   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className="px-4 lg:px-7 xl:px-7 text-[#c47993]  font-medium flex justify-center items-center text-center   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         A comprehensive study material designed to help students prepare for the
         Physics, Chemistry & Mathematics section of the Joint Entrance
         Examination (JEE)
       </div>
-
-      <div className="p-4">
-        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Detailed explanations of mathematical concepts and theories
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-6">
+        <div className="px-4 py-9 lg:px-7 xl:px-7">
+          <div className=" p-2 py-2  font-medium flex  items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Detailed explanations of mathematical concepts and theories
+          </div>
+          <div className=" p-2 py-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Practice problems and sample questions
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Strategies for solving math problems efficiently
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Performance tracking and analysis tools
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Summary of important formulas and concepts
+          </div>
+          <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
+            <Image src={bullet1} width={40} height={40} className="mr-3" />
+            Regular assessments and mock tests
+          </div>
         </div>
-        <div className=" p-2 py-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Practice problems and sample questions
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Strategies for solving math problems efficiently
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Performance tracking and analysis tools
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Summary of important formulas and concepts
-        </div>
-        <div className=" p-2 py-2 font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
-          <Image src={bullet1} width={40} height={40} className="mr-3" />
-          Regular assessments and mock tests
+        <div className="w-auto flex justify-center items-center h-auto ">
+          <Player
+            autoplay
+            loop
+            src="https://assets7.lottiefiles.com/packages/lf20_inti4oxf.json"
+            className=" xl:w-[400px] xl:h-[400px] lg:w-[380px] lg:h-[400px] md:w-[400px] md:h-[400px] sm:w-[360px] sm:h-[360px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
+          ></Player>
         </div>
       </div>
 
-      <div className="text-[#085464] p-4 lg:px-7 xl:px-7 pt-9 font-medium flex justify-start  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-start  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         Download Here
       </div>
       <div className="p-4 lg:px-7 xl:px-7 xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] text-left text-black">
@@ -513,26 +542,28 @@ const JointEntranceExam = () => {
           Click here to Download
         </span>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         Previous Year Questions
       </div>
-      <div className=" p-4 text-[#c47993]  font-medium flex justify-center items-center text-center   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className=" p-4 text-[#c47993]  font-medium flex justify-center items-center text-center   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         JEE Main Previous Year Question Papers: Download and Practice Now!
       </div>
-      <div className=" p-4  flex justify-center items-center w-full md:w-6/12 lg:w-4/12 xl:w-4/12 ">
-        <div>
-          <i className="absolute ml-[4px] -mt-[10px]">
-            <Image src={search} width={20} height={20} />
-          </i>
+      <div className="flex justify-center items-center">
+        <div className=" p-4   w-full md:w-6/12 lg:w-4/12 xl:w-4/12 ">
+          <div>
+            <i className="absolute ml-[4px] mt-3">
+              <Image src={search} width={20} height={20} />
+            </i>
+          </div>
+          <input
+            className={classes}
+            type="text"
+            required
+            placeholder="Search Your Question Paper"
+          />
         </div>
-        <input
-          className={classes}
-          type="text"
-          required
-          placeholder="Search Your Question Paper"
-        />
       </div>
-      <div className="p-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
         <div className="w-full h-full flex justify-center items-center">
           <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] focus:bg-[#085464] focus:text-white rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
             {" "}
@@ -630,15 +661,15 @@ const JointEntranceExam = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         JEE SYLLABUS
       </div>
-      <div className=" p-4 text-[#c47993]  font-medium flex justify-center items-center text-center   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className=" p-4 text-[#c47993]  font-medium flex justify-center items-center text-center   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         JEE Preparation Made Easy with Detailed Syllabus Coverage
       </div>
 
-      <div className="">
-        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7">
+        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
           <Image src={bullet1} width={40} height={40} className="mr-3" />
           <div className=" xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] text-left text-black">
             Mathematics: Algebra, Trigonometry, Analytical Geometry,
@@ -648,7 +679,7 @@ const JointEntranceExam = () => {
             </span>
           </div>
         </div>
-        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
           <Image src={bullet1} width={40} height={40} className="mr-3" />
           <div className=" xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] text-left text-black">
             Physics: Mechanics, Thermodynamics, Electromagnetic Induction,
@@ -658,7 +689,7 @@ const JointEntranceExam = () => {
             </span>
           </div>
         </div>
-        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+        <div className=" p-2 py-2  font-medium flex  items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
           <Image src={bullet1} width={40} height={40} className="mr-3" />
           <div className=" xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] text-left text-black">
             Chemistry: Physical Chemistry, Organic Chemistry, Inorganic
@@ -669,7 +700,7 @@ const JointEntranceExam = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] lg:text-left xl:text-left">
         MENTORSHIP
       </div>
       <div className="text-[#c47993] p-4 pb-9 font-medium  xl:text-[35px] lg:text-[25px] sm:text-[25px] text-[20px] text-center ">
@@ -685,12 +716,12 @@ const JointEntranceExam = () => {
           -Click Here To Join
         </span>
       </div>
-      <div className="py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:mx-4 mx-1">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
         <div className="sm:p-6 p-4 rounded-lg flex border border-[#d3d2d2] items-center justify-center bg-[#fff] infPic drop-shadow-lg">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
             <div className="rounded-md flex items-center justify-center">
               <div className="w-auto h-auto bg-[#085464] flex justify-center items-center high1">
-                <span className="text-white font-medium lg:text-xl md:text-lg text-sm text-center">
+                <span className="text-white font-medium lg:text-xl md:text-lg p-2 text-sm text-center">
                   "John helped me improve my coding skills and gave me valuable
                   insights on how to advance in my career." - Jane Smith, Junior
                   Developer
@@ -733,7 +764,7 @@ const JointEntranceExam = () => {
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
             <div className="rounded-md flex items-center justify-center">
               <div className="w-auto h-auto bg-[#085464] flex justify-center items-center high1">
-                <span className="text-white font-medium lg:text-xl md:text-lg text-sm text-center">
+                <span className="text-white font-medium lg:text-xl md:text-lg p-2 text-sm text-center">
                   "John helped me improve my coding skills and gave me valuable
                   insights on how to advance in my career." - Jane Smith, Junior
                   Developer
@@ -776,7 +807,7 @@ const JointEntranceExam = () => {
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
             <div className="rounded-md flex items-center justify-center">
               <div className="w-auto h-auto bg-[#085464] flex justify-center items-center high1">
-                <span className="text-white font-medium lg:text-xl md:text-lg text-sm text-center">
+                <span className="text-white font-medium lg:text-xl md:text-lg text-sm p-2 text-center">
                   "John helped me improve my coding skills and gave me valuable
                   insights on how to advance in my career." - Jane Smith, Junior
                   Developer
@@ -816,10 +847,10 @@ const JointEntranceExam = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         SUCCESS STORIES
       </div>
-      <div className="py-7 p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
         <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
           <div>
             <div className="px-3 py-3 flex justify-center items-center rounded-md">
@@ -887,17 +918,17 @@ const JointEntranceExam = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         PARTNER WITH US SCHOOL
       </div>
-      <div className="m-4 min-h-[100vh] bg-[#fff]">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 min-h-[100vh] bg-[#fff]">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="w-full h-full flex justify-center items-start">
             <div className=" flex-row justify-center items-center">
-              <div className="text-[#c47993] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+              <div className="text-[#c47993] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
                 Partner with us for a successful JEE journey.
               </div>
-              <div className="text-[#085464] p-2  font-medium flex   items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+              <div className="text-[#085464] p-2  font-medium flex   items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
                 Cutting-edge online program, expert instructors, personalized
                 support. Join now, empower your students
               </div>

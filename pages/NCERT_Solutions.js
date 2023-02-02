@@ -15,29 +15,29 @@ const NCERTSolutions = () => {
     <div>
       <Navbar />
       <Uparrow url="NCERT_Solutions" />
-      <div className="m-4 min-h-[100vh] bg-[#085464]">
+      <div className="m-4 min-h-[100vh] bg-[#085464] ">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="w-full h-full flex-row justify-center items-center">
-            <div className="text-[#ffff] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+            <div className="text-[#ffff] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
               Unlock Your Potential with NCERT !
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex  items-center text-center xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex  items-center text-center xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               NCERT Solutions
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               NCERT MCQs
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               NCERT Summary
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               NCERT Courses
             </div>
-            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+            <div className="text-[#ffff] p-2  font-medium flex   items-center text-left xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
               <Image src={bullet} width={40} height={40} className="mr-3" />
               NCERT Exam Preparation
             </div>
@@ -97,7 +97,7 @@ const NCERTSolutions = () => {
         </div>
       </div>
 
-      <div className="p-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 pt-9 gap-6 ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 pt-9 gap-6 ">
         <div className="w-full h-full">
           <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] focus:bg-[#085464] focus:text-white rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
             {" "}
@@ -135,14 +135,14 @@ const NCERTSolutions = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#c47993] p-4  font-medium   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className="text-[#c47993] px-4 py-9 lg:px-7 xl:px-7  font-medium   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         Unlock Your Exam Success:{" "}
         <span className="text-[#085464] cursor-pointer ">
           Download NCERT PDFs and Solutions for Classes 1-12 on our Website and
           Boost Your Grades
         </span>
       </div>
-      <div className=" p-4  font-medium flex justify-center items-center text-center   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className=" px-4 py-9 lg:px-7 xl:px-7  font-medium flex justify-center items-center text-center   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         Students can access the latest NCERT PDF textbooks and solutions for all
         classes and subjects. Our detailed solutions, written according to the
         latest marking schemes, will help students ace their class tests, board
@@ -150,10 +150,10 @@ const NCERTSolutions = () => {
         format and user-friendly interface makes studying convenient and
         efficient.
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         NCERT COURSES
       </div>
-      <div className=" p-4  font-medium flex justify-center items-center text-center   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className=" px-4 py-9 lg:px-7 xl:px-7  font-medium flex justify-center items-center text-center   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         Achieve academic success with our NCERT-based online courses. Master the
         curriculum and excel
       </div>
@@ -210,15 +210,15 @@ const NCERTSolutions = () => {
           ]}
         />
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         DOWNLOAD NCERT
       </div>
-      <div className=" p-4  font-medium flex justify-center items-center text-center   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className=" px-4 py-9 lg:px-7 xl:px-7  font-medium flex justify-center items-center text-center   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         Easily access the latest NCERT curriculum. Download textbooks and excel
         in your studies with our resources
       </div>
       <div className="">
-        <div className="p-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
+        <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
           <div className="w-full h-full flex justify-center items-center">
             <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] focus:bg-[#085464] focus:text-white rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
@@ -269,15 +269,15 @@ const NCERTSolutions = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         NCERT SUMMARY
       </div>
-      <div className=" p-4  font-medium flex justify-center items-center text-center   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className=" px-4 py-9 lg:px-7 xl:px-7  font-medium flex justify-center items-center text-center   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         Master the NCERT curriculum in minutes with our concise summaries. Stay
         ahead in your studies and excel.
       </div>
       <div className="">
-        <div className="p-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
+        <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
           <div className="w-full h-full flex justify-center items-center">
             <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] focus:bg-[#085464] focus:text-white rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
@@ -328,12 +328,12 @@ const NCERTSolutions = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         NCERT MCQS
       </div>
 
       <div className="">
-        <div className="p-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
+        <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 pt-9 gap-6 ">
           <div className="w-full h-full flex justify-center items-center">
             <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] focus:bg-[#085464] focus:text-white rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
               {" "}
@@ -384,14 +384,14 @@ const NCERTSolutions = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
         NCERT EXAM PREPARATION
       </div>
-      <div className=" p-4  font-medium flex justify-center items-center text-center   xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7  font-medium flex justify-center items-center text-center   xl:text-[30px] lg:text-[30px] sm:text-[25px] text-[18px] ">
         Achieve success on competitive exams with our expert tips and
         strategies. Unlock your potential and excel.
       </div>
-      <div className="w-full flex flex-wrap ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 w-full flex flex-wrap ">
         <Exams
           tittle="Indian National Olympiad (INO)"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."

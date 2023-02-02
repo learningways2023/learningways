@@ -141,7 +141,7 @@ const CodingTutorials = () => {
       >
         Web Development
       </div>
-      <div className="p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
+      <div className="p-1 md:p-4 lg:p-4 xl:p-4 bg-[#085464] w-full flex flex-wrap">
         <Coding
           tittle="Build a Responsive Website with HTML, CSS and JavaScript"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."

@@ -27,7 +27,7 @@ const ClassFivetoTen = () => {
     <div>
       <Navbar />
       <Uparrow url="classFivetoTen" />
-      <div className="p-4 min-h-[50vh]">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 min-h-[50vh]">
         <div className="py-9 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
           <div className="w-full h-full flex justify-center items-center">
             <div
@@ -111,10 +111,10 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div className="p-4 py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
         <div
           id="coding"
-          className="text-[#085464] font-medium flex  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left"
+          className="text-[#085464] font-medium flex  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left"
         >
           Coding Course
         </div>
@@ -137,7 +137,7 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div className="p-4 w-full flex flex-wrap ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 w-full flex flex-wrap ">
         <PremiumCourseCard
           img={dbms}
           tittle="Introduction to Digital Marketing"
@@ -190,11 +190,11 @@ const ClassFivetoTen = () => {
           ]}
         />
       </div>
-      <div className="p-4 min-h-[70vh]">
-        <div className="text-[#085464] font-medium flex justify-center items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+      <div className=" min-h-[70vh]">
+        <div className="px-4 py-9 lg:px-7 xl:px-7 text-[#085464] font-medium flex justify-center items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left">
           Testimonials
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
+        <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
           <div className="py-5 w-full flex justify-center items-center">
             <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
@@ -241,9 +241,9 @@ const ClassFivetoTen = () => {
       </div>
       <div
         id="private_tutor"
-        className="p-4 pt-9 pb-4  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2"
+        className="px-4 py-9 lg:px-7 xl:px-7  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2"
       >
-        <div className="text-[#085464] font-medium flex  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+        <div className="text-[#085464] font-medium flex  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left">
           Private Tutor
         </div>
         <div className="p-4 flex-row md:flex lg:flex xl:flex justify-center  md:justify-between xl:justify-between lg:justify-between space-x-4 md:items-center ">
@@ -267,7 +267,7 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div className="w-full p-4 py-12 min-h-[70vh] flex justify-center items-center">
+      <div className="w-full px-4 py-9 lg:px-7 xl:px-7 min-h-[70vh] flex justify-center items-center">
         <div className="p-4 w-[300px] md:w-10/12 lg:w-10/12 xl:w-10/12 min-h-[400px] border border-1 border-gray-300 bg-white rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex-row  hover:text-white wwd1 justify-center items-center text-center text-xl">
           <div className="flex justify-center items-center text-center py-4 ">
             In publishing and graphic design, Lorem ipsum is a placeholder text
@@ -295,10 +295,10 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div className="p-4 py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
         <div
           id="personality_developement"
-          className="text-[#085464] font-medium flex  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left"
+          className="text-[#085464] font-medium flex  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left"
         >
           Personality Development
         </div>
@@ -321,7 +321,7 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div className="p-4 w-full flex flex-wrap ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 w-full flex flex-wrap ">
         <PremiumCourseCard
           img={dbms}
           tittle="Introduction to Digital Marketing"
@@ -374,11 +374,11 @@ const ClassFivetoTen = () => {
           ]}
         />
       </div>
-      <div className="p-4 min-h-[70vh]">
-        <div className="text-[#085464] font-medium flex justify-center items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+      <div className=" min-h-[70vh]">
+        <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left">
           Testimonials
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
+        <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
           <div className="py-5 w-full flex justify-center items-center">
             <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
@@ -426,12 +426,12 @@ const ClassFivetoTen = () => {
 
       <div
         id="quiz"
-        className="text-[#085464] p-4 py-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left"
+        className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left"
       >
         Quiz Section
       </div>
 
-      <div className="p-4 w-full flex flex-wrap ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 w-full flex flex-wrap ">
         <PremiumCourseCard
           img={dbms}
           tittle="Introduction to Digital Marketing"
@@ -484,11 +484,11 @@ const ClassFivetoTen = () => {
           ]}
         />
       </div>
-      <div className="p-4 min-h-[70vh]">
-        <div className="text-[#085464] font-medium flex justify-center items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+      <div className=" min-h-[70vh]">
+        <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left">
           Testimonials
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
+        <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
           <div className="py-5 w-full flex justify-center items-center">
             <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
@@ -534,10 +534,10 @@ const ClassFivetoTen = () => {
         </div>
       </div>
       <div id="join" className="w-full min-h-[60vh] bg-[#085464] ">
-        <div className="text-[#ffff] py-4 font-medium flex justify-center items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+        <div className="text-[#ffff] py-4 font-medium flex justify-center items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left">
           Join Community
         </div>
-        <div className="flex justify-center items-center text-center py-4 xl:text-[38px] lg:text-[28px] sm:text-[28px] text-[16px] text-white px-4">
+        <div className="flex justify-center items-center text-center py-4 xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[16px] text-white px-4">
           A community is a group of people living in a particular area. A
           community can be made up of a large or small group of people. T he
           land area of a community can also be large or small.
@@ -559,8 +559,8 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div className="p-4 pt-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-        <div className="text-[#085464] font-medium flex  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+        <div className="text-[#085464] font-medium flex  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left">
           Upcomming Events
         </div>
         <div className="p-4 flex-row md:flex lg:flex xl:flex justify-center  md:justify-between xl:justify-between lg:justify-between space-x-4 md:items-center ">
@@ -582,7 +582,7 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div className="p-4 w-full flex flex-wrap">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 w-full flex flex-wrap">
         <UpcommingCard
           img={dbms}
           tittle="International Yoga Day"
@@ -638,7 +638,7 @@ const ClassFivetoTen = () => {
       <div className="pt-9"></div>
       <div
         id="summer_camp"
-        className="p-4 pt-9 pb-3 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1"
+        className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1"
       >
         <div className="text-[#085464]  flex-row  items-center text-center  lg:text-left xl:text-left">
           <div className="xl:text-[42px] font-medium lg:text-[32px] sm:text-[32px] text-[20px]">
@@ -673,7 +673,7 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div className="p-4 w-full flex flex-wrap ">
+      <div className="px-4 py-9 lg:px-7 xl:px-7 w-full flex flex-wrap ">
         <PremiumCourseCard
           img={dbms}
           tittle="Introduction to Digital Marketing"
@@ -726,11 +726,11 @@ const ClassFivetoTen = () => {
           ]}
         />
       </div>
-      <div className="p-4 min-h-[70vh]">
-        <div className="text-[#085464] font-medium flex justify-center items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+      <div className="  min-h-[70vh]">
+        <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left">
           Testimonials
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
+        <div className="px-4 py-9 lg:px-7 xl:px-7 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
           <div className="py-5 w-full flex justify-center items-center">
             <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-[#085464] hover:bg-[#085464] flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
@@ -776,7 +776,7 @@ const ClassFivetoTen = () => {
           </div>
         </div>
       </div>
-      <div className="text-[#085464] p-4 py-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+      <div className="text-[#085464] px-4 py-9 lg:px-7 xl:px-7 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left">
         Enroll your child in the best school
       </div>
       <div className="w-full h-full flex justify-center items-center">
@@ -785,7 +785,7 @@ const ClassFivetoTen = () => {
             <div className=" p-4 rounded-md flex items-center justify-center">
               <div className="newloginContainer">
                 <div className="newLoginTop flex items-center justify-center">
-                  <FormHeader title="FIND SCHOOL" />
+                  <FormHeader title="Find School" />
                 </div>
                 <form
                   className="newLoginForm"
@@ -865,7 +865,7 @@ const ClassFivetoTen = () => {
         </div>
       </div>
       <div className="pt-7"></div>
-      <div className="text-[#085464] p-4 py-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
+      <div className="text-[#085464] p-4 py-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[30px] text-[20px] lg:text-left xl:text-left">
         Feedback: Your Ward deserves best & we are on it .
       </div>
       <Footer />

@@ -15,7 +15,9 @@ import quikr from "../public/quikr.png";
 import { useState, useCallback, useEffect } from "react";
 import PremiumCourseCard from "../components/premiumCourseCard";
 import DropdownComponent from "../components/dropDown";
-import Link from "next/link";
+import ment from "../public/john.png";
+import medal from "../public/graduate.png";
+
 import prof from "../public/prof_img.jpg";
 const Professional = () => {
   const classes =
@@ -66,7 +68,7 @@ const Professional = () => {
       <Navbar />
       <Uparrow url="professional" />
       <div>
-        <div className="text-[#c47993] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#c47993] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Welcome to our Skill Development Webpage, where you can learn and
           improve your programming and design skills. We offer a variety of
           resources to help you succeed in your job search and career
@@ -78,11 +80,11 @@ const Professional = () => {
 
         <div
           id="learn"
-          className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] "
+          className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] "
         >
           LEARN
         </div>
-        <div className="py-7 px-4 xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] flex items-center justify-center text-center ">
+        <div className="py-7 px-4 xl:text-[30px] lg:text-[30px] sm:text-[28px] text-[18px] flex items-center justify-center text-center ">
           <span>
             In the Programming section, you'll find video tutorials on
             programming languages such as Python, Java, C++, etc. These
@@ -92,7 +94,7 @@ const Professional = () => {
             practices and new technologies in the programming world.
           </span>
         </div>
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Video Tutorials
         </div>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-8">
@@ -133,10 +135,10 @@ const Professional = () => {
             </div>
           )}
         </div>
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Programming Blogs
         </div>
-        <div className="py-7 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+        <div className="py-7 px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
           <div className="w-full h-auto p-4 border border-1 border-[#036c81] rounded-xl">
             <div className="flex justify-center items-center">
               <Image src={dbms} width={400} height={200} />
@@ -206,11 +208,11 @@ const Professional = () => {
         </div>
         <div
           id="prepare"
-          className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] "
+          className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] "
         >
           DESIGN
         </div>
-        <div className="py-7 px-4 xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] flex items-center justify-center text-center ">
+        <div className="py-7 px-4 xl:text-[30px] lg:text-[30px] sm:text-[28px] text-[18px] flex items-center justify-center text-center ">
           <span>
             In the Design section, you'll find a collection of commonly asked
             interview questions in the field of programming and design. These
@@ -220,7 +222,7 @@ const Professional = () => {
             experiences.
           </span>
         </div>
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Popular Interview Questions
         </div>
 
@@ -253,7 +255,7 @@ const Professional = () => {
             />
           </div>
         </div>
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Interview Questions with Answer PDF
         </div>
         <div className="p-4 lg:px-7 xl:px-7 xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] text-left text-black">
@@ -287,10 +289,10 @@ const Professional = () => {
           </span>
         </div>
 
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Interview Preparation Courses
         </div>
-        <div className="w-full flex flex-wrap">
+        <div className="p-4 w-full flex flex-wrap">
           <PremiumCourseCard
             img={dbms}
             tittle="Introduction to Digital Marketing"
@@ -345,11 +347,11 @@ const Professional = () => {
         </div>
         <div
           id="practice"
-          className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] "
+          className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] "
         >
           PRACTICE
         </div>
-        <div className="py-7 px-4 xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] flex items-center justify-center text-center ">
+        <div className="py-7 px-4 xl:text-[30px] lg:text-[30px] sm:text-[28px] text-[18px] flex items-center justify-center text-center ">
           <span>
             In the Practice section, you'll find a collection of mock interviews
             that will help you practice and improve your interviewing skills. We
@@ -357,7 +359,7 @@ const Professional = () => {
             improve your programming and design skills.
           </span>
         </div>
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Mock Interviews
         </div>
         <div className=" py-7 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-8">
@@ -380,7 +382,7 @@ const Professional = () => {
             </div>
           )}
         </div>
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Practice Exercises
         </div>
         <div className="p-4 lg:px-7 xl:px-7 xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] text-left text-black">
@@ -409,11 +411,11 @@ const Professional = () => {
         </div>
         <div
           id="succed"
-          className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] "
+          className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] "
         >
           SUCCED
         </div>
-        <div className="py-7 px-4 xl:text-[32px] lg:text-[32px] sm:text-[25px] text-[18px] flex items-center justify-center text-center ">
+        <div className="py-7 px-4 xl:text-[30px] lg:text-[30px] sm:text-[28px] text-[18px] flex items-center justify-center text-center ">
           <span>
             In the Succeed section, you'll find a collection of success stories
             of people who have successfully landed a job in the field of
@@ -422,10 +424,77 @@ const Professional = () => {
             help you succeed in your job search and career development.
           </span>
         </div>
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Success Stories
         </div>
-        
+        <div className="py-7 p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
+          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+            <div>
+              <div className="px-3 py-3 flex justify-center items-center rounded-md">
+                <Image src={ment} width={100} height={100} />
+              </div>
+              <div className="px-3  text-[20px] font-medium flex justify-center items-center">
+                <span>Janarthanan S</span>
+              </div>
+              <div className="px-3  text-[20px] font-medium flex justify-center items-center pb-3">
+                <Image src={medal} width={30} height={30} />
+                <span className="pl-1">FullStack Web Developer</span>
+              </div>
+              <div className="px-3 py-3 text-[17px]  flex justify-center items-center pb-3">
+                <span className="text-center leading-relaxed">
+                  "I used to think coding was boring, but this program made it
+                  so much fun! I love being able to bring my ideas to life with
+                  code. I can't wait to show my friends and family all the cool
+                  things I've made
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+            <div>
+              <div className="px-3 py-3 flex justify-center items-center rounded-md">
+                <Image src={ment} width={100} height={100} />
+              </div>
+              <div className="px-3  text-[20px] font-medium flex justify-center items-center">
+                <span>Janarthanan S</span>
+              </div>
+              <div className="px-3  text-[20px] font-medium flex justify-center items-center pb-3">
+                <Image src={medal} width={30} height={30} />
+                <span className="pl-1">Android Developer</span>
+              </div>
+              <div className="px-3 py-3 text-[17px]  flex justify-center items-center pb-3">
+                <span className="text-center leading-relaxed">
+                  This program helped me understand UPSC concepts better and
+                  manage my time efficiently. I cleared the exam in my first
+                  attempt, I highly recommend it for UPSC aspirants.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+            <div>
+              <div className="px-3 py-3 flex justify-center items-center rounded-md">
+                <Image src={ment} width={100} height={100} />
+              </div>
+              <div className="px-3  text-[20px] font-medium flex justify-center items-center">
+                <span>Janarthanan S</span>
+              </div>
+              <div className="px-3  text-[20px] font-medium flex justify-center items-center pb-3">
+                <Image src={medal} width={30} height={30} />
+                <span className="pl-1">Devops Engineer</span>
+              </div>
+              <div className="px-3 py-3 text-[17px]  flcenterex justify-center items-center pb-3">
+                <span className="text-center leading-relaxed">
+                  "As parents, we were always worried about our child's studies
+                  and their ability to understand the concepts. But this program
+                  has made such a huge difference. Our child is now able to
+                  understand the material better, retain information longer and
+                  even enjoys studying
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-0 lg:gap-8 sm:gap-4 lg:px-10 md:px-10 px-3 py-7">
           <div className="flex justify-start sm:ml-[1rem] ml-[0rem] aboutQuote pl-2">
             <Image
@@ -448,10 +517,10 @@ const Professional = () => {
           </div>
         </div>
 
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           Resources
         </div>
-        <div className="py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6 sm:mx-4 mx-1">
+        <div className="py-9 px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6 sm:mx-4 mx-1">
           <div className="sm:p-6 p-4 rounded-lg flex border border-[#d3d2d2] items-center justify-center bg-[#fff] infPic drop-shadow-2xl">
             <div className="flex justify-center items-center cursor-pointer">
               <Image src={linkedin} />
@@ -473,7 +542,7 @@ const Professional = () => {
             </div>
           </div>
         </div>
-        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] ">
+        <div className="text-[#085464] p-4 pt-9 font-medium flex justify-center  items-center text-center xl:text-[35px] lg:text-[35px] sm:text-[35px] text-[20px] ">
           CONTACT
         </div>
         <div className=" p-4 rounded-md flex items-center justify-center pb-9">
