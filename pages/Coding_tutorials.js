@@ -141,23 +141,7 @@ const CodingTutorials = () => {
       >
         Web Development
       </div>
-      <div className="p-1 md:p-4 lg:p-4 xl:p-4 bg-[#085464] w-full flex flex-wrap">
-        <Coding
-          tittle="Build a Responsive Website with HTML, CSS and JavaScript"
-          s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
-          s2="Understand the importance of digital marketing in today's business environment"
-          array={[
-            "Understand the importance of digital marketing in today's business environment",
-            "Learn the different channels and tactics used in digital marketing",
-            "Discover how to create a digital marketing strategy",
-            "Learn the basics of website design and optimization",
-            "Understand the role of search engine optimization (SEO) in digital marketing",
-            "Learn how to use social media for business",
-            "Understand the basics of online advertising, including pay-per-click and display advertising",
-            "Learn how to measure and analyze the effectiveness of your digital marketing efforts",
-            "Discover how to stay up-to-date with the latest digital marketing trends and best practices",
-          ]}
-        />
+      <div className="p-1 md:p-4 lg:p-4 xl:p-4 glass-bg  w-full flex flex-wrap">
         <Coding
           tittle="Get Started with React - A Beginner's Guide"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -206,6 +190,22 @@ const CodingTutorials = () => {
             "Discover how to stay up-to-date with the latest digital marketing trends and best practices",
           ]}
         />
+        <Coding
+          tittle="Developing a Progressive Web App (PWA)"
+          s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
+          s2="Understand the importance of digital marketing in today's business environment"
+          array={[
+            "Understand the importance of digital marketing in today's business environment",
+            "Learn the different channels and tactics used in digital marketing",
+            "Discover how to create a digital marketing strategy",
+            "Learn the basics of website design and optimization",
+            "Understand the role of search engine optimization (SEO) in digital marketing",
+            "Learn how to use social media for business",
+            "Understand the basics of online advertising, including pay-per-click and display advertising",
+            "Learn how to measure and analyze the effectiveness of your digital marketing efforts",
+            "Discover how to stay up-to-date with the latest digital marketing trends and best practices",
+          ]}
+        />
       </div>
       <div
         id="data_science"
@@ -213,7 +213,7 @@ const CodingTutorials = () => {
       >
         Data Science
       </div>
-      <div className=" p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
+      <div className=" p-1 md:p-4 lg:p-4 xl:p-4 glass-bg w-full flex flex-wrap">
         <Coding
           tittle="Introduction to Python for Data Science"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -285,7 +285,7 @@ const CodingTutorials = () => {
       >
         Mobile Development
       </div>
-      <div className="p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
+      <div className="p-1 md:p-4 lg:p-4 xl:p-4 glass-bg w-full flex flex-wrap">
         <Coding
           tittle="Kishore Vigyan Protsahan Yojana (KVPY)"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -357,7 +357,7 @@ const CodingTutorials = () => {
       >
         Game Development
       </div>
-      <div className="p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
+      <div className="p-1 md:p-4 lg:p-4 xl:p-4 glass-bg w-full flex flex-wrap">
         <Coding
           tittle="Getting Started with Unity - Create Your First Game"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -429,7 +429,7 @@ const CodingTutorials = () => {
       >
         Cloud Computing
       </div>
-      <div className="p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
+      <div className="p-1 md:p-4 lg:p-4 xl:p-4 glass-bg w-full flex flex-wrap">
         <Coding
           tittle="Getting Started with Amazon Web Services (AWS)"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -501,7 +501,7 @@ const CodingTutorials = () => {
       >
         CyberSecurity
       </div>
-      <div className="p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
+      <div className="p-1 md:p-4 lg:p-4 xl:p-4 glass-bg w-full flex flex-wrap">
         <Coding
           tittle="Introduction to Cybersecurity Awareness"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -573,7 +573,7 @@ const CodingTutorials = () => {
       >
         Devops
       </div>
-      <div className="p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
+      <div className="p-1 md:p-4 lg:p-4 xl:p-4 glass-bg w-full flex flex-wrap">
         <Coding
           tittle="Introduction to DevOps"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -645,7 +645,7 @@ const CodingTutorials = () => {
       >
         Artificial Intelligence
       </div>
-      <div className="p-1 md:p-4 lg:p-4 xl:p-4 w-full flex flex-wrap">
+      <div className="p-1 md:p-4 lg:p-4 glass-bg xl:p-4 w-full flex flex-wrap">
         <Coding
           tittle="An Introduction to Artificial Intelligence"
           s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."

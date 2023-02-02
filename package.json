@@ -30,7 +30,8 @@
     "react-scroll-parallax": "^3.3.2",
     "react-toastify": "^9.1.1",
     "react-youtube": "^10.1.0",
-    "swiper": "^8.4.5"
+    "swiper": "^8.4.5",
+    "tailwindcss-filters": "^3.0.0"
   },
   "devDependencies": {
     "@capacitor/cli": "^4.6.1",

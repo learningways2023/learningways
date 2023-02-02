@@ -59,22 +59,22 @@ const Coding = (props) => {
       ) : (
         <div></div>
       )}
-      <div className="w-full sm:w-1/2 md:w-1/2  xl:w-4/12 p-4 ">
-        <div className="c-card block border border-1 border-gray-300 drop-shadow-2xl min-h-[60vh] bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+      <div className="w-full sm:w-1/2 md:w-1/2  xl:w-4/12  p-4 ">
+        <div className="c-card block  glass drop-shadow-2xl    overflow-hidden">
           <div className="p-4">
             <h2 className="mt-2 mb-2 text-xl  font-bold text-[#085464] text-center">
               {props.tittle}
             </h2>
-            <div className="text-sm py-1 flex  items-center">
+            <div className="text-md  py-1 flex  items-center">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s1}
             </div>
-            <div className="text-sm py-1 flex  items-center">
+            <div className="text-md py-1 flex  items-center">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s2}
             </div>
             <div
-              className="flex justify-center items-center px-4 text-[#085464] pt-1 cursor-pointer"
+              className="flex justify-center text-lg items-center px-4 text-[#085464] pt-5 cursor-pointer"
               onClick={function showModal() {
                 setModal(true);
               }}
@@ -84,7 +84,7 @@ const Coding = (props) => {
           </div>
 
           <div
-            className="flex justify-center items-center py-5  text-[#c47993]  cursor-pointer"
+            className="flex justify-center items-center py-5  text-[#c47993] text-lg  cursor-pointer"
             onClick={function showModal() {
               setModal(true);
             }}
