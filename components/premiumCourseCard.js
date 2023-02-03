@@ -60,7 +60,7 @@ const PremiumCourseCard = (props) => {
         <div></div>
       )}
       <div className="w-full sm:w-1/2 md:w-1/2 xl:w-4/12 p-4 ">
-        <div className="c-card block border border-1 border-gray-300 drop-shadow-2xl bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
+        <div className="c-card block  infp overflow-hidden">
           <div className="w-full h-full ">
             <Image
               width={450}
@@ -136,8 +136,12 @@ const PremiumCourseCard = (props) => {
             </div>
           </div>
           <div className="mt-3 float">
-            <span className="text-lg p-2 pl-4 font-normal text-[#085464] float-left">MRP. 599/-</span>
-            <span className="text-lg  p-2 pr-4 font-normal text-[#085464] float-right cursor-pointer">Start Now !</span>
+            <span className="text-lg p-2 pl-4 font-normal text-[#085464] float-left">
+              MRP. 599/-
+            </span>
+            <span className="text-lg  p-2 pr-4 font-normal text-[#085464] float-right cursor-pointer">
+              Start Now !
+            </span>
           </div>
           {/* <div className="p-4 flex items-center justify-center text-lg text-[#085464]   cursor-pointer">
             Start Now !

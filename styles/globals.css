@@ -122,6 +122,13 @@
 .bd {
   border: 1px solid #085464;
 }
+.infp {
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  background: #ffffff;
+  -webkit-box-shadow: 19px 19px 38px #828282, -19px -19px 38px #ffffff;
+  box-shadow: 19px 19px 38px #828282, -19px -19px 38px #ffffff;
+}
 .infPic:hover {
   transform: scale(1.04);
   transition: 300ms ease-out;
@@ -386,19 +393,45 @@
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255,255,255,0.25);
   border-radius: 20px; */
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 5px );
-  -webkit-backdrop-filter: blur( 5px );
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  /* background: rgba( 255, 255, 255, 0.45 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
-.cardbg 
-{
+.cardbg {
   background: url("https://64.media.tumblr.com/258788fb4c34d9bc05c07ea6c1c595ea/59020f76a0b5c5d9-0f/s540x810/ece51a09e06b6c5e926b5a3448e54de852a5c68d.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-position: center;
   object-fit: cover;
+}
+.cardbg1 {
+  background: url("https://static.vecteezy.com/system/resources/previews/003/559/302/original/abstract-background-with-gradient-blue-bubble-free-vector.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-position: center;
+  object-fit: cover;
+}
+.cbg {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+.cbg2 {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-right-color: rgba(255, 255, 255, 0.1);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
 }

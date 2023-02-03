@@ -67,11 +67,11 @@ const Coding = (props) => {
             </h2>
           </div>
           <div>
-            <div className="text-md  py-1 flex  items-center text-white font-semibold">
+            <div className="text-md  py-1 flex  items-center text-black font-semibold">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s1}
             </div>
-            <div className="text-md py-1 flex  items-center text-white font-semibold">
+            <div className="text-md py-1 flex  items-center text-black font-semibold">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s2}
             </div>
