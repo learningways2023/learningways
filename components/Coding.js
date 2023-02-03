@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { useState } from "react";
 import close from "../public/close.svg";
-import bullet from "../public/bullet.svg";
+import bullet from "../public/bulletblack.svg";
 
 const Coding = (props) => {
   const [modal, setModal] = useState(false);
@@ -60,37 +60,41 @@ const Coding = (props) => {
         <div></div>
       )}
       <div className="w-full sm:w-1/2 md:w-1/2  xl:w-4/12  p-4 ">
-        <div className="c-card block  card-col drop-shadow-2xl min-h-[70vh]   overflow-hidden">
-          <div className="p-4">
-            <h2 className="mt-2 mb-2 text-xl  font-bold text-[#085464] text-center">
+        <div className="card-col p-4 flex flex-col items-center justify-between min-h-[70vh] py-16">
+          <div>
+            <h2 className="mt-2 mb-2 text-xl  font-bold text-black text-center">
               {props.tittle}
             </h2>
-            <div className="text-md  py-1 flex  items-center">
+          </div>
+          <div>
+            <div className="text-md  py-1 flex  items-center text-white font-semibold">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s1}
             </div>
-            <div className="text-md py-1 flex  items-center">
+            <div className="text-md py-1 flex  items-center text-white font-semibold">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s2}
             </div>
+          </div>
+          <div className="flex items-center justify-between space-x-10">
             <div
-              className="flex justify-center text-lg items-center px-4 text-[#085464] pt-5 cursor-pointer"
+              className=" border-2 text-white rounded px-3 py-1 text-base  cursor-pointer font-semibold hover:bg-black hover:border-black duration-150"
               onClick={function showModal() {
                 setModal(true);
               }}
             >
               Read More
             </div>
+            <div
+              className=" border-2 text-white rounded px-3 py-1 text-base  cursor-pointer font-semibold hover:bg-black hover:border-black duration-150"
+              onClick={function showModal() {
+                setModal(true);
+              }}
+            >
+              Start Now !
+            </div>
           </div>
 
-          <div
-            className="flex justify-center items-center py-5  text-[#c47993] text-lg  cursor-pointer"
-            onClick={function showModal() {
-              setModal(true);
-            }}
-          >
-            Start Now !
-          </div>
           {/* <div className="p-4 flex items-center justify-center text-lg text-[#085464]   cursor-pointer">
               Start Now !
             </div> */}

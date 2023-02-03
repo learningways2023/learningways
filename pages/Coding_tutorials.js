@@ -142,7 +142,7 @@ const CodingTutorials = () => {
         Web Development
       </div>
       <div className="px-4 py-8">
-        <div className="bg-[#fff]  w-full flex flex-wrap">
+        <div className="cardbg w-full flex flex-wrap">
           <Coding
             tittle="Get Started with React - A Beginner's Guide"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -216,7 +216,7 @@ const CodingTutorials = () => {
         Data Science
       </div>
       <div className="px-4 py-8">
-        <div className="= bg-[#fff] w-full flex flex-wrap">
+        <div className="= cardbg w-full flex flex-wrap">
           <Coding
             tittle="Introduction to Python for Data Science"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -291,7 +291,7 @@ const CodingTutorials = () => {
         Mobile Development
       </div>
       <div className="px-4 py-8">
-        <div className=" bg-[#fff] w-full flex flex-wrap">
+        <div className=" cardbg w-full flex flex-wrap">
           <Coding
             tittle="Kishore Vigyan Protsahan Yojana (KVPY)"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -366,7 +366,7 @@ const CodingTutorials = () => {
         Game Development
       </div>
       <div className="px-4 py-8">
-        <div className="p-1 md:p-4 lg:p-4 xl:p-4 bg-[#fff] w-full flex flex-wrap">
+        <div className=" cardbg w-full flex flex-wrap">
           <Coding
             tittle="Getting Started with Unity - Create Your First Game"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -441,7 +441,7 @@ const CodingTutorials = () => {
         Cloud Computing
       </div>
       <div className="px-4 py-8">
-        <div className=" bg-[#fff] w-full flex flex-wrap">
+        <div className=" cardbg w-full flex flex-wrap">
           <Coding
             tittle="Getting Started with Amazon Web Services (AWS)"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -515,7 +515,7 @@ const CodingTutorials = () => {
         CyberSecurity
       </div>
       <div className="px-4 py-8">
-        <div className="p-1 md:p-4 lg:p-4 xl:p-4 bg-[#fff] w-full flex flex-wrap">
+        <div className=" cardbg w-full flex flex-wrap">
           <Coding
             tittle="Introduction to Cybersecurity Awareness"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -589,7 +589,7 @@ const CodingTutorials = () => {
         Devops
       </div>
       <div className="px-4 py-8">
-        <div className="bg-[#fff] w-full flex flex-wrap">
+        <div className="cardbg w-full flex flex-wrap">
           <Coding
             tittle="Introduction to DevOps"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -663,7 +663,7 @@ const CodingTutorials = () => {
         Artificial Intelligence
       </div>
       <div className="px-4 py-8">
-        <div className=" bg-[#fff]  w-full flex flex-wrap">
+        <div className=" cardbg  w-full flex flex-wrap">
           <Coding
             tittle="An Introduction to Artificial Intelligence"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
