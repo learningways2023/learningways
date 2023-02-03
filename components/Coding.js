@@ -76,9 +76,9 @@ const Coding = (props) => {
               {props.s2}
             </div>
           </div>
-          <div className="flex items-center justify-between space-x-10">
+          <div className="pt-3 flex items-center justify-between space-x-3 md:space-x-7 lg:space-x-10 xl:space-x-10">
             <div
-              className=" border-2 text-white rounded px-3 py-1 text-base  cursor-pointer font-semibold hover:bg-black hover:border-black duration-150"
+              className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold hover:bg-black hover:border-black duration-150"
               onClick={function showModal() {
                 setModal(true);
               }}
@@ -86,7 +86,7 @@ const Coding = (props) => {
               Read More
             </div>
             <div
-              className=" border-2 text-white rounded px-3 py-1 text-base  cursor-pointer font-semibold hover:bg-black hover:border-black duration-150"
+              className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold hover:bg-black hover:border-black duration-150"
               onClick={function showModal() {
                 setModal(true);
               }}
