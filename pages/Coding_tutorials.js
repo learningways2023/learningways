@@ -24,7 +24,7 @@ const CodingTutorials = () => {
               <div className="xl:text-[42px] lg:text-[34px] sm:text-[32px] text-[24px] py-2 sm:px-10 px-5 flex justify-center items-center text-center font-semibold">
                 Master the Art of Coding with Our Tutorials
               </div>
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center pb-12">
                 <div className="px-5 py-3 xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] card-col rounded-xl cursor-pointer font-semibold">
                   Explore now
                 </div>
