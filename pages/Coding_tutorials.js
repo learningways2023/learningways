@@ -17,11 +17,11 @@ const CodingTutorials = () => {
     <div className="">
       {/* https://assets7.lottiefiles.com/packages/lf20_tno6cg2w.json */}
       <Navbar />
-      <div className="py-8 px-4 ">
+      <div className="py-5 px-4 ">
         <div className="bg-gradient-to-r from-blue-500 to-cyan-500  rounded-xl w-[100%] min-h-[80vh]">
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-6">
             <div className="flex flex-col pt-20 items-center justify-between min-h-[50vh]">
-              <div className="xl:text-[42px] lg:text-[34px] sm:text-[32px] text-[24px] py-2 sm:px-10 px-5 flex justify-center items-center text-center font-semibold">
+              <div className="xl:text-[42px] text-white lg:text-[34px] sm:text-[32px] text-[24px] py-2 sm:px-10 px-5 flex justify-center items-center text-center font-semibold">
                 Master the Art of Coding with Our Tutorials
               </div>
               <div className="flex justify-center items-center pb-12">
@@ -66,7 +66,7 @@ const CodingTutorials = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Learn and Explore
       </div>
-      <div className="px-4 py-8 mx-1 md:mx-4 lg:mx-4 xl:mx-4 grid bg-gradient-to-r from-blue-500 to-cyan-500 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
+      <div className="px-4 py-8 mx-1 md:mx-4 lg:mx-4 xl:mx-4 my-8 grid bg-gradient-to-r from-blue-500 to-cyan-500 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
         <div className="w-full h-full flex justify-center items-center">
           <div
             className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"

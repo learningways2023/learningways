@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="w-full bg-gradient-to-r from-blue-500 to-cyan-500">
-        <div className="justify-between px-4  lg:items-center lg:flex md:px-8">
+        <div className="justify-between px-4   lg:items-center lg:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-1  md:py-1 lg:block">
               <div
@@ -22,7 +22,7 @@ export default function Navbar() {
                   setNavbar(false);
                 }}
               >
-                <Image src={logo} className="cursor-pointer" />
+                <Image src={logo} className="cursor-pointer py-2" />
               </div>
               <div className="lg:hidden">
                 <button
@@ -77,7 +77,7 @@ export default function Navbar() {
                         <Image src={expand} width={20} height={20} />
                       </div>
                     </button>
-                    <div className="dropdown-content bg-gradient-to-r from-cyan-500 to-blue-500">
+                    <div className="dropdown-content bg-gradient-to-r from-blue-500 to-cyan-500">
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
@@ -144,7 +144,7 @@ export default function Navbar() {
                         <Image src={expand} width={20} height={20} />
                       </div>
                     </button>
-                    <div className="dropdown-content grid bg-gradient-to-r from-cyan-500 to-blue-500">
+                    <div className="dropdown-content grid bg-gradient-to-r from-blue-500 to-cyan-500">
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464] "
                         onClick={function handleLogo() {
@@ -184,7 +184,7 @@ export default function Navbar() {
                         <Image src={expand} width={20} height={20} />
                       </div>
                     </button>
-                    <div className="dropdown-content bg-gradient-to-r from-cyan-500 to-blue-500">
+                    <div className="dropdown-content bg-gradient-to-r from-blue-500 to-cyan-500">
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer mt-1 hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
@@ -277,7 +277,7 @@ export default function Navbar() {
                         <Image src={expand} width={20} height={20} />
                       </div>
                     </button>
-                    <div className="dropdown-content grid bg-gradient-to-r from-cyan-500 to-blue-500">
+                    <div className="dropdown-content grid bg-gradient-to-r from-blue-500 to-cyan-500">
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
@@ -326,7 +326,7 @@ export default function Navbar() {
                           <Image src={expand} width={20} height={20} />
                         </div>
                       </button>
-                      <div className="dropdown-content  bg-gradient-to-r from-cyan-500 to-blue-500">
+                      <div className="dropdown-content  bg-gradient-to-r from-blue-500 to-cyan-500">
                         <div
                           className="flex justify-center items-center py-2 cursor-pointer"
                           onClick={function handleLogo() {
@@ -367,7 +367,7 @@ export default function Navbar() {
                         <Image src={expand} width={20} height={20} />
                       </div>
                     </button>
-                    <div className="dropdown-content bg-gradient-to-r from-cyan-500 to-blue-500">
+                    <div className="dropdown-content bg-gradient-to-r from-blue-500 to-cyan-500">
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
