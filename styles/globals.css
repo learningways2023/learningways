@@ -6,7 +6,7 @@
   background-color: #111010 !important;
 }
 .dropbtn {
-  background-color: #085464;
+  /* background-color: #085464; */
   color: #fff;
 
   font-size: 16px;
@@ -41,7 +41,7 @@
   display: none;
   position: absolute;
 
-  background-color: #085464;
+  
   min-width: 160px;
 
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -72,9 +72,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  background-color: #085464;
+  color: #000000;
   border: 1px solid #fff;
-  color: #ffff;
+  font-weight: 600;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -105,6 +105,7 @@
 }
 .heading {
   font-size: 25px;
+  color: #000000;
   font-weight: 600;
 }
 .getstarted {
@@ -130,8 +131,8 @@
   box-shadow: 19px 19px 38px #828282, -19px -19px 38px #ffffff;
 }
 .infPic:hover {
-  transform: scale(1.04);
-  transition: 300ms ease-out;
+  transform: scale(1.05);
+  transition: 300ms ease-in-out;
 }
 .high1 {
   border-bottom-left-radius: 15px;
@@ -388,23 +389,18 @@
   backdrop-filter: blur(5px);
 } */
 .card-col {
-  /* background: rgba(255,255,255,0.5);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-  border: 1px solid rgba(255,255,255,0.25);
-  border-radius: 20px; */
+  /*  
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px; */
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
   border-radius: 10px;
-
-  /* background: rgba( 255, 255, 255, 0.45 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .cardbg {
   background: url("https://64.media.tumblr.com/258788fb4c34d9bc05c07ea6c1c595ea/59020f76a0b5c5d9-0f/s540x810/ece51a09e06b6c5e926b5a3448e54de852a5c68d.gif");
@@ -415,7 +411,7 @@
   object-fit: cover;
 }
 .cardbg1 {
-  background: url("https://static.vecteezy.com/system/resources/previews/003/559/302/original/abstract-background-with-gradient-blue-bubble-free-vector.jpg");
+  background: url("../public//linearbg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

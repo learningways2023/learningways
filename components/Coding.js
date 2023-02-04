@@ -60,9 +60,9 @@ const Coding = (props) => {
         <div></div>
       )}
       <div className="w-full sm:w-1/2 md:w-1/2  xl:w-4/12  p-4 ">
-        <div className="card-col p-4 flex flex-col items-center justify-between min-h-[70vh] py-16">
+        <div className="card-col p-4 flex flex-col items-center justify-between min-h-[70vh] infPic py-16">
           <div>
-            <h2 className="mt-2 mb-2 text-xl  font-bold text-black text-center">
+            <h2 className="mt-2 mb-2 p-4 rounded-md text-xl bg-white opacity-[0.7]  font-bold text-black text-center">
               {props.tittle}
             </h2>
           </div>
@@ -78,7 +78,7 @@ const Coding = (props) => {
           </div>
           <div className="pt-3 flex items-center justify-between space-x-3 md:space-x-7 lg:space-x-10 xl:space-x-10">
             <div
-              className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold hover:bg-black hover:border-black duration-150"
+              className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
               onClick={function showModal() {
                 setModal(true);
               }}
@@ -86,7 +86,7 @@ const Coding = (props) => {
               Read More
             </div>
             <div
-              className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold hover:bg-black hover:border-black duration-150"
+              className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
               onClick={function showModal() {
                 setModal(true);
               }}
@@ -94,10 +94,6 @@ const Coding = (props) => {
               Start Now !
             </div>
           </div>
-
-          {/* <div className="p-4 flex items-center justify-center text-lg text-[#085464]   cursor-pointer">
-              Start Now !
-            </div> */}
         </div>
       </div>
     </>

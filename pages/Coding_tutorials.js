@@ -4,6 +4,8 @@ import Navbar from "../components/navbar";
 import Uparrow from "../components/uparrow";
 import Coding from "../components/Coding";
 import Footer from "../components/footer";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
+
 import { useRouter } from "next/router";
 const CodingTutorials = () => {
   const router = useRouter();
@@ -13,21 +15,38 @@ const CodingTutorials = () => {
   // }, []);
   return (
     <div className="">
+      {/* https://assets7.lottiefiles.com/packages/lf20_tno6cg2w.json */}
       <Navbar />
-      <Uparrow url="Coding_tutorials" />
-      <header class="cardbg w-[100%]  relative flex items-center justify-center h-screen vid  overflow-hidden">
-        <div class="relative   text-white pb-8">
-          <div className="xl:text-[42px] lg:text-[34px] sm:text-[32px] text-[24px] py-2 sm:px-10 px-5 flex justify-center items-center text-center font-semibold">
-            Master the Art of Coding with Our Tutorials
-          </div>
-          <div className="flex justify-center items-center py-8">
-            <div className="px-5 py-3 xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] card-col rounded-xl cursor-pointer font-semibold">
-              Explore now
+      <div className="py-8 px-4 ">
+        <div className="bg-gradient-to-r from-cyan-500 to-blue-500 w-[100%] min-h-[80vh]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-6">
+            <div className="flex flex-col pt-20 items-center justify-between min-h-[50vh]">
+              <div className="xl:text-[42px] lg:text-[34px] sm:text-[32px] text-[24px] py-2 sm:px-10 px-5 flex justify-center items-center text-center font-semibold">
+                Master the Art of Coding with Our Tutorials
+              </div>
+              <div className="flex justify-center items-center">
+                <div className="px-5 py-3 xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] card-col rounded-xl cursor-pointer font-semibold">
+                  Explore now
+                </div>
+              </div>
+            </div>
+            <div className="w-auto h-auto pb-7 flex justify-center">
+              <Player
+                autoplay
+                loop
+                src="https://assets7.lottiefiles.com/packages/lf20_tno6cg2w.json"
+                className=" xl:w-[400px] xl:h-[400px] lg:w-[380px] lg:h-[400px] md:w-[400px] md:h-[400px] sm:w-[360px] sm:h-[360px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
+              ></Player>
             </div>
           </div>
         </div>
-        \
-        {/* <video
+
+        {/* <header class="bg-gradient-to-r from-cyan-500 to-blue-500 w-[100%]  relative flex items-center justify-center h-screen vid  overflow-hidden">
+          <div class="relative   text-white pb-8">
+            <div className="flex justify-center items-center py-8"></div>
+          </div>
+
+          <video
           autoplay
           loop
           muted
@@ -39,16 +58,18 @@ const CodingTutorials = () => {
             type="video/mp4"
           />
           Your browser does not support the video tag.
-        </video> */}
-      </header>
+        </video>
+        </header> */}
+      </div>
+      <Uparrow url="Coding_tutorials" />
 
-      <div className="text-[#085464] p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
+      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Learn and Explore
       </div>
-      <div className="mx-4 py-8 grid bg-gradient-to-r from-cyan-500 to-blue-500 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
+      <div className="px-4 py-8 mx-1 md:mx-4 lg:mx-4 xl:mx-4 grid bg-gradient-to-r from-cyan-500 to-blue-500 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-[#085464] cursor-pointer text-center flex justify-center items-center px-4"
+            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#web_development");
             }}
@@ -59,7 +80,7 @@ const CodingTutorials = () => {
         </div>
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-[#085464] cursor-pointer text-center flex justify-center items-center px-4 "
+            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#data_science");
             }}
@@ -70,7 +91,7 @@ const CodingTutorials = () => {
         </div>
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-[#085464] cursor-pointer text-center flex justify-center items-center px-4"
+            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#mobile_development");
             }}
@@ -81,7 +102,7 @@ const CodingTutorials = () => {
         </div>
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-[#085464] cursor-pointer text-center flex justify-center items-center px-4 "
+            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#game_development");
             }}
@@ -92,7 +113,7 @@ const CodingTutorials = () => {
         </div>
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-[#085464] cursor-pointer text-center flex justify-center items-center px-4"
+            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#cloud_computing");
             }}
@@ -103,7 +124,7 @@ const CodingTutorials = () => {
         </div>
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-[#085464] cursor-pointer text-center flex justify-center items-center px-4"
+            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#cyberSecurity");
             }}
@@ -114,7 +135,7 @@ const CodingTutorials = () => {
         </div>
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-[#085464] cursor-pointer text-center flex justify-center items-center px-4"
+            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#devops");
             }}
@@ -125,7 +146,7 @@ const CodingTutorials = () => {
         </div>
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-[#085464] cursor-pointer text-center flex justify-center items-center px-4"
+            className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#ai");
             }}
@@ -138,12 +159,12 @@ const CodingTutorials = () => {
 
       <div
         id="web_development"
-        className="text-[#085464] p-4 flex justify-center  items-center text-center xl:text-[42px] lg:text-[34px] sm:text-[32px] text-[22px] font-semibold mt-10"
+        className="text-black p-4 flex justify-center  items-center text-center xl:text-[42px] lg:text-[34px] sm:text-[32px] text-[22px] font-semibold mt-10"
       >
         Web Development
       </div>
       <div className="px-4 py-8">
-        <div className="cardbg w-full flex flex-wrap">
+        <div className="cardbg1 w-full flex flex-wrap">
           <Coding
             tittle="Get Started with React - A Beginner's Guide"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -212,12 +233,12 @@ const CodingTutorials = () => {
       </div>
       <div
         id="data_science"
-        className="text-[#085464] p-4 pt-9  flex justify-center font-semibold  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
+        className="text-black p-4 pt-9  flex justify-center font-semibold  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
       >
         Data Science
       </div>
       <div className="px-4 py-8">
-        <div className="= bg-gradient-to-r from-cyan-500 to-blue-500 w-full flex flex-wrap">
+        <div className="cardbg1 w-full flex flex-wrap">
           <Coding
             tittle="Introduction to Python for Data Science"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -287,12 +308,12 @@ const CodingTutorials = () => {
 
       <div
         id="mobile_development"
-        className="text-[#085464] p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
+        className="text-black p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
       >
         Mobile Development
       </div>
       <div className="px-4 py-8">
-        <div className=" bg-gradient-to-r from-sky-500 to-indigo-500 w-full flex flex-wrap">
+        <div className="cardbg1 w-full flex flex-wrap">
           <Coding
             tittle="Kishore Vigyan Protsahan Yojana (KVPY)"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -362,12 +383,12 @@ const CodingTutorials = () => {
 
       <div
         id="game_development"
-        className="text-[#085464] p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
+        className="text-black p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
       >
         Game Development
       </div>
       <div className="px-4 py-8">
-        <div className="bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full flex flex-wrap">
+        <div className="cardbg1 w-full flex flex-wrap">
           <Coding
             tittle="Getting Started with Unity - Create Your First Game"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -437,12 +458,12 @@ const CodingTutorials = () => {
 
       <div
         id="cloud_computing"
-        className="text-[#085464] p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
+        className="text-black p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
       >
         Cloud Computing
       </div>
       <div className="px-4 py-8">
-        <div className=" bg-gradient-to-b from-[#a3a8ed] to-[#6551c8] w-full flex flex-wrap">
+        <div className="cardbg1 w-full flex flex-wrap">
           <Coding
             tittle="Getting Started with Amazon Web Services (AWS)"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -511,12 +532,12 @@ const CodingTutorials = () => {
       </div>
       <div
         id="cyberSecurity"
-        className="text-[#085464] p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
+        className="text-black p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
       >
         CyberSecurity
       </div>
       <div className="px-4 py-8">
-        <div className=" bg-gradient-to-r from-green-400 to-blue-500 w-full flex flex-wrap">
+        <div className=" cardbg1 w-full flex flex-wrap">
           <Coding
             tittle="Introduction to Cybersecurity Awareness"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."
@@ -585,7 +606,7 @@ const CodingTutorials = () => {
       </div>
       <div
         id="devops"
-        className="text-[#085464] p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
+        className="text-black p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
       >
         Devops
       </div>
@@ -659,12 +680,12 @@ const CodingTutorials = () => {
       </div>
       <div
         id="ai"
-        className="text-[#085464] p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
+        className="text-black p-4 pt-9 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] "
       >
         Artificial Intelligence
       </div>
       <div className="px-4 py-8">
-        <div className="cbg  w-full flex flex-wrap">
+        <div className="cardbg1  w-full flex flex-wrap">
           <Coding
             tittle="An Introduction to Artificial Intelligence"
             s1="Learn the basics of digital marketing, including web design, search engine optimization, social media, and online advertising."

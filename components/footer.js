@@ -12,12 +12,13 @@ import { useRouter } from "next/router";
 function Footer() {
   const router = useRouter();
   return (
-    <div className="bg-[#085464] text-white">
+    <div className="grid bg-gradient-to-r from-cyan-500 to-blue-500 text-white">
       <div className="sm:pt-10  pb-4 footer">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3 gap-2 lg:gap-4 px-5">
           <div className="p-2 rounded-md flex sm:justify-start justify-center sm:text-left text-center">
             <div>
               <span className="heading">Resourses</span>
+              <br />
               <br />
               <ul>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
@@ -43,6 +44,7 @@ function Footer() {
             <div>
               <span className="heading">Partnerships</span>
               <br />
+              <br />
               <ul>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
                   <Link href="/">LearningWays for Schools</Link>
@@ -63,6 +65,7 @@ function Footer() {
             <div>
               <span className="heading">Library</span>
               <br />
+              <br />
               <ul>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
                   <Link href="/">Career Arena</Link>
@@ -79,6 +82,7 @@ function Footer() {
           <div className="p-2  rounded-md flex sm:justify-start justify-center mb-5 sm:text-left text-center">
             <div>
               <span className="heading">About us</span>
+              <br />
               <br />
               <ul>
                 <li className="py-1 foottext hover:text-[#79c5d4]">
@@ -110,6 +114,7 @@ function Footer() {
           <div className="p-2  rounded-md flex sm:justify-start justify-center mb-9 sm:text-left text-center">
             <div>
               <span className="heading">Contact us</span>
+              <br />
               <br />
               <ul>
                 {/* <li className="py-1 foottext hover:text-[#79c5d4] flex  items-center justify-center md:justify-start lg:justify-start xl:justify-start">
