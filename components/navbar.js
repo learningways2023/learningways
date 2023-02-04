@@ -10,7 +10,7 @@ export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full  grid bg-gradient-to-r from-cyan-500 to-blue-500 drop-shadow">
+      <nav className="w-full bg-gradient-to-r from-blue-500 to-cyan-500">
         <div className="justify-between px-4  lg:items-center lg:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-1  md:py-1 lg:block">
