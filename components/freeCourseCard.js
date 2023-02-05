@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import close from "../public/close.svg";
-import bullet from "../public/bullet.svg";
+import bullet from "../public/bulletblack.svg";
 const FreeCourseCard = (props) => {
   const [modal, setModal] = useState(false);
   console.log(props);
@@ -60,30 +60,30 @@ const FreeCourseCard = (props) => {
         <div></div>
       )}
       <div className="w-full sm:w-1/2 md:w-1/2 xl:w-4/12 p-4 ">
-        <div className="c-card block border border-1 border-gray-300 drop-shadow-2xl bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div className="w-full h-full ">
+        <div className="card-col block  infp overflow-hidden">
+          <div className="w-full h-full p-4 ">
             <Image
               width={450}
               height={200}
-              className="h-[200px]"
+              className="h-[200px] rounded-md"
               src={props.img}
               alt=""
             />
           </div>
-          <div className="p-4">
-            <h2 className="mt-2 mb-2 text-xl  font-bold text-[#085464] text-center">
+          <div className="px-4">
+            <h2 className="mt-2 mb-2 py-2 text-xl  font-bold text-black bg-white rounded-md opacity-[0.7]   text-center">
               {props.tittle}
             </h2>
-            <div className="text-sm py-1 flex  items-center">
+            <div className="text-md py-1 flex  items-center">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s1}
             </div>
-            <div className="text-sm py-1 flex  items-center">
+            <div className="text-md py-1 flex  items-center">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s2}
             </div>
             <div
-              className="flex justify-center items-center px-4 text-[#085464] pt-1 cursor-pointer"
+              className="flex justify-center items-center px-4 text-[#fff] font-semibold py-1 cursor-pointer"
               onClick={function showModal() {
                 setModal(true);
               }}
@@ -91,42 +91,42 @@ const FreeCourseCard = (props) => {
               view full description
             </div>
           </div>
-          <div className="p-4 border-t border-b text-xs text-[#085464]">
+          <div className="p-4 border-t border-b text-sm text-black">
             <div className="mt-3 flex items-center justify-between">
-              <div className="flex items-center text-sm text-[#085464]">
+              <div className="flex items-center text-sm ">
                 <span className="text-sm font-semibold pr-2 ">4.8 </span>
                 <svg
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 fill-current text-[#085464]"
+                  className="h-4 w-4 fill-current"
                 >
                   <path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 fill-current text-[#085464]"
+                  className="h-4 w-4 fill-current "
                 >
                   <path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 fill-current text-[#085464]"
+                  className="h-4 w-4 fill-current "
                 >
                   <path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 fill-current text-[#085464]"
+                  className="h-4 w-4 fill-current"
                 >
                   <path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path>
                 </svg>
                 <svg
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 fill-current text-gray-400"
+                  className="h-4 w-4 fill-current text-gray-300"
                 >
                   <path d="M8.128 19.825a1.586 1.586 0 0 1-1.643-.117 1.543 1.543 0 0 1-.53-.662 1.515 1.515 0 0 1-.096-.837l.736-4.247-3.13-3a1.514 1.514 0 0 1-.39-1.569c.09-.271.254-.513.475-.698.22-.185.49-.306.776-.35L8.66 7.73l1.925-3.862c.128-.26.328-.48.577-.633a1.584 1.584 0 0 1 1.662 0c.25.153.45.373.577.633l1.925 3.847 4.334.615c.29.042.562.162.785.348.224.186.39.43.48.704a1.514 1.514 0 0 1-.404 1.58l-3.13 3 .736 4.247c.047.282.014.572-.096.837-.111.265-.294.494-.53.662a1.582 1.582 0 0 1-1.643.117l-3.865-2-3.865 2z"></path>
                 </svg>
@@ -135,9 +135,20 @@ const FreeCourseCard = (props) => {
               &nbsp;
             </div>
           </div>
-          <div className="p-4 flex items-center justify-center text-lg text-[#085464]   cursor-pointer">
-            Start Now !
+          <div className="my-3 float">
+            
+            <span className="  p-2 pr-4 flex justify-center items-center  cursor-pointer">
+              <div
+                className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
+                onClick={function showModal() {
+                  setModal(true);
+                }}
+              >
+                Start Now !
+              </div>
+            </span>
           </div>
+          
         </div>
       </div>
     </>

@@ -84,7 +84,7 @@ const ArticleCard = (props) => {
             </div>
           </div>
 
-          <div className="mt-3 float">
+          <div className="my-3  float">
             
             <span className="  p-2 pr-4  flex justify-center items-center  cursor-pointer">
               <div

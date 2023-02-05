@@ -17,7 +17,7 @@ const NCERTSolutions = () => {
     <div>
       <Navbar />
       <Uparrow url="NCERT_Solutions" />
-      
+
       <div className="mx-4 my-5 min-h-[100vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg ">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="w-full h-full flex-row justify-center items-center">
@@ -89,10 +89,13 @@ const NCERTSolutions = () => {
                   />
 
                   <div className=" flex justify-center items-center pt-7 pb-3  ">
-                    <div className="getstarted gt text-[18px] text-white py-2 px-7 rounded-md flex justify-center items-center">
-                      <button type="submit" className="font-medium">
-                        Get an Idea !
-                      </button>
+                    <div
+                      className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
+                      onClick={function showModal() {
+                        setModal(true);
+                      }}
+                    >
+                      Get an Idea !
                     </div>
                   </div>
                 </form>

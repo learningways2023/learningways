@@ -15,206 +15,259 @@ const Assesment = () => {
   return (
     <div>
       <Navbar />
-      <div className="p-4 min-h-[100vh]">
+      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] my-5">
+        Select Your Exam Category
+      </div>
+      <div className="p-4 mx-4  min-h-[80vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-          <div className="w-full h-full">
-            <div className="flex justify-center items-center"></div>
-            <div className="rounded-md flex items-center justify-start">
-              <span className="  text-[#085464] font-medium text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
-                Select your Exam Category
-              </span>
-            </div>
-
-            <div className="grid grid-cols-2 pt-9 gap-5">
-              <div className="w-full h-full">
-                <div className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  NCERT
-                </div>
-              </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  Coding
-                </div>
-              </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  Skill Test
-                </div>
-              </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  UPSC General Studies
-                </div>
+          <div className=" grid  grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#web_development");
+                }}
+              >
+                {" "}
+                NCERT COURSES
               </div>
             </div>
-            <div className="w-full h-full">
-              <div className="flex justify-center items-center pt-9">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  UPSC Current Affairs
-                </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#data_science");
+                }}
+              >
+                {" "}
+                NCERT
+              </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#mobile_development");
+                }}
+              >
+                {" "}
+                NCERT MCQ
+              </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#game_development");
+                }}
+              >
+                {" "}
+                NCERT SOLUTION
+              </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#cloud_computing");
+                }}
+              >
+                {" "}
+                NCERT SUMMARY
               </div>
             </div>
           </div>
+
           <div className="flex justify-center items-center ">
             <Image src={test1} />
           </div>
         </div>
       </div>
-      <div className="p-4 min-h-[50vh]">
-        <div className="text-[#085464] font-medium text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
-          Choose your stream
-        </div>
-        <div className="py-9 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
-          <div className="w-full h-full">
-            <div className="flex justify-center items-center">
-              <div>
-                <i className="absolute ml-4 -mt-2">
-                  <Image src={search} width={20} height={20} />
-                </i>
-              </div>
-              <input
-                className={classes}
-                type="text"
-                required
-                placeholder="Search for your Stream"
-              />
-            </div>
-          </div>
-
-          <div className="flex justify-center items-center">
-            <div className="w-[150px] h-[50px] bg-[#085464] rounded-xl flex justify-center items-center cursor-pointer">
-              <div>
-                <Image src={filter} width={20} height={20} />
-              </div>
-              <div className="pl-3 text-[20px] text-white">Filters</div>
-            </div>
+      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
+        Choose your stream
+      </div>
+      <div className="px-4 py-8 mx-1 md:mx-4 lg:mx-4 xl:mx-4 my-8 grid bg-gradient-to-r from-blue-500 to-cyan-500 grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
+        <div className="w-full h-full flex justify-center items-center">
+          <div
+            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+            onClick={function handleNavigate() {
+              router.push("/Coding_tutorials#web_development");
+            }}
+          >
+            {" "}
+            NCERT COURSES
           </div>
         </div>
-        <div className="lg:px-8 xl:px-8 px-0 flex justify-between w-[100%] space-x-4  lg:w-[50%] xl:w-[50%]">
-          <div className="  w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
+        <div className="w-full h-full flex justify-center items-center">
+          <div
+            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+            onClick={function handleNavigate() {
+              router.push("/Coding_tutorials#data_science");
+            }}
+          >
             {" "}
-            NCERT Class 7th History
-          </div>
-
-          <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-            {" "}
-            NCERT Class 7th History
+            NCERT
           </div>
         </div>
       </div>
-      <div className="p-4 min-h-[100vh]">
+      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
+        Most popular Tests
+      </div>
+      <div className="p-4 mx-4 mt-10 min-h-[80vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div className="flex justify-center items-center ">
-            <Image src={test2} />
+            <Image src={test1} />
           </div>
-          <div className="w-full h-full">
-            <div className="flex justify-center items-center"></div>
-            <div className="rounded-md flex items-center justify-start">
-              <span className="  text-[#085464] font-medium text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
-                Most popular Tests
-              </span>
+          <div className=" grid  grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#web_development");
+                }}
+              >
+                {" "}
+                NCERT Class 7th History
+              </div>
             </div>
-
-            <div className="grid grid-cols-2 pt-9 gap-5">
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  NCERT Class 7th History
-                </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#data_science");
+                }}
+              >
+                {" "}
+                NCERT Class 9th History
               </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  NCERT Class 9th History
-                </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#mobile_development");
+                }}
+              >
+                {" "}
+                Product Management
               </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  Product Management
-                </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#game_development");
+                }}
+              >
+                {" "}
+                Digital Marketing Basic Level
               </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  Digital Marketing Basic Level
-                </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#cloud_computing");
+                }}
+              >
+                {" "}
+                UPSC General Studies
               </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  UPSC General Studies
-                </div>
-              </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  Fun Coding
-                </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#cyberSecurity");
+                }}
+              >
+                {" "}
+                Fun Coding
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="p-4 min-h-[100vh]">
+      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
+        Learn through our courses & access yourself
+      </div>
+      <div className="p-4 mx-4 my-10 min-h-[80vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-          <div className="w-full h-full">
-            <div className="flex justify-center items-center"></div>
-            <div className="rounded-md flex items-center justify-start">
-              <span className="  text-[#085464] font-medium text-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] lg:text-left xl:text-left">
-                Learn through our courses & access yourself
-              </span>
+          <div className="grid  grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#web_development");
+                }}
+              >
+                {" "}
+                UPSC courses
+              </div>
             </div>
-
-            <div className="grid grid-cols-2 pt-9 gap-5">
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]  text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  UPSC courses
-                </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#data_science");
+                }}
+              >
+                {" "}
+                Coding
               </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  Coding
-                </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#mobile_development");
+                }}
+              >
+                {" "}
+                NCERT Summary Class
               </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  NCERT Summary Class
-                </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#game_development");
+                }}
+              >
+                {" "}
+                NCERT SOLUTION
               </div>
-              <div className="w-full h-full">
-                {/* <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  Skill Test
-                </div> */}
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#cloud_computing");
+                }}
+              >
+                {" "}
+                Product Management
               </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  Product Management
-                </div>
-              </div>
-              <div className="w-full h-full">
-                <div className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] border border-1 hover:text-white border-[#085464] rounded-lg bg-white hover:bg-[#085464]   text-[#085464] cursor-pointer text-center flex justify-center items-center font-normal">
-                  {" "}
-                  Digital Marketing
-                </div>
+            </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <div
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                onClick={function handleNavigate() {
+                  router.push("/Coding_tutorials#cyberSecurity");
+                }}
+              >
+                {" "}
+                Digital Marketing
               </div>
             </div>
           </div>
+
           <div className="flex justify-center items-center ">
             <Image src={test3} />
           </div>
         </div>
       </div>
+
       <Footer />
     </div>
   );
