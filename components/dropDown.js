@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import Image from "next/image";
-import bullet from "../public/bullet.svg";
+import bullet from "../public/bulletblack.svg";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -11,7 +11,7 @@ export default function DropdownComponent(props) {
   return (
     <Menu as="div" className="relative inline-block whiteBox">
       <div>
-        <Menu.Button className="py-1 px-3 xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] font-medium drop-shadow-2xl text-[#c47993] bg-white    focus:outline-none  whiteBox">
+        <Menu.Button className="py-1 px-3 xl:text-[22px] lg:text-[20px] sm:text-[18px] text-[16px] font-medium drop-shadow-2xl text-black bg-white    focus:outline-none  whiteBox">
           <div className=" flex items-center justify-between py-[1rem] xl:px-[3rem]">
             <div className="rounded-md text-left">
               <span className="benifitsTopics">{props.name}</span>

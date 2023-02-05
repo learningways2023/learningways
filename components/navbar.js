@@ -186,6 +186,15 @@ export default function Navbar() {
                     </button>
                     <div className="dropdown-content bg-gradient-to-r from-blue-500 to-cyan-500">
                       <div
+                        className="flex justify-center items-center px-[2px] py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        onClick={function handleLogo() {
+                          router.push("/");
+                          setNavbar(false);
+                        }}
+                      >
+                        UPSC General Studies
+                      </div>
+                      <div
                         className="flex justify-center items-center py-2 cursor-pointer mt-1 hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
                           router.push("/NCERT_Solutions");
@@ -194,33 +203,7 @@ export default function Navbar() {
                       >
                         NCERT SOLUTIONS
                       </div>
-                      <div
-                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
-                        onClick={function handleLogo() {
-                          router.push("/joint_entrance_exam");
-                          setNavbar(false);
-                        }}
-                      >
-                        JEE
-                      </div>
-                      <div
-                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
-                        onClick={function handleLogo() {
-                          router.push("/national_entrance_eligiblity_test");
-                          setNavbar(false);
-                        }}
-                      >
-                        NEET
-                      </div>
-                      <div
-                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
-                        onClick={function handleLogo() {
-                          router.push("/");
-                          setNavbar(false);
-                        }}
-                      >
-                        GATE
-                      </div>
+
                       <div
                         className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
@@ -248,15 +231,7 @@ export default function Navbar() {
                       >
                         Practice Questions
                       </div>
-                      <div
-                        className="flex justify-center items-center px-[2px] py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
-                        onClick={function handleLogo() {
-                          router.push("/");
-                          setNavbar(false);
-                        }}
-                      >
-                        UPSC General Studies
-                      </div>
+
                       <div
                         className="flex justify-center items-center px-1 py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
                         onClick={function handleLogo() {
@@ -265,6 +240,33 @@ export default function Navbar() {
                         }}
                       >
                         UPSC Current affairs
+                      </div>
+                      <div
+                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        onClick={function handleLogo() {
+                          router.push("/joint_entrance_exam");
+                          setNavbar(false);
+                        }}
+                      >
+                        JEE
+                      </div>
+                      <div
+                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        onClick={function handleLogo() {
+                          router.push("/national_entrance_eligiblity_test");
+                          setNavbar(false);
+                        }}
+                      >
+                        NEET
+                      </div>
+                      <div
+                        className="flex justify-center items-center py-2 cursor-pointer hover:bg-white hover:text-[#085464]"
+                        onClick={function handleLogo() {
+                          router.push("/");
+                          setNavbar(false);
+                        }}
+                      >
+                        GATE
                       </div>
                     </div>
                   </div>

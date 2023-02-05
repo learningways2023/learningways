@@ -11,9 +11,12 @@ import team from "../public/team.png";
 import Contact from "../components/contact";
 import Career from "../components/career";
 import values from "../public/values.png";
-import bullet from "../public/bullet.svg";
+import bullet from "../public/bulletblack.svg";
 import { useCallback, useEffect, useState } from "react";
 const About = () => {
+  const classes =
+    " text-black border-b-2  text-base bg-inherit placeholder-[#333]  w-full h-full   block py-2.5 lg:px-9 xl:px-9 px-9 outline-0 focus:outline-0 ";
+
   const useMediaQuery = (width) => {
     const [targetReached, setTargetReached] = useState(false);
 
@@ -45,7 +48,10 @@ const About = () => {
       <Navbar isLogedIn={false} />
       <Uparrow url="about" />
       <div className="pb-9">
-        <div className="about_hero1 pt-10" id="what_we_do">
+        <div
+          className="about_hero1 mx-4 my-5 rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 pt-10"
+          id="what_we_do"
+        >
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
             <div className=" rounded-md flex items-center justify-center px-8">
               <Image src={about} />
@@ -53,12 +59,12 @@ const About = () => {
             <div className=" p-4 rounded-md flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-0 lg:gap-8 sm:gap-4 lg:px-10 md:px-10 px-3">
                 <div className="rounded-md flex items-center justify-center">
-                  <h1 className=" xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-[#c47993] font-semibold text-center">
+                  <h1 className=" xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold text-center">
                     WHAT WE DO?
                   </h1>
                 </div>
                 <div className="mt-[1rem] rounded-md flex items-center justify-center xl:text-xl lg:text-lg md:text-lg xl:leading-[197%] lg:leading-[197%] sm:leading-[197%] md:leading-[197%] leading-[197%] lg:text-left md:text-center text-center ">
-                  <span className="text-gray-700 font-medium ">
+                  <span className="text-white font-medium ">
                     Experience quality and affordable education with
                     LearningWays. Our interactive platform caters to learners of
                     all levels, from class 5th to higher education and even
@@ -81,7 +87,7 @@ const About = () => {
             <div className=" rounded-md flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className=" rounded-md flex items-center justify-center">
-                  <h1 className="xl:text-4xl lg:text-3xl text-center md:text-3xl text-[26px] text-[#c47993] font-semibold pb-5 lg:pr-20 ">
+                  <h1 className="xl:text-4xl lg:text-3xl text-center md:text-3xl text-[26px] text-black font-semibold pb-5 lg:pr-20 ">
                     VISION
                   </h1>
                 </div>
@@ -114,7 +120,7 @@ const About = () => {
             <div className=" rounded-md flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className=" rounded-md flex items-center justify-center">
-                  <h1 className="xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-[#c47993] font-semibold pb-5 lg:pr-20 text-center">
+                  <h1 className="xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold pb-5 lg:pr-20 text-center">
                     MISSION
                   </h1>
                 </div>
@@ -155,7 +161,7 @@ const About = () => {
             <div className=" rounded-md flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className=" rounded-md flex items-center justify-center">
-                  <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-[#c47993] font-semibold pb-5 lg:pr-20">
+                  <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold pb-5 lg:pr-20">
                     VALUES
                   </h1>
                 </div>
@@ -198,7 +204,7 @@ const About = () => {
             <div className=" rounded-md flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className=" rounded-md flex items-center justify-center">
-                  <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-[#c47993] font-semibold pb-5 lg:pr-20 ">
+                  <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold pb-5 lg:pr-20 ">
                     TEAM
                   </h1>
                 </div>
@@ -232,16 +238,141 @@ const About = () => {
           </div> */}
         </div>
       </div>
-      <div className="py-9 pb-6 " id="contact">
-        <div className="min-h-[100vh] bg-[#085464] flex justify-center items-center ">
-          <Contact />
+      <div className=" rounded-md flex items-center justify-center">
+        <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold pb-5 lg:pr-20 ">
+          Contact Us
+        </h1>
+      </div>
+      <div className="m-4 min-h-[100vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+          <div className="w-full h-full flex-row justify-center items-center"></div>
+          <div className=" p-4 rounded-md flex items-center justify-center  pt-9">
+            <div className="newloginContainer cardbg1  rounded-md">
+              <div className="card-col">
+                <form
+                  className="newLoginForm m-4 py-7"
+                  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc_QJ0517TP7rdLkVNpYs49aiK3qiH__gMYL8MdvoFop15jEw/formResponse"
+                >
+                  <label className="text-lg   pb-1">Name</label>
+                  <input
+                    className={classes}
+                    type="text"
+                    name="entry.2005620554"
+                    placeholder="Enter your Name"
+                  />
+
+                  <div className="flex justify-between pr-[1.5rem] pb-1">
+                    <label className="text-lg   ">Contact </label>
+                  </div>
+                  <input
+                    className={classes}
+                    type="number"
+                    name="entry.1045781291"
+                    placeholder="Enter your Mobile Number"
+                  />
+                  <div className="flex justify-between pr-[1.5rem] pb-1">
+                    <label className="text-lg   ">Class</label>
+                  </div>
+                  <input
+                    className={classes}
+                    type="text"
+                    name="entry.1166974658"
+                    placeholder="Enter your Grade"
+                  />
+                  <div className="flex justify-between pr-[1.5rem] pb-1">
+                    <label className="text-lg   ">City</label>
+                  </div>
+                  <input
+                    className={classes}
+                    type="text"
+                    name="entry.1166974658"
+                    placeholder="Type Your City"
+                  />
+
+                  <div className=" flex justify-center items-center pt-7 pb-3  ">
+                    <div
+                      className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
+                      onClick={function showModal() {
+                        setModal(true);
+                      }}
+                    >
+                      Request a call back !
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="py-9 " id="career">
-        <div className="min-h-[100vh] bg-[#085464] flex justify-center items-center ">
-          <Career />
+      <div className=" rounded-md flex items-center justify-center mt-10">
+        <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold pb-5 lg:pr-20 ">
+          Career With Us
+        </h1>
+      </div>
+      <div className="m-4 min-h-[100vh] bg-gradient-to-r mt-10 from-blue-500 to-cyan-500 rounded-lg">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+          <div className=" p-4 rounded-md flex items-center justify-center  pt-9">
+            <div className="newloginContainer cardbg1  rounded-md">
+              <div className="card-col">
+                <form
+                  className="newLoginForm m-4 py-7"
+                  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc_QJ0517TP7rdLkVNpYs49aiK3qiH__gMYL8MdvoFop15jEw/formResponse"
+                >
+                  <label className="text-lg   pb-1">Name</label>
+                  <input
+                    className={classes}
+                    type="text"
+                    name="entry.2005620554"
+                    placeholder="Enter your Name"
+                  />
+
+                  <div className="flex justify-between pr-[1.5rem] pb-1">
+                    <label className="text-lg   ">Contact </label>
+                  </div>
+                  <input
+                    className={classes}
+                    type="number"
+                    name="entry.1045781291"
+                    placeholder="Enter your Mobile Number"
+                  />
+                  <div className="flex justify-between pr-[1.5rem] pb-1">
+                    <label className="text-lg   ">Class</label>
+                  </div>
+                  <input
+                    className={classes}
+                    type="text"
+                    name="entry.1166974658"
+                    placeholder="Enter your Grade"
+                  />
+                  <div className="flex justify-between pr-[1.5rem] pb-1">
+                    <label className="text-lg   ">City</label>
+                  </div>
+                  <input
+                    className={classes}
+                    type="text"
+                    name="entry.1166974658"
+                    placeholder="Type Your City"
+                  />
+
+                  <div className=" flex justify-center items-center pt-7 pb-3  ">
+                    <div
+                      className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
+                      onClick={function showModal() {
+                        setModal(true);
+                      }}
+                    >
+                      Request a call back !
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div className="w-full h-full flex-row justify-center items-center"></div>
         </div>
       </div>
+
       <div className="pb-9">
         <div className="missionpage ">
           <div
@@ -251,7 +382,7 @@ const About = () => {
             <div className=" rounded-md flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
                 <div className=" rounded-md flex items-center justify-center">
-                  <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-[#c47993] font-semibold pb-5 lg:pr-20 ">
+                  <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold pb-5 lg:pr-20 ">
                     Refund Policy
                   </h1>
                 </div>
@@ -276,7 +407,7 @@ const About = () => {
           >
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
               <div className=" rounded-md flex items-center justify-center">
-                <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-[#c47993] font-semibold pb-5 lg:pr-20 ">
+                <h1 className="text-center xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold pb-5 lg:pr-20 ">
                   Terms and Conditions
                 </h1>
               </div>

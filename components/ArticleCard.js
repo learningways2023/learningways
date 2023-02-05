@@ -2,10 +2,10 @@ import React from "react";
 
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 import close from "../public/close.svg";
 import bullet from "../public/bulletblack.svg";
-
-const Exams = (props) => {
+const ArticleCard = (props) => {
   const [modal, setModal] = useState(false);
   console.log(props);
   return (
@@ -59,45 +59,51 @@ const Exams = (props) => {
       ) : (
         <div></div>
       )}
-      <div className="w-full sm:w-1/2 md:w-1/2  xl:w-4/12  p-4 ">
-        <div className="card-col p-4 flex flex-col items-center justify-between min-h-[70vh] infPic py-16">
-          <div>
-            <h2 className="mt-2 mb-2 p-4 rounded-md text-xl bg-white opacity-[0.7]  font-bold text-black text-center">
+      <div className="w-full sm:w-1/2 md:w-1/2 xl:w-4/12 p-4 ">
+        <div className="card-col block  infp overflow-hidden">
+          <div className="w-full h-full p-4 ">
+            <Image
+              width={450}
+              height={200}
+              className="h-[200px] rounded-md"
+              src={props.img}
+              alt=""
+            />
+          </div>
+          <div className="px-4">
+            <h2 className="mt-2 mb-2 py-2 text-xl  font-bold text-black bg-white rounded-md opacity-[0.7]   text-center">
               {props.tittle}
             </h2>
-          </div>
-          <div>
-            <div className="text-md  py-1 flex  items-center text-black font-semibold">
+            <div className="text-md py-1 flex  items-center">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s1}
             </div>
-            <div className="text-md py-1 flex  items-center text-black font-semibold">
+            <div className="text-md py-1 flex  items-center">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s2}
             </div>
           </div>
-          <div className="pt-3 flex items-center justify-between space-x-3 md:space-x-7 lg:space-x-10 xl:space-x-10">
-            <div
-              className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
-              onClick={function showModal() {
-                setModal(true);
-              }}
-            >
-             View Syllabus
-            </div>
-            <div
-              className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
-              onClick={function showModal() {
-                setModal(true);
-              }}
-            >
-              LearingWays Guidelines
-            </div>
+
+          <div className="mt-3 float">
+            
+            <span className="  p-2 pr-4  flex justify-center items-center  cursor-pointer">
+              <div
+                className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
+                onClick={function showModal() {
+                  setModal(true);
+                }}
+              >
+                Read Full Article
+              </div>
+            </span>
           </div>
+          {/* <div className="p-4 flex items-center justify-center text-lg text-[#085464]   cursor-pointer">
+            Start Now !
+          </div> */}
         </div>
       </div>
     </>
   );
 };
 
-export default Exams;
+export default ArticleCard;
