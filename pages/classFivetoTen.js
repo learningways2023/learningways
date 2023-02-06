@@ -17,9 +17,9 @@ import Uparrow from "../components/uparrow";
 const ClassFivetoTen = () => {
   const router = useRouter();
   const classes =
-    "border-2 border-[#085464] text-[#085464] text-base font-medium w-full h-full rounded-md focus:ring-[#085464] focus:border-[#085464]  block py-2.5 lg:px-5 xl:px-5 px-12 ";
+    " text-black border-b-2  text-base bg-inherit placeholder-[#333]  w-full h-full   block py-2.5 lg:px-9 xl:px-9 px-9 outline-0 focus:outline-0 ";
   const FormHeader = (props) => (
-    <h2 className="font-[500] text-black xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px]">
+    <h2 className="font-[500] py-5 text-black xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px]">
       {props.title}
     </h2>
   );
