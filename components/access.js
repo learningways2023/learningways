@@ -28,16 +28,15 @@ const Access = () => {
   }, [controls, inView]);
   return (
     <div>
-      <div className="w-full min-h-screen py-9">
-        <div className="px-4 py-7  flex justify-center items-center">
-          <span className="xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#c47993] font-semi-bold text-center">
-            Assess yourself
-          </span>
+      <div className="mx-4 my-5 ">
+        <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
+          Assess yourself
         </div>
+
         <div className="p-4 w-full text-center">
-          <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-12">
-            <div className="h-auto w-full    infPic flex items-center justify-center  ">
-              <div className="w-[250px] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+          <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
+            <div className="h-full  w-full    infPic flex items-center justify-center  ">
+              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white ">
                 <div className="flex justify-center items-center rounded-md px-3 py-3">
                   <Image src={s1} width={100} height={100} />
                 </div>
@@ -51,16 +50,14 @@ const Access = () => {
                   </span>
                 </div>
                 <div className=" flex justify-center items-center px-3 py-6">
-                  <Link href="/login">
-                    <div className=" gt xl:text-[20px] lg:text-[18px] bg-white text-[#085464] py-2 px-4 rounded-md ">
-                      <button className="font-medium">Learn & Grow</button>
-                    </div>
-                  </Link>
+                  <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                    <button>Learn & Grow</button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="h-auto w-full infPic flex items-center justify-center  ">
-              <div className="w-[250px] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+            <div className="h-full w-full infPic flex items-center justify-center  ">
+              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white  ">
                 <div className="flex justify-center items-center rounded-md px-3 py-3">
                   <Image src={s2} width={100} height={100} />
                 </div>
@@ -74,16 +71,14 @@ const Access = () => {
                   </span>
                 </div>
                 <div className=" flex justify-center items-center px-3 py-6">
-                  <Link href="/login">
-                    <div className=" gt xl:text-[20px] lg:text-[18px] bg-white text-[#085464] py-2 px-4 rounded-md ">
-                      <button className="font-medium">Choose Here</button>
-                    </div>
-                  </Link>
+                  <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                    <button>Choose Here</button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="h-auto w-full    infPic flex items-center justify-center  ">
-              <div className="w-[250px] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+            <div className="h-full w-full    infPic flex items-center justify-center  ">
+              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white  ">
                 <div className="flex justify-center items-center rounded-md px-3 py-3">
                   <Image src={s3} width={100} height={100} />
                 </div>
@@ -97,16 +92,14 @@ const Access = () => {
                   </span>
                 </div>
                 <div className=" flex justify-center items-center px-3 py-6">
-                  <Link href="/login">
-                    <div className=" gt xl:text-[20px] lg:text-[18px] text-[#085464] bg-white py-2 px-4 rounded-md ">
-                      <button className="font-medium">Decide Here</button>
-                    </div>
-                  </Link>
+                  <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                    <button>Decide Here</button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="h-auto w-full    infPic flex items-center justify-center  ">
-              <div className="w-[250px] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+            <div className="h-full w-full    infPic flex items-center justify-center  ">
+              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white  ">
                 <div className="flex justify-center items-center rounded-md px-3 py-3">
                   <Image src={s4} width={100} height={100} />
                 </div>
@@ -119,11 +112,9 @@ const Access = () => {
                   </span>
                 </div>
                 <div className=" flex justify-center items-center px-3 py-6">
-                  <Link href="/login">
-                    <div className=" gt xl:text-[20px] lg:text-[18px] bg-white text-[#085464] py-2 px-4 rounded-md ">
-                      <button className="font-medium">Start Here</button>
-                    </div>
-                  </Link>
+                  <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                    <button>Start Here</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -131,22 +122,22 @@ const Access = () => {
         </div>
       </div>
 
-      <div className="w-full min-h-[80vh] px-4 pt-7 bg-[#fff]">
+      <div className="rounded-md mx-4 my-5 min-h-[70vh] px-4 pt-7 bg-gradient-to-r from-blue-500 to-cyan-500">
         <div className="lg:flex justify-center items-start ">
           <div className="lg:flex lg:justify-between lg:items-center px-0">
             <div className="w-auto h-auto p-1 ">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:gap-6 lg:gap-5 sm:gap-4 gap-4">
-                <div className="  rounded-md flex items-center justify-center">
-                  <span className="xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#c47993] font-medium text-center lg:text-left xl:text-left">
+                <div className="  rounded-md flex items-center justify-start">
+                  <span className="font-semibold xl:text-[42px] text-white   lg:text-[34px] text-center sm:text-[32px] text-[24px] ">
                     Most reliable career guidance platform
                   </span>
                 </div>
-                <div className="xl:text-[26px] lg:text-[25px] sm:text-[25px] text-[18px] flex items-center justify-start text-center lg:text-left xl:text-left">
+                <div className="xl:text-[26px] lg:text-[25px] sm:text-[25px] text-[18px] font-semibold flex items-center justify-start text-center lg:text-left xl:text-left">
                   <span>Let us Learn- Practice & Grow together</span>
                 </div>
                 <div className=" rounded-md flex items-center justify-center lg:justify-start xl:justify-start pt-4">
-                  <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-2 px-9  rounded-md ">
-                    <button className="font-medium">Signup </button>
+                  <div className="border-2 text-white rounded px-7 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                    <button>Signup</button>
                   </div>
                 </div>
               </div>

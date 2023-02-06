@@ -22,29 +22,26 @@ const Goals = () => {
     }
   }, [controls, inView]);
   return (
-    <div
-      
-    >
-      <div className="px-4 py-7">
+    <div>
+      {/* <div className="px-4 py-7">
         <div className="py-7 flex justify-center items-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#c47993] font-semi-bold text-center">
           Explore Your Career Goals
         </div>
         <div className="flex justify-center items-center py-7">
           <Image src={paint} />
         </div>
+      </div> */}
+      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
+        Here's why they love Learning Ways
       </div>
-      <div className="px-4 py-7">
-        <div className="py-7 flex justify-center items-center xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#c47993] font-semi-bold text-center">
-          Here's why they love Learning Ways
-        </div>
-        <div className="py-4 px-4 flex justify-center items-center p-5">
-          <span className="xl:text-[26px] lg:text-[25px] sm:text-[25px] text-[18px] text-[#333] font-medium text-center">
-            Hear from the people who have experienced the benefits of our
-            Product/Service first hand
-          </span>
-        </div>
+
+      <div className=" px-4 mx-4 py-4 lg:px-7 xl:px-7 text-[#fff] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md   flex justify-center items-center text-center   xl:text-[28px] lg:text-[28px] sm:text-[23px] text-[18px] ">
+        Hear from the people who have experienced the benefits of our
+        Product/Service first hand
+      </div>
+      <div className="px-4 py-5">
         <div className="py-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
-          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+          <div className="p-5 rounded-md infPic flex items-center justify-center  bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white  ">
             <div>
               <div className="px-3 py-3 flex justify-center items-center rounded-md">
                 <Image src={kid} width={100} height={100} />
@@ -62,7 +59,7 @@ const Goals = () => {
               </div>
             </div>
           </div>
-          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+          <div className="p-5 rounded-md infPic flex items-center justify-center  bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white  ">
             <div>
               <div className="px-3 py-3 flex justify-center items-center rounded-md">
                 <Image src={upsc} width={100} height={100} />
@@ -79,7 +76,7 @@ const Goals = () => {
               </div>
             </div>
           </div>
-          <div className="p-5 rounded-md infPic flex items-center justify-center bg-[#085464] drop-shadow-lg  cursor-pointer text-white wwd">
+          <div className="p-5 rounded-md infPic flex items-center justify-center  bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white  ">
             <div>
               <div className="px-3 py-3 flex justify-center items-center rounded-md">
                 <Image src={parent} width={100} height={100} />

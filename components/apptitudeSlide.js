@@ -3,9 +3,9 @@ import React from "react";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 const ApptitudeSlide = () => {
   return (
-    <div className="w-full bg-[#085464] min-h-screen px-4 pt-7 flex justify-center items-center">
+    <div className="min-h-[80vh] bg-gradient-to-r from-blue-500 to-cyan-500 mx-4 my-5 rounded-md  flex justify-center items-center">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8 lg:gap-4 xl:gap-4">
-        <div className="w-full h-full flex justify-start items-center">
+        <div className="w-full h-full flex justify-center items-center">
           <div className="">
             <Player
               autoplay
@@ -17,11 +17,11 @@ const ApptitudeSlide = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 ">
           <div className="  rounded-md flex items-start justify-center">
-            <span className="xl:text-[42px] lg:text-[32px] sm:text-[32px] text-[20px] text-[#fff] font-medium text-center lg:text-left xl:text-left">
+            <span className="font-semibold xl:text-[42px] text-white   lg:text-[34px] sm:text-[32px] text-[24px] text-center lg:text-left xl:text-left">
               Unlock Your Potential !
             </span>
           </div>
-          <div className="xl:text-[26px] lg:text-[25px] sm:text-[25px] text-[18px] flex items-start justify-start text-center text-white">
+          <div className="xl:text-[26px] pt-10 pl-4 lg:text-[25px] sm:text-[25px] text-[18px] font-semibold flex items-start justify-start text-center text-black">
             <span>
               Take our online test to discover your strengths and find the
               career path that's right for you. Our comprehensive assessment

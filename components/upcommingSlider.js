@@ -1,30 +1,49 @@
 import React from "react";
+
 import Image from "next/image";
-import logo from "../public/logo.png";
-import code from "../public/upcome.png";
-import Link from "next/link";
+import dbms from "../public/dbms.png";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
+
+import bullet from "../public/bulletblack.svg";
 const UpCommingSlider = (props) => {
   return (
-    <div className="bg-[#22A39F] rounded-md">
-      <div className="flex justify-center items-start lg:justify-start xl:items-center lg:items-center xl:justify-start  pl-4">
-        <Image src={logo} width={200} height={100} />
-      </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
-        <div className="pb-7">
-          <div className=" pl-5 pt-7 flex lg:justify-start xl:justify-start justify-start items-center xl:text-[26px] lg:text-[25px] sm:text-[25px] text-[18px] text-[#fff] font-medium">
-            {props.head}
+    <>
+      <div className="w-full bg-gradient-to-r from-blue-500 to-cyan-500  p-4 rounded-lg">
+        <div className="flex flex-col items-center justify-between min-h-[90vh] md:min-h-[70vh] lg:min-h-[70vh] xl:min-h-[70vh]  ">
+          <div className="w-full h-full flex justify-center items-center p-2 ">
+            <Player
+              autoplay
+              loop
+              src="https://assets8.lottiefiles.com/packages/lf20_ytg7s6tx.json"
+              className=" w-[320px] h-[200px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
+            ></Player>
+            {/* <Image
+              width={450}
+              height={200}
+              className="h-[200px] rounded-md"
+              src={dbms}
+              alt=""
+            /> */}
           </div>
-
-          <div className=" pl-5 pt-3 flex lg:justify-start xl:justify-start justify-start items-center  xl:text-[18px] lg:text-[18px] sm:text-[18px] text-[10px] text-[#fff] ">
-            {props.content}
+          <div>
+            <h2 className="mt-2 mb-2 p-4 rounded-md text-xl bg-white opacity-[0.7]  font-bold text-black text-center">
+              {props.head}
+            </h2>
+          </div>
+          <div>
+            <div className="text-md  py-1 flex  items-center text-black font-semibold">
+              <Image src={bullet} width={20} height={20} className="mr-1" />
+              {props.content}
+            </div>
+          </div>
+          <div className="pt-3 flex items-center justify-center ">
+            <div className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+              Register Now !
+            </div>
           </div>
         </div>
-
-        <div className="flex justify-center items-start">
-          <Image src={code} height={200} />
-        </div>
       </div>
-    </div>
+    </>
   );
 };
 

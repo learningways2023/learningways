@@ -27,10 +27,8 @@ const Categories = () => {
     }
   }, [controls, inView]);
   return (
-    <div
-      
-    >
-      <div className="w-full min-h-screen p-4 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-12">
+    <div>
+      <div className="w-full min-h-[80vh] p-4 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
         <div className="w-full h-full flex justify-center items-center">
           <Player
             autoplay
@@ -40,7 +38,7 @@ const Categories = () => {
           ></Player>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className=" h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500  h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s1} width={100} height={100} />
@@ -50,17 +48,15 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <Link href="/login">
-                  <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-2 px-4 rounded-md ">
-                    <button className="font-medium">Learn & Grow</button>
-                  </div>
-                </Link>
+                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                  <button>Learn & Grow</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className=" h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s2} width={100} height={100} />
@@ -70,17 +66,15 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <Link href="/login">
-                  <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-2 px-4 rounded-md ">
-                    <button className="font-medium">Learn & Grow</button>
-                  </div>
-                </Link>
+                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                  <button>Learn & Grow</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className=" h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s3} width={100} height={100} />
@@ -90,17 +84,15 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <Link href="/login">
-                  <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-2 px-4 rounded-md ">
-                    <button className="font-medium">Master Your code</button>
-                  </div>
-                </Link>
+                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                  <button>Master Your code</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className=" h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s5} width={100} height={100} />
@@ -110,18 +102,16 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <Link href="/courses">
-                  <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-2 px-4 rounded-md ">
-                    <button className="font-medium">Lets Empower</button>
-                  </div>
-                </Link>
+                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                  <button>Lets Empower</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <div className="w-full h-full flex justify-center items-center">
-          <div className=" h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center bg-white drop-shadow-lg  cursor-pointer text-black wwd">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s4} width={100} height={100} />
@@ -131,11 +121,9 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <Link href="/login">
-                  <div className="getstarted gt xl:text-[20px] lg:text-[18px] text-white py-2 px-4 rounded-md ">
-                    <button className="font-medium">Ace the exam</button>
-                  </div>
-                </Link>
+                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                  <button>Ace the exam</button>
+                </div>
               </div>
             </div>
           </div>
