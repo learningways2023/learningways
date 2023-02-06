@@ -7,7 +7,7 @@ import expand from "../public/expand.png";
 import ArticleCard from "../components/ArticleCard";
 import dbms from "../public/dbms.png";
 import ment from "../public/john.png";
-
+import EngineeringCourse from "../components/engineeringCourse";
 import Image from "next/image";
 import { Player } from "@lottiefiles/react-lottie-player";
 const Engineering = () => {
@@ -28,10 +28,8 @@ const Engineering = () => {
             </div>
             <div className="mt-[1rem] rounded-md flex items-center justify-center text-center font-semibold xl:text-[42px] text-white  lg:text-[34px] sm:text-[32px] text-[24px] ">
               <span className="xl:text-[42px] text-black  lg:text-[34px] sm:text-[32px] text-[24px]  mx-3">
-                LEARN AN  ART BE AN ARTIST
+                LEARN AN ART BE AN ARTIST
               </span>
-              
-              
             </div>
             <div className="flex justify-end aboutQuote sm:mr-[1rem] mr-[0rem] pr-2">
               <Image
@@ -235,6 +233,14 @@ const Engineering = () => {
       </div>
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Courses of Aeronautical Engineering
+      </div>
+      <div className="mx-4 my-8 mt-10 cardbg1 rounded-md">
+        <div className=" w-full py-9  flex flex-wrap">
+          <EngineeringCourse tittle="Automotive & Aeronautics Design Program" />
+          <EngineeringCourse tittle="A.A.S" />
+          <EngineeringCourse tittle="Diploma in Avionics Technology" />
+          <EngineeringCourse tittle="FdEng in Aircraft Engineering" />
+        </div>
       </div>
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Basic tools to upgrade your engineering skills
