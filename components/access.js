@@ -66,8 +66,8 @@ const Access = () => {
                 </div>
                 <div className="text-[15px] lg:text-[18px] xl:text-[20px]   flex justify-center items-center px-3 py-3">
                   <span className="text-center leading-relaxed">
-                    Assess an individual's knowledge and understanding of the
-                    subjects covered in the UPSC Civil Services Examination.
+                    understanding of the subjects covered in the UPSC Civil
+                    Services Examination.
                   </span>
                 </div>
                 <div className=" flex justify-center items-center px-3 py-6">

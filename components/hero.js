@@ -38,7 +38,7 @@ function Newhero() {
     <div>
       <div className=" min-h-[80vh] mx-4 my-5 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6">
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-between py-4">
             <div className="mt-[1rem] rounded-md flex items-center justify-center font-semibold xl:text-[42px] text-white  text-center lg:text-[34px] sm:text-[32px] text-[24px] ">
               <span className="text-[#fff]  ">
                 Education is the most powerful weapon which you can use to
