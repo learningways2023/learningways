@@ -19,7 +19,7 @@ const ClassFivetoTen = () => {
   const classes =
     "border-2 border-[#085464] text-[#085464] text-base font-medium w-full h-full rounded-md focus:ring-[#085464] focus:border-[#085464]  block py-2.5 lg:px-5 xl:px-5 px-12 ";
   const FormHeader = (props) => (
-    <h2 className="font-[500] text-[#085464] xl:text-[40px] lg:text-[32px] sm:text-[32px] text-[20px]">
+    <h2 className="font-[500] text-black xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px]">
       {props.title}
     </h2>
   );
