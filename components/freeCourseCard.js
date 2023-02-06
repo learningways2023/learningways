@@ -59,8 +59,8 @@ const FreeCourseCard = (props) => {
       ) : (
         <div></div>
       )}
-      <div className="w-full sm:w-1/2 md:w-1/2 xl:w-4/12 p-4 ">
-        <div className="card-col block  infp overflow-hidden">
+      <div className="w-full sm:w-1/2 md:w-1/2 xl:w-4/12  p-4 ">
+        <div className="card-col block  min-h-[90vh] infp overflow-hidden">
           <div className="w-full h-full p-4 ">
             <Image
               width={450}
