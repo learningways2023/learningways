@@ -56,7 +56,7 @@ const PremiumCourseCard = (props) => {
           </div>
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
-      ) : (
+      ) : ( 
         <div></div>
       )}
       <div className="w-full sm:w-1/2 md:w-1/2 xl:w-4/12 p-4 ">

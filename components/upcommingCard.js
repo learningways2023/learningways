@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import close from "../public/close.svg";
-import bullet from "../public/bullet.svg";
+import bullet from "../public/bulletblack.svg";
 const UpcommingCard = (props) => {
   const [modal, setModal] = useState(false);
   console.log(props);
@@ -60,30 +60,30 @@ const UpcommingCard = (props) => {
         <div></div>
       )}
       <div className="w-full sm:w-1/2 md:w-1/2 xl:w-4/12 p-4 ">
-        <div className="c-card block border border-1 border-gray-300 drop-shadow-2xl bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden">
-          <div className="w-full h-full ">
+        <div className="card-col block  infp overflow-hidden">
+          <div className="w-full h-full p-4 ">
             <Image
               width={450}
               height={200}
-              className="h-[200px]"
+              className="h-[200px] rounded-md"
               src={props.img}
               alt=""
             />
           </div>
           <div className="p-4">
-            <h2 className="mt-2 mb-2 text-xl  font-bold text-[#085464] text-center">
+            <h2 className="mt-2 mb-2 py-2 text-xl  font-bold text-black bg-white rounded-md opacity-[0.7]   text-center">
               {props.tittle}
             </h2>
-            <div className="text-sm py-1 flex  items-center">
+            <div className="text-md py-1 flex  items-center">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s1}
             </div>
-            <div className="text-sm py-1 flex  items-center">
+            <div className="text-md py-1 flex  items-center">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.s2}
             </div>
             <div
-              className="flex justify-center items-center px-4 text-[#085464] pt-1 cursor-pointer"
+              className="flex justify-center items-center px-4 text-[#ffff] pt-1 cursor-pointer"
               onClick={function showModal() {
                 setModal(true);
               }}
@@ -91,21 +91,28 @@ const UpcommingCard = (props) => {
               view full description
             </div>
           </div>
-          <div className="p-4 border-t border-b text-xs text-[#085464]">
+          <div className="p-4 border-t border-b text-xs text-black">
             <div className="mt-1 flex items-center justify-center">
               <span className="text-sm font-semibold">
                 Saturday | 23 January, 2023
               </span>
             </div>
           </div>
-          <div className="p-4 border-t border-b text-xs text-[#085464]">
+          <div className="p-4 border-t border-b text-xs text-black">
             <div className="mt-1 flex items-center justify-center">
               <span className="text-sm font-semibold">7.00 AM - 5 PM</span>
             </div>
           </div>
 
-          <div className="p-4 flex items-center justify-center text-lg text-[#085464]   cursor-pointer">
-            Register Now !
+          <div className="p-4 flex items-center justify-center    cursor-pointer">
+            <div
+              className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
+              onClick={function showModal() {
+                setModal(true);
+              }}
+            >
+              Register Now !
+            </div>
           </div>
         </div>
       </div>

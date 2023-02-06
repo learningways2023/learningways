@@ -556,7 +556,7 @@ const JointEntranceExam = () => {
           </div>
           <div className=" p-2 py-2   flex text-white  items-center text-left xl:text-[28px] lg:text-[28px] sm:text-[23px] text-[18px] ">
             <Image src={bullet} width={40} height={40} className="mr-3" />
-            Regular assessments and mock tests
+            Regular assessments and mock tests[#085464]
           </div>
         </div>
         <div className="w-auto h-auto flex justify-center items-center ">
