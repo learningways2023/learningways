@@ -2,15 +2,7 @@ import { Schema, model, models } from "mongoose";
 //import { Schema, model, models } from "mongoose";
 //datas and their data type which are stored our monoose database
 var UserSchema = new Schema({
-  email: {
-    type: String,
-    required: true,
-  },
-  firebaseUid: {
-    type: String,
-    required: true,
-  },
-  password: { type: String },
+  user: {},
 });
 
 var User = models.User || model("User", UserSchema);
