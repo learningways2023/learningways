@@ -158,6 +158,14 @@ function Login() {
                 </Link>
               </p>
             </div>
+            <div className="pt-4">
+              <p className="  font-medium">
+                
+                <Link className="font-bold underline" href="/forgotPassword">
+                  Forgot Password ?
+                </Link>
+              </p>
+            </div>
           </div>
         </div>
       </div>
