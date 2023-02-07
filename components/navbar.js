@@ -3,7 +3,8 @@ import Image from "next/image";
 import expand from "../public/expand.png";
 import { useRouter } from "next/router";
 import logo from "../public/logo2.png";
-
+import { signOut } from "firebase/auth";
+import { auth } from "../firebase";
 import { getCookies, getCookie, setCookies, removeCookies } from "cookies-next";
 export default function Navbar() {
   const router = useRouter();
@@ -319,47 +320,6 @@ export default function Navbar() {
                     </div>
                   </div>
                 </li>
-                {getCookie("user") ? (
-                  <li className="text-white flex justify-center">
-                    <div className="dropdown">
-                      <button className="dropbtn flex items-center justify-center cursor-pointer">
-                        My Account
-                        <div className="mt-2 ml-2">
-                          <Image src={expand} width={20} height={20} />
-                        </div>
-                      </button>
-                      <div className="dropdown-content  bg-gradient-to-r from-blue-500 to-cyan-500">
-                        <div
-                          className="flex justify-center items-center py-2 cursor-pointer"
-                          onClick={function handleLogo() {
-                            router.push(`/dashboard/${getCookie("user")}`);
-                            setNavbar(false);
-                          }}
-                        >
-                          Dashboard
-                        </div>
-                        <div
-                          className="flex justify-center items-center py-2 cursor-pointer"
-                          onClick={function handleLogo() {
-                            router.push(`/read/${getCookie("user")}`);
-                            setNavbar(false);
-                          }}
-                        >
-                          Read Ideos
-                        </div>
-                        <div
-                          className="flex justify-center items-center py-2 cursor-pointer "
-                          onClick={function handleLogo() {
-                            router.push(`/mylib/${getCookie("user")}`);
-                            setNavbar(false);
-                          }}
-                        >
-                          My Library
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                ) : null}
 
                 <li className="text-white flex justify-center">
                   <div className="dropdown">
@@ -404,13 +364,14 @@ export default function Navbar() {
                 {getCookie("user") ? (
                   <li
                     className="text-white flex justify-center cursor-pointer"
-                    onClick={function handleLogout() {
+                    onClick={async function handleLogout() {
+                      await signOut(auth);
                       removeCookies("user");
                       router.push("/");
                       setNavbar(false);
                     }}
                   >
-                    <div className="border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                    <div className="border-2 text-white rounded px-7 py-2 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
                       <button>Logout</button>
                     </div>
                   </li>

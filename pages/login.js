@@ -53,12 +53,15 @@ function Login() {
       const userCredentials = await signInWithPopup(auth, provider);
 
       const user = userCredentials.user;
-
+      setCookie("user", user.accessToken, { maxAge: 10000 });
+      await Axios.post("/api/auth/SignUp", {
+        user,
+      });
       toastifySuccess();
 
-      router.push("/dashboard");
+      // router.push("/dashboard");
 
-      console.log(user);
+      console.log(user.accessToken);
     } catch (error) {
       console.log(error);
     }
@@ -74,14 +77,15 @@ function Login() {
       );
 
       const user = userCredentials.user;
-      // await Axios.post("/api/auth/SignUp", {
-      //   user,
-      // });
+      setCookie("user", user.accessToken, { maxAge: 10000 });
+      await Axios.post("/api/auth/SignUp", {
+        user,
+      });
       toastifySuccess();
 
       // router.push("/dashboard");
 
-      console.log(user);
+      console.log(user.accessToken);
     } catch (error) {
       console.log(error);
     }
