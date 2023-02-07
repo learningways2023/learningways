@@ -53,13 +53,13 @@ function Login() {
       const userCredentials = await signInWithPopup(auth, provider);
 
       const user = userCredentials.user;
-      setCookie("user", user.accessToken, { maxAge: 10000 });
+      await setCookie("user", user.accessToken, { maxAge: 10000 });
       await Axios.post("/api/auth/SignUp", {
         user,
       });
       toastifySuccess();
 
-      // router.push("/dashboard");
+      router.push("/dashboard");
 
       console.log(user.accessToken);
     } catch (error) {
@@ -83,7 +83,7 @@ function Login() {
       });
       toastifySuccess();
 
-      // router.push("/dashboard");
+      router.push("/dashboard");
 
       console.log(user.accessToken);
     } catch (error) {
