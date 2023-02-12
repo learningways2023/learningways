@@ -6,6 +6,12 @@ import home from "../public/home.png";
 import dash from "../public/dash.png";
 import enroll from "../public/enroll.png";
 import profile from "../public/profile.png";
+import people from "../public/people.png";
+import points from "../public/points.png";
+import goals from "../public/goals.png";
+import history from "../public/history.png";
+import feed from "../public/feed.png";
+
 import logout from "../public/logout.png";
 import { useRouter } from "next/router";
 import { userAgentFromString } from "next/server";
@@ -29,7 +35,7 @@ function SideNavbar(props) {
             ></path>
           </svg>
         </Disclosure.Button>
-        <div className=" p-2 w-full min-h-screen  bg-gradient-to-r from-blue-500 to-cyan-500 z-20 relative  md:top-0  -left-[500px] md:left-0 md:w-80  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
+        <div className=" p-2 w-full min-h-[120vh]  bg-gradient-to-r from-blue-500 to-cyan-500 z-20 relative  md:top-0  -left-[500px] md:left-0 md:w-80  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
           <div className="flex justify-between items-center py-4 px-4 w-full">
             <div>
               <Image src={logo} height={70} width={250} />
@@ -38,6 +44,7 @@ function SideNavbar(props) {
               <svg
                 width="20"
                 height="20"
+                bullet
                 viewBox="0 0 20 20"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,41 +57,112 @@ function SideNavbar(props) {
               </svg>
             </div>
           </div>
-          <div className="flex flex-col items-center justify-between ">
-            <div className="flex flex-col items-center justify-between space-y-5">
-              <div className="text-xl text-black flex w-full  justify-start items-center font-semibold py-4  cursor-pointer " onClick={function handleLinkl(){
-                router.push("/")
-              }}>
-                <Image src={home} width={30} height={30} />
+          <div className="pt-4">
+            <div className="flex flex-col items-center justify-between space-y-7 ">
+              <div
+                className="text-xl text-black flex w-full  justify-start items-center  font-semibold   cursor-pointer "
+                onClick={function handleLinkl() {
+                  router.push("/");
+                }}
+              >
+                <Image src={home} width={40} height={30} />
                 <div className="pl-4">Landing Page</div>
               </div>
-              <div className="text-xl text-black flex w-full  justify-start items-center font-semibold py-4 cursor-pointer  "onClick={function handleLinkl(){
-                router.push("/dashboard")
-              }}>
-                <Image src={dash} width={30} height={30} />
-                <div className="pl-4">Dashboard</div>
-              </div>
-              <div className="text-xl text-black flex w-full  justify-start items-center font-semibold py-4  cursor-pointer ">
+
+              <div
+                className="text-xl text-black flex w-full  justify-start items-center    border-y-1 font-semibold   cursor-pointer "
+                onClick={function handleLinkl() {
+                  router.push("/dashboard/recomendations");
+                }}
+              >
                 <Image src={enroll} width={40} height={30} />
-                <div className="pl-2">Enrolled Courses</div>
+                <div className="pl-2">Recomendations</div>
               </div>
-              <div className="text-xl text-black flex w-full  justify-start items-center font-semibold py-4  cursor-pointer ">
-                <div className="pl-4"></div>
+              <div
+                className="text-xl text-black flex w-full  justify-start items-center    border-y-1 font-semibold   cursor-pointer "
+                onClick={function handleLinkl() {
+                  router.push("/dashboard/history");
+                }}
+              >
+                <Image src={history} width={30} height={30} />
+                <div className="pl-2">Learning History</div>
               </div>
-            </div>
-            <div className="flex flex-col items-center justify-between pt-20 space-y-10">
-              <div className="text-xl text-black flex w-full   justify-center items-center font-semibold py-4  cursor-pointer ">
+
+              <div
+                className="text-xl text-black flex w-full  justify-start items-center    border-y-1 font-semibold   cursor-pointer "
+                onClick={function handleLinkl() {
+                  router.push("/dashboard/points");
+                }}
+              >
+                <Image src={points} width={40} height={30} />
+                <div className="pl-2">Gamification</div>
+              </div>
+              <div
+                className="text-xl text-black flex w-full  justify-start items-center    border-y-1 font-semibold   cursor-pointer "
+                onClick={function handleLinkl() {
+                  router.push("/dashboard/community");
+                }}
+              >
+                <Image src={people} width={40} height={30} />
+                <div className="pl-2">Collaboration</div>
+              </div>
+
+              <div
+                className="text-xl text-black flex w-full  justify-start items-center    border-y-1 font-semibold  cursor-pointer  "
+                onClick={function handleLinkl() {
+                  router.push("/dashboard");
+                }}
+              >
+                <Image src={dash} width={30} height={30} />
+                <div className="pl-4">Activity</div>
+              </div>
+              <div
+                className="text-xl text-black flex w-full  justify-start items-center    border-y-1 font-semibold   cursor-pointer "
+                onClick={function handleLinkl() {
+                  router.push("/dashboard/feedback");
+                }}
+              >
+                <Image src={feed} width={40} height={30} />
+                <div className="pl-2">Feedback</div>
+              </div>
+              <div
+                className="text-xl text-black flex w-full  justify-start items-center    border-y-1 font-semibold   cursor-pointer "
+                onClick={function handleLinkl() {
+                  router.push("/dashboard/goals");
+                }}
+              >
+                <Image src={goals} width={30} height={30} />
+                <div className="pl-2">Goals</div>
+              </div>
+              <div
+                className="text-xl text-black flex w-full   justify-start items-center     font-semibold   cursor-pointer "
+                onClick={function handleLinkl() {
+                  router.push("/dashboard/profile");
+                }}
+              >
                 <Image src={profile} width={40} height={30} />
                 <div className="pl-2"> Profile</div>
               </div>
-
-              <div className="">
-                <div className="border-2 text-white rounded items-center flex justify-center w-[300px] py-2 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+              <div className="pb-7">
+                <div className="border-2 text-white rounded items-center flex justify-center w-[300px] py-1    text-base  cursor-pointer font-semibold bg-black border-black duration-150">
                   <button className="pr-5">Logout</button>
                   <Image src={logout} width={30} height={30} />
                 </div>
               </div>
             </div>
+            {/* <div className="flex flex-col justify-between items-center  pt-10 space-y-10">
+              <div className="text-xl text-black flex w-full   justify-center items-center font-semibold   cursor-pointer ">
+                <Image src={profile} width={40} height={30} />
+                <div className="pl-2"> Profile</div>
+              </div>
+
+              <div className="">
+                <div className="border-2 text-white rounded items-center flex justify-center w-[300px]    text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                  <button className="pr-5">Logout</button>
+                  <Image src={logout} width={30} height={30} />
+                </div>
+              </div>
+            </div> */}
           </div>
         </div>
       </Disclosure>

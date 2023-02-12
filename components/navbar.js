@@ -360,7 +360,21 @@ export default function Navbar() {
                     </div>
                   </div>
                 </li>
-
+                {getCookie("user") ? (
+                  <li className="text-white flex justify-center">
+                    <div className="dropdown">
+                      <button
+                        className="dropbtn flex items-center justify-center cursor-pointer"
+                        onClick={function handleLogo() {
+                          router.push("/dashboard");
+                          setNavbar(false);
+                        }}
+                      >
+                        Dashboard
+                      </button>
+                    </div>
+                  </li>
+                ) : null}
                 {getCookie("user") ? (
                   <li
                     className="text-white flex justify-center cursor-pointer"

@@ -59,7 +59,7 @@ function Login() {
       });
       toastifySuccess();
 
-      router.push("/dashboard");
+      router.push("/dashboard/points");
 
       console.log(user.accessToken);
     } catch (error) {
@@ -83,7 +83,7 @@ function Login() {
       });
       toastifySuccess();
 
-      router.push("/dashboard");
+      router.push("/dashboard/points");
 
       console.log(user.accessToken);
     } catch (error) {
@@ -160,7 +160,6 @@ function Login() {
             </div>
             <div className="pt-4">
               <p className="  font-medium">
-                
                 <Link className="font-bold underline" href="/forgotPassword">
                   Forgot Password ?
                 </Link>
