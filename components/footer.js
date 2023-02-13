@@ -12,7 +12,7 @@ import { useRouter } from "next/router";
 function Footer() {
   const router = useRouter();
   return (
-    <div className="grid bg-gradient-to-r from-blue-500 to-cyan-500 text-white">
+    <div className="grid bg-[#293241] text-white">
       <div className="sm:pt-10  pb-4 footer">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 lg:grid-cols-3 gap-2 lg:gap-4 px-5">
           <div className="p-2 rounded-md flex sm:justify-start justify-center sm:text-left text-center">

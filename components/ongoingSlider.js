@@ -4,11 +4,11 @@ import Image from "next/image";
 import dbms from "../public/dbms.png";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
-import bullet from "../public/bulletblack.svg";
+import bullet from "../public/bulletwhite.svg";
 const OngoingSlider = (props) => {
   return (
     <>
-      <div className="w-full bg-gradient-to-r from-blue-500 to-cyan-500  p-4 rounded-lg ">
+      <div className="w-full bg-[#293241]  p-4 rounded-lg ">
         <div className="flex flex-col items-center justify-between overflow-hidden min-h-[90vh] md:min-h-[70vh] lg:min-h-[70vh] xl:min-h-[70vh]  ">
           <div className="w-full h-full flex justify-center items-center p-2 ">
             <Player
@@ -31,7 +31,7 @@ const OngoingSlider = (props) => {
             </h2>
           </div>
           <div>
-            <div className="text-md  py-1 flex  items-center text-black font-semibold">
+            <div className="text-md  py-1 flex  items-center text-white font-semibold">
               <Image src={bullet} width={20} height={20} className="mr-1" />
               {props.content}
             </div>
