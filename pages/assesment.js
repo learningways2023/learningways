@@ -18,12 +18,12 @@ const Assesment = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] my-5">
         Select Your Exam Category
       </div>
-      <div className="p-4 mx-4  min-h-[80vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
+      <div className="p-4 mx-4  min-h-[80vh] bg-[#040f25] rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div className=" grid  grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#web_development");
                 }}
@@ -34,7 +34,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   bg-white  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#data_science");
                 }}
@@ -45,7 +45,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   bg-white  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#mobile_development");
                 }}
@@ -56,7 +56,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#game_development");
                 }}
@@ -67,7 +67,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#cloud_computing");
                 }}
@@ -86,10 +86,10 @@ const Assesment = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Choose your stream
       </div>
-      <div className="px-4 py-8 mx-1 md:mx-4 lg:mx-4 xl:mx-4 my-8 grid bg-gradient-to-r from-blue-500 to-cyan-500 grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
+      <div className="px-4 py-8 mx-1 md:mx-4 lg:mx-4 xl:mx-4 my-8 grid bg-[#040f25] grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#web_development");
             }}
@@ -100,7 +100,7 @@ const Assesment = () => {
         </div>
         <div className="w-full h-full flex justify-center items-center">
           <div
-            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+            className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   bg-white  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
             onClick={function handleNavigate() {
               router.push("/Coding_tutorials#data_science");
             }}
@@ -113,7 +113,7 @@ const Assesment = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Most popular Tests
       </div>
-      <div className="p-4 mx-4 mt-10 min-h-[80vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
+      <div className="p-4 mx-4 mt-10 min-h-[80vh] bg-[#040f25] rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div className="flex justify-center items-center ">
             <Image src={test1} />
@@ -121,7 +121,7 @@ const Assesment = () => {
           <div className=" grid  grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#web_development");
                 }}
@@ -132,7 +132,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   bg-white  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#data_science");
                 }}
@@ -143,7 +143,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   bg-white  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#mobile_development");
                 }}
@@ -154,7 +154,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#game_development");
                 }}
@@ -165,7 +165,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#cloud_computing");
                 }}
@@ -176,7 +176,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#cyberSecurity");
                 }}
@@ -191,12 +191,12 @@ const Assesment = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Learn through our courses & access yourself
       </div>
-      <div className="p-4 mx-4 my-10 min-h-[80vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md">
+      <div className="p-4 mx-4 my-10 min-h-[80vh] bg-[#040f25] rounded-md">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div className="grid  grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#web_development");
                 }}
@@ -207,7 +207,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   bg-white  text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#data_science");
                 }}
@@ -218,7 +218,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   card-col  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]   bg-white  text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#mobile_development");
                 }}
@@ -229,7 +229,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white   text-black cursor-pointer text-center flex justify-center items-center infPic px-4 "
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#game_development");
                 }}
@@ -240,7 +240,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#cloud_computing");
                 }}
@@ -251,7 +251,7 @@ const Assesment = () => {
             </div>
             <div className="w-full h-full flex justify-center items-center">
               <div
-                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  card-col   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+                className=" w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px]  bg-white   text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
                 onClick={function handleNavigate() {
                   router.push("/Coding_tutorials#cyberSecurity");
                 }}

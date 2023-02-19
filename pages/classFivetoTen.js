@@ -28,10 +28,10 @@ const ClassFivetoTen = () => {
       <Navbar />
       <Uparrow url="classFivetoTen" />
       <div className=" min-h-[40vh]">
-        <div className="px-4 py-8 mx-1 rounded-md md:mx-4 lg:mx-4 xl:mx-4 my-8 grid bg-gradient-to-r from-blue-500 to-cyan-500 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
+        <div className="px-4 py-8 mx-1 rounded-md md:mx-4 lg:mx-4 xl:mx-4 my-8 grid bg-[#040f25] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
           <div className="w-full h-full flex justify-center items-center">
             <div
-              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
               onClick={function handleClick() {
                 router.push("/classFivetoTen/#coding");
               }}
@@ -41,7 +41,7 @@ const ClassFivetoTen = () => {
           </div>
           <div className=" w-full h-full flex justify-center items-center">
             <div
-              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
               onClick={function handleClick() {
                 router.push("/classFivetoTen");
               }}
@@ -51,7 +51,7 @@ const ClassFivetoTen = () => {
           </div>
           <div className=" w-full h-full flex justify-center items-center">
             <div
-              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
               onClick={function handleClick() {
                 router.push("/classFivetoTen/#private_tutor");
               }}
@@ -61,7 +61,7 @@ const ClassFivetoTen = () => {
           </div>
           <div className=" w-full h-full flex justify-center items-center">
             <div
-              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
               onClick={function handleClick() {
                 router.push("/classFivetoTen/#personality_developement");
               }}
@@ -71,7 +71,7 @@ const ClassFivetoTen = () => {
           </div>
           <div className=" w-full h-full flex justify-center items-center">
             <div
-              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
               onClick={function handleClick() {
                 router.push("/classFivetoTen/#quiz");
               }}
@@ -81,7 +81,7 @@ const ClassFivetoTen = () => {
           </div>
           <div className=" w-full h-full flex justify-center items-center">
             <div
-              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
               onClick={function handleClick() {
                 router.push("/classFivetoTen/#join");
               }}
@@ -91,7 +91,7 @@ const ClassFivetoTen = () => {
           </div>
           <div className=" w-full h-full flex justify-center items-center">
             <div
-              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
               onClick={function handleClick() {
                 router.push("/classFivetoTen/#materials");
               }}
@@ -101,7 +101,7 @@ const ClassFivetoTen = () => {
           </div>
           <div className=" w-full h-full flex justify-center items-center">
             <div
-              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold card-col text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
+              className="w-[150px] min-h-[70px] lg:w-[200px] xl:h-[90px] font-semibold bg-white text-black cursor-pointer text-center flex justify-center items-center infPic px-4"
               onClick={function handleClick() {
                 router.push("/classFivetoTen/#summer_camp");
               }}
@@ -195,10 +195,10 @@ const ClassFivetoTen = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Testimonials
       </div>
-      <div className=" min-h-[60vh] mx-4 mt-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md ">
+      <div className=" min-h-[60vh] mx-4 mt-8 bg-[#040f25] rounded-md ">
         <div className="px-4 pt-9 lg:px-7 xl:px-7 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
           <div className="py-5 w-full flex justify-center items-center">
-            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-gradient-to-r from-blue-500 to-cyan-500  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-[#040f25]  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
@@ -219,7 +219,7 @@ const ClassFivetoTen = () => {
             </div>
           </div>
           <div className="py-5 w-full flex justify-center items-center">
-            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] border border-1 border-gray-300 bg-white rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-gradient-to-r from-blue-500 to-cyan-500  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] border border-1 border-gray-300 bg-white rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-[#040f25]  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
@@ -247,10 +247,10 @@ const ClassFivetoTen = () => {
       >
         Private Tutor
       </div>
-      <div className=" min-h-[70vh] mx-4 mt-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md ">
+      <div className=" min-h-[70vh] mx-4 mt-8 bg-[#040f25] rounded-md ">
         <div className="px-4 pt-9 lg:px-7 xl:px-7 grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-5">
           <div className="py-5 w-full flex justify-center items-center">
-            <div className=" w-11/12 bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-gradient-to-r from-blue-500 to-cyan-500  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            <div className=" w-11/12 bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-[#040f25]  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
@@ -345,10 +345,10 @@ const ClassFivetoTen = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Testimonials
       </div>
-      <div className=" min-h-[60vh] mx-4 mt-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md ">
+      <div className=" min-h-[60vh] mx-4 mt-8 bg-[#040f25] rounded-md ">
         <div className="px-4 pt-9 lg:px-7 xl:px-7 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
           <div className="py-5 w-full flex justify-center items-center">
-            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-gradient-to-r from-blue-500 to-cyan-500  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-[#040f25]  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
@@ -369,7 +369,7 @@ const ClassFivetoTen = () => {
             </div>
           </div>
           <div className="py-5 w-full flex justify-center items-center">
-            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] border border-1 border-gray-300 bg-white rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-gradient-to-r from-blue-500 to-cyan-500  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] border border-1 border-gray-300 bg-white rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-[#040f25]  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
@@ -456,10 +456,10 @@ const ClassFivetoTen = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Testimonials
       </div>
-      <div className=" min-h-[60vh] mx-4 mt-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md ">
+      <div className=" min-h-[60vh] mx-4 mt-8 bg-[#040f25] rounded-md ">
         <div className="px-4 pt-9 lg:px-7 xl:px-7 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
           <div className="py-5 w-full flex justify-center items-center">
-            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-gradient-to-r from-blue-500 to-cyan-500  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-[#040f25]  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
@@ -480,7 +480,7 @@ const ClassFivetoTen = () => {
             </div>
           </div>
           <div className="py-5 w-full flex justify-center items-center">
-            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] border border-1 border-gray-300 bg-white rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-gradient-to-r from-blue-500 to-cyan-500  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] border border-1 border-gray-300 bg-white rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-[#040f25]  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
@@ -505,7 +505,7 @@ const ClassFivetoTen = () => {
 
       <div
         id="join"
-        className="mx-4 mt-10 rounded-md min-h-[50vh] bg-gradient-to-r from-blue-500 to-cyan-500 "
+        className="mx-4 mt-10 rounded-md min-h-[50vh] bg-[#040f25] "
       >
         <div className="text-[#ffff] py-4    flex justify-center items-center text-center xl:text-[42px] text-white font-semibold lg:text-[34px] sm:text-[32px] text-[24px]">
           Join Community
@@ -597,7 +597,7 @@ const ClassFivetoTen = () => {
       >
         Summer Camps
       </div>
-      <div className=" px-4 mx-4 py-4 lg:px-7 xl:px-7 text-[#fff] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md   flex justify-center items-center text-center   xl:text-[28px] lg:text-[28px] sm:text-[23px] text-[18px] ">
+      <div className=" px-4 mx-4 py-4 lg:px-7 xl:px-7 text-[#fff] bg-[#040f25] rounded-md   flex justify-center items-center text-center   xl:text-[28px] lg:text-[28px] sm:text-[23px] text-[18px] ">
         Summer camp is a community where children come together to have fun
         while learning lifelong lessons. T he setting of the camp is such that
         children start developing a sense of independence while trying ne w
@@ -662,10 +662,10 @@ const ClassFivetoTen = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Testimonials
       </div>
-      <div className=" min-h-[60vh] mx-4 mt-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md ">
+      <div className=" min-h-[60vh] mx-4 mt-8 bg-[#040f25] rounded-md ">
         <div className="px-4 pt-9 lg:px-7 xl:px-7 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5">
           <div className="py-5 w-full flex justify-center items-center">
-            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-gradient-to-r from-blue-500 to-cyan-500  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] bg-white border border-1 border-gray-300 rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-[#040f25]  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
@@ -686,7 +686,7 @@ const ClassFivetoTen = () => {
             </div>
           </div>
           <div className="py-5 w-full flex justify-center items-center">
-            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] border border-1 border-gray-300 bg-white rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-gradient-to-r from-blue-500 to-cyan-500  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
+            <div className=" w-[300px] lg:w-[600px] xl:w-[600px] min-h-[200px] border border-1 border-gray-300 bg-white rounded-lg drop-shadow-2xl cursor-pointer text-black hover:bg-[#040f25]  flex-row p-3 hover:text-white wwd1 justify-center items-center text-center text-xl">
               <div className="flex justify-center items-center text-center py-4 ">
                 In publishing and graphic design, Lorem ipsum is a placeholder
                 text commonly used to demonstrate the visual form of a document
@@ -711,7 +711,7 @@ const ClassFivetoTen = () => {
       <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
         Enroll your child in the best school
       </div>
-      <div className="m-4 min-h-[100vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg">
+      <div className="m-4 min-h-[100vh] bg-[#040f25] rounded-lg">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="w-auto h-auto flex justify-center items-center ">
             <Player
@@ -727,7 +727,7 @@ const ClassFivetoTen = () => {
               <div className="newLoginTop flex items-center justify-center">
                 <FormHeader title="Find School" />
               </div>
-              <div className="card-col">
+              <div className="bg-white">
                 <form
                   className="newLoginForm m-4 py-7"
                   action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc_QJ0517TP7rdLkVNpYs49aiK3qiH__gMYL8MdvoFop15jEw/formResponse"

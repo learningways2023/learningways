@@ -29,7 +29,7 @@ const Ment = () => {
         <div className="sm:p-6 rounded-lg flex  items-center justify-center  infPic card-col  ">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
             <div className="rounded-md flex items-center justify-center">
-              <div className="w-auto h-auto bg-[#ffff] opacity-[0.7] flex justify-center items-center high1">
+              <div className="w-auto h-auto bg-[#ffff]  flex justify-center items-center high1">
                 <span className="text-black   lg:text-xl md:text-lg p-2 text-sm text-center">
                   "John helped me improve my coding skills and gave me valuable
                   insights on how to advance in my career." - Jane Smith, Junior
@@ -52,10 +52,10 @@ const Ment = () => {
                 <Image src={ment} width={100} height={100} />
               </div>
               <div className="pl-5">
-                <div className="lg:text-lg md:text-lg text-base text-[#fff] font-semibold">
+                <div className="lg:text-lg md:text-lg text-base text-black font-semibold">
                   Mr John Doe
                 </div>
-                <div className="sm:text-[14px] text-[13px]   text-gray-700">
+                <div className="sm:text-[14px] text-[13px] font-semibold   text-gray-700">
                   Senior Software Engineer
                 </div>
               </div>
@@ -75,7 +75,7 @@ const Ment = () => {
         <div className="sm:p-6 rounded-lg flex  items-center justify-center  infPic card-col  ">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
             <div className="rounded-md flex items-center justify-center">
-              <div className="w-auto h-auto bg-[#ffff] opacity-[0.7] flex justify-center items-center high1">
+              <div className="w-auto h-auto bg-[#ffff]  flex justify-center items-center high1">
                 <span className="text-black   lg:text-xl md:text-lg p-2 text-sm text-center">
                   "John helped me improve my coding skills and gave me valuable
                   insights on how to advance in my career." - Jane Smith, Junior
@@ -98,10 +98,10 @@ const Ment = () => {
                 <Image src={ment} width={100} height={100} />
               </div>
               <div className="pl-5">
-                <div className="lg:text-lg md:text-lg text-base text-[#fff] font-semibold">
+                <div className="lg:text-lg md:text-lg text-base text-black font-semibold">
                   Mr John Doe
                 </div>
-                <div className="sm:text-[14px] text-[13px]   text-gray-700">
+                <div className="sm:text-[14px] text-[13px] font-semibold   text-gray-700">
                   Senior Software Engineer
                 </div>
               </div>
@@ -121,7 +121,7 @@ const Ment = () => {
         <div className="sm:p-6 rounded-lg flex  items-center justify-center  infPic card-col  ">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
             <div className="rounded-md flex items-center justify-center">
-              <div className="w-auto h-auto bg-[#ffff] opacity-[0.7] flex justify-center items-center high1">
+              <div className="w-auto h-auto bg-[#ffff]  flex justify-center items-center high1">
                 <span className="text-black   lg:text-xl md:text-lg p-2 text-sm text-center">
                   "John helped me improve my coding skills and gave me valuable
                   insights on how to advance in my career." - Jane Smith, Junior
@@ -144,10 +144,10 @@ const Ment = () => {
                 <Image src={ment} width={100} height={100} />
               </div>
               <div className="pl-5">
-                <div className="lg:text-lg md:text-lg text-base text-[#fff] font-semibold">
+                <div className="lg:text-lg md:text-lg text-base text-black font-semibold">
                   Mr John Doe
                 </div>
-                <div className="sm:text-[14px] text-[13px]   text-gray-700">
+                <div className="sm:text-[14px] text-[13px] font-semibold   text-gray-700">
                   Senior Software Engineer
                 </div>
               </div>

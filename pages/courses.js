@@ -26,7 +26,7 @@ const Courses = () => {
       <Navbar />
       <Uparrow url="courses" />
       <div className="p-4">
-        <div className="min-h-[90vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-md mb-8 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
+        <div className="min-h-[90vh] bg-gradient-to-r from-[#040f25] to-[#0a1332] rounded-md mb-8 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
           <div className=" p-4 rounded-md flex items-center justify-center">
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-0 lg:gap-8 sm:gap-4 lg:px-10 md:px-10 px-3">
               <div className="flex justify-start sm:ml-[1rem] ml-[0rem] aboutQuote pl-2">

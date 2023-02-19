@@ -15,7 +15,7 @@ import bullet from "../public/bulletblack.svg";
 import { useCallback, useEffect, useState } from "react";
 const About = () => {
   const classes =
-    " text-black border-b-2  text-base bg-inherit placeholder-[#333]  w-full h-full   block py-2.5 lg:px-9 xl:px-9 px-9 outline-0 focus:outline-0 ";
+    " text-white border-b-2 border-gray-200  text-base bg-inherit placeholder-[#ffff]  w-full h-full   block py-2.5 lg:px-9 xl:px-9 px-9 outline-0 focus:outline-0 ";
 
   const useMediaQuery = (width) => {
     const [targetReached, setTargetReached] = useState(false);
@@ -49,7 +49,7 @@ const About = () => {
       <Uparrow url="about" />
       <div className="pb-9">
         <div
-          className="about_hero1 mx-4 my-5 rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 pt-10"
+          className="about_hero1 mx-4 my-5 rounded-md bg-[#040f25] pt-10"
           id="what_we_do"
         >
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
@@ -59,7 +59,7 @@ const About = () => {
             <div className=" p-4 rounded-md flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-0 lg:gap-8 sm:gap-4 lg:px-10 md:px-10 px-3">
                 <div className="rounded-md flex items-center justify-center">
-                  <h1 className=" xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold text-center">
+                  <h1 className=" xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-white font-semibold text-center">
                     WHAT WE DO?
                   </h1>
                 </div>
@@ -243,7 +243,7 @@ const About = () => {
           Contact Us
         </h1>
       </div>
-      <div className="m-4 min-h-[100vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg">
+      <div className="m-4 min-h-[100vh] bg-[#040f25] rounded-lg">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="w-full h-full flex-row justify-center items-center"></div>
           <div className=" p-4 rounded-md flex items-center justify-center  pt-9">
@@ -253,7 +253,9 @@ const About = () => {
                   className="newLoginForm m-4 py-7"
                   action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc_QJ0517TP7rdLkVNpYs49aiK3qiH__gMYL8MdvoFop15jEw/formResponse"
                 >
-                  <label className="text-lg   pb-1">Name</label>
+                  <label className="text-lg text-white font-semibold   pb-1">
+                    Name
+                  </label>
                   <input
                     className={classes}
                     type="text"
@@ -262,7 +264,9 @@ const About = () => {
                   />
 
                   <div className="flex justify-between pr-[1.5rem] pb-1">
-                    <label className="text-lg   ">Contact </label>
+                    <label className="text-lg  text-white font-semibold ">
+                      Contact{" "}
+                    </label>
                   </div>
                   <input
                     className={classes}
@@ -271,7 +275,9 @@ const About = () => {
                     placeholder="Enter your Mobile Number"
                   />
                   <div className="flex justify-between pr-[1.5rem] pb-1">
-                    <label className="text-lg   ">Class</label>
+                    <label className="text-lg  text-white font-semibold ">
+                      Class
+                    </label>
                   </div>
                   <input
                     className={classes}
@@ -280,7 +286,9 @@ const About = () => {
                     placeholder="Enter your Grade"
                   />
                   <div className="flex justify-between pr-[1.5rem] pb-1">
-                    <label className="text-lg   ">City</label>
+                    <label className="text-lg  text-white font-semibold ">
+                      City
+                    </label>
                   </div>
                   <input
                     className={classes}
@@ -310,7 +318,7 @@ const About = () => {
           Career With Us
         </h1>
       </div>
-      <div className="m-4 min-h-[100vh] bg-gradient-to-r mt-10 from-blue-500 to-cyan-500 rounded-lg">
+      <div className="m-4 min-h-[100vh] bg-gradient-to-r mt-10 bg-[#040f25] rounded-lg">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className=" p-4 rounded-md flex items-center justify-center  pt-9">
             <div className="newloginContainer cardbg1  rounded-md">
@@ -319,7 +327,9 @@ const About = () => {
                   className="newLoginForm m-4 py-7"
                   action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc_QJ0517TP7rdLkVNpYs49aiK3qiH__gMYL8MdvoFop15jEw/formResponse"
                 >
-                  <label className="text-lg   pb-1">Name</label>
+                  <label className="text-lg text-white font-semibold   pb-1">
+                    Name
+                  </label>
                   <input
                     className={classes}
                     type="text"
@@ -328,7 +338,9 @@ const About = () => {
                   />
 
                   <div className="flex justify-between pr-[1.5rem] pb-1">
-                    <label className="text-lg   ">Contact </label>
+                    <label className="text-lg  text-white font-semibold ">
+                      Contact{" "}
+                    </label>
                   </div>
                   <input
                     className={classes}
@@ -337,7 +349,9 @@ const About = () => {
                     placeholder="Enter your Mobile Number"
                   />
                   <div className="flex justify-between pr-[1.5rem] pb-1">
-                    <label className="text-lg   ">Class</label>
+                    <label className="text-lg  text-white font-semibold ">
+                      Class
+                    </label>
                   </div>
                   <input
                     className={classes}
@@ -346,7 +360,9 @@ const About = () => {
                     placeholder="Enter your Grade"
                   />
                   <div className="flex justify-between pr-[1.5rem] pb-1">
-                    <label className="text-lg   ">City</label>
+                    <label className="text-lg  text-white font-semibold ">
+                      City
+                    </label>
                   </div>
                   <input
                     className={classes}
