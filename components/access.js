@@ -36,7 +36,7 @@ const Access = () => {
         <div className="p-4 w-full text-center">
           <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
             <div className="h-full  w-full    infPic flex items-center justify-center  ">
-              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white ">
+              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-[#040f25] drop-shadow-lg  cursor-pointer text-white ">
                 <div className="flex justify-center items-center rounded-md px-3 py-3">
                   <Image src={s1} width={100} height={100} />
                 </div>
@@ -57,7 +57,7 @@ const Access = () => {
               </div>
             </div>
             <div className="h-full w-full infPic flex items-center justify-center  ">
-              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white  ">
+              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-[#040f25] drop-shadow-lg  cursor-pointer text-white  ">
                 <div className="flex justify-center items-center rounded-md px-3 py-3">
                   <Image src={s2} width={100} height={100} />
                 </div>
@@ -78,7 +78,7 @@ const Access = () => {
               </div>
             </div>
             <div className="h-full w-full    infPic flex items-center justify-center  ">
-              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white  ">
+              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-[#040f25] drop-shadow-lg  cursor-pointer text-white  ">
                 <div className="flex justify-center items-center rounded-md px-3 py-3">
                   <Image src={s3} width={100} height={100} />
                 </div>
@@ -99,7 +99,7 @@ const Access = () => {
               </div>
             </div>
             <div className="h-full w-full    infPic flex items-center justify-center  ">
-              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-gradient-to-r from-blue-500 to-cyan-500 drop-shadow-lg  cursor-pointer text-white  ">
+              <div className="w-[250px] min-h-[60vh] md:w-[300px] lg:w-[300px] xl:w-[350px] rounded-lg bg-[#040f25] drop-shadow-lg  cursor-pointer text-white  ">
                 <div className="flex justify-center items-center rounded-md px-3 py-3">
                   <Image src={s4} width={100} height={100} />
                 </div>
@@ -122,7 +122,7 @@ const Access = () => {
         </div>
       </div>
 
-      <div className="rounded-md mx-4 my-5 min-h-[70vh] px-4 pt-7 bg-gradient-to-r from-blue-500 to-cyan-500">
+      <div className="rounded-md mx-4 my-5 min-h-[70vh] px-4 pt-7 bg-[#040f25]">
         <div className="lg:flex justify-center items-start ">
           <div className="lg:flex lg:justify-between lg:items-center px-0">
             <div className="w-auto h-auto p-1 ">
@@ -132,7 +132,7 @@ const Access = () => {
                     Most reliable career guidance platform
                   </span>
                 </div>
-                <div className="xl:text-[26px] lg:text-[25px] sm:text-[25px] text-[18px] font-semibold flex items-center justify-start text-center lg:text-left xl:text-left">
+                <div className="xl:text-[26px] lg:text-[25px] text-white sm:text-[25px] text-[18px] font-semibold flex items-center justify-start text-center lg:text-left xl:text-left">
                   <span>Let us Learn- Practice & Grow together</span>
                 </div>
                 <div className=" rounded-md flex items-center justify-center lg:justify-start xl:justify-start pt-4">

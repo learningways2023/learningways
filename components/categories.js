@@ -28,7 +28,7 @@ const Categories = () => {
   }, [controls, inView]);
   return (
     <div>
-      <div className="w-full min-h-[80vh] p-4 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+      <div className="w-full min-h-[80vh] p-4 text-center grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
         <div className="w-full h-full flex justify-center items-center">
           <Player
             autoplay
@@ -37,13 +37,13 @@ const Categories = () => {
             className=" w-[300px] h-[300px] xl:pt-0 xl:pb-0 lg:pt-0 lg:pb-0 sm:pt-5 sm:pb-10"
           ></Player>
         </div>
-        <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-gradient-to-r from-blue-500 to-cyan-500  h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+        <div className="w-full h-full  flex justify-center items-center">
+          <div className="bg-[#040f25]  h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s1} width={100} height={100} />
               </div>
-              <div className="text-[20px] font-medium flex justify-center items-center px-3 py-7">
+              <div className="text-[20px] font-medium flex justify-center text-white items-center px-3 py-7">
                 <span>5th - 10th</span>
               </div>
 
@@ -56,12 +56,12 @@ const Categories = () => {
           </div>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+          <div className="bg-[#040f25] h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s2} width={100} height={100} />
               </div>
-              <div className="text-[20px] font-medium flex justify-center items-center px-3 py-7">
+              <div className="text-[20px] font-medium flex justify-center text-white items-center px-3 py-7">
                 <span>11th - 12th</span>
               </div>
 
@@ -74,12 +74,12 @@ const Categories = () => {
           </div>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+          <div className="bg-[#040f25] h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s3} width={100} height={100} />
               </div>
-              <div className="text-[20px] font-medium flex justify-center items-center px-3 py-7">
+              <div className="text-[20px] font-medium flex justify-center text-white items-center px-3 py-7">
                 <span>Engineering</span>
               </div>
 
@@ -92,12 +92,12 @@ const Categories = () => {
           </div>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+          <div className="bg-[#040f25] h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s5} width={100} height={100} />
               </div>
-              <div className="text-[20px] font-medium flex justify-center items-center px-3 py-7">
+              <div className="text-[20px] font-medium flex justify-center text-white items-center px-3 py-7">
                 <span>Upgrade Skill</span>
               </div>
 
@@ -111,12 +111,12 @@ const Categories = () => {
         </div>
 
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+          <div className="bg-[#040f25] h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s4} width={100} height={100} />
               </div>
-              <div className="text-[20px] font-medium flex justify-center items-center px-3 py-7">
+              <div className="text-[20px] font-medium flex justify-center text-white items-center px-3 py-7">
                 <span>Competetive Exams</span>
               </div>
 
