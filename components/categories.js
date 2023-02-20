@@ -38,7 +38,7 @@ const Categories = () => {
           ></Player>
         </div>
         <div className="w-full h-full  flex justify-center items-center">
-          <div className="bg-[#040f25]  h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500  h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s1} width={100} height={100} />
@@ -56,7 +56,7 @@ const Categories = () => {
           </div>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-[#040f25] h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s2} width={100} height={100} />
@@ -74,7 +74,7 @@ const Categories = () => {
           </div>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-[#040f25] h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s3} width={100} height={100} />
@@ -92,7 +92,7 @@ const Categories = () => {
           </div>
         </div>
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-[#040f25] h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s5} width={100} height={100} />
@@ -111,7 +111,7 @@ const Categories = () => {
         </div>
 
         <div className="w-full h-full flex justify-center items-center">
-          <div className="bg-[#040f25] h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
+          <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-[280px] w-[280px]  rounded-lg  infPic flex items-center justify-center   cursor-pointer text-black ">
             <div>
               <div className="flex justify-center items-center rounded-md px-3 py-3">
                 <Image src={s4} width={100} height={100} />

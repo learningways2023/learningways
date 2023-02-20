@@ -3,7 +3,7 @@ import React from "react";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 const ApptitudeSlide = () => {
   return (
-    <div className="min-h-[80vh] bg-[#040f25] mx-4 my-5 rounded-md  flex justify-center items-center">
+    <div className="min-h-[80vh] bg-gradient-to-r from-blue-500 to-cyan-500 mx-4 my-5 rounded-md  flex justify-center items-center">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8 lg:gap-4 xl:gap-4">
         <div className="w-full h-full flex justify-center items-center">
           <div className="">

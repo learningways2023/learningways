@@ -49,7 +49,7 @@ const About = () => {
       <Uparrow url="about" />
       <div className="pb-9">
         <div
-          className="about_hero1 mx-4 my-5 rounded-md bg-[#040f25] pt-10"
+          className="about_hero1 mx-4 my-5 rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 pt-10"
           id="what_we_do"
         >
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8">
@@ -59,7 +59,7 @@ const About = () => {
             <div className=" p-4 rounded-md flex items-center justify-center">
               <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-0 lg:gap-8 sm:gap-4 lg:px-10 md:px-10 px-3">
                 <div className="rounded-md flex items-center justify-center">
-                  <h1 className=" xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-white font-semibold text-center">
+                  <h1 className=" xl:text-4xl lg:text-3xl md:text-3xl text-[26px] text-black font-semibold text-center">
                     WHAT WE DO?
                   </h1>
                 </div>
@@ -243,7 +243,7 @@ const About = () => {
           Contact Us
         </h1>
       </div>
-      <div className="m-4 min-h-[100vh] bg-[#040f25] rounded-lg">
+      <div className="m-4 min-h-[100vh] bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className="w-full h-full flex-row justify-center items-center"></div>
           <div className=" p-4 rounded-md flex items-center justify-center  pt-9">
@@ -318,7 +318,7 @@ const About = () => {
           Career With Us
         </h1>
       </div>
-      <div className="m-4 min-h-[100vh] bg-gradient-to-r mt-10 bg-[#040f25] rounded-lg">
+      <div className="m-4 min-h-[100vh] bg-gradient-to-r mt-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg">
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-4">
           <div className=" p-4 rounded-md flex items-center justify-center  pt-9">
             <div className="newloginContainer cardbg1  rounded-md">

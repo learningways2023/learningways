@@ -8,7 +8,7 @@ import bullet from "../public/bulletwhite.svg";
 const OngoingSlider = (props) => {
   return (
     <>
-      <div className="w-full bg-[#040f25]  p-4 rounded-lg ">
+      <div className="w-full bg-gradient-to-r from-blue-500 to-cyan-500  p-4 rounded-lg ">
         <div className="flex flex-col items-center justify-between overflow-hidden min-h-[90vh] md:min-h-[70vh] lg:min-h-[70vh] xl:min-h-[70vh]  ">
           <div className="w-full h-full flex justify-center items-center p-2 ">
             <Player

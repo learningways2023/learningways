@@ -416,12 +416,12 @@
   -webkit-backdrop-filter: blur(17px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18); */
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba( 74, 144, 226, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .cardbg {
   background: url("https://64.media.tumblr.com/258788fb4c34d9bc05c07ea6c1c595ea/59020f76a0b5c5d9-0f/s540x810/ece51a09e06b6c5e926b5a3448e54de852a5c68d.gif");
@@ -432,7 +432,7 @@
   object-fit: cover;
 }
 .cardbg1 {
-  background: url("../public//newbg6.png");
+  background: url("../public//newbg4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
