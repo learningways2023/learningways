@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyC-Ojdnm40NJvGrN4pH00OWmnwrP2-ex9s",
-  authDomain: "learning-ways-auth.firebaseapp.com",
+  authDomain: "com.exapmle.learningways",
   projectId: "learning-ways-auth",
   storageBucket: "learning-ways-auth.appspot.com",
   messagingSenderId: "719930824203",
