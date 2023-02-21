@@ -14,9 +14,34 @@ import Axios from "axios";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import logo from "../public/Google.png";
 import { useRouter } from "next/router";
-import { useReducer, useEffect, useState, useRef } from "react";
+import { useState, useCallback, useEffect } from "react";
 
 function Login() {
+  const useMediaQuery = (width) => {
+    const [targetReached, setTargetReached] = useState(false);
+
+    const updateTarget = useCallback((e) => {
+      if (e.matches) {
+        setTargetReached(true);
+      } else {
+        setTargetReached(false);
+      }
+    }, []);
+
+    useEffect(() => {
+      const media = window.matchMedia(`(max-width: ${width}px)`);
+      media.addListener(updateTarget);
+
+      if (media.matches) {
+        setTargetReached(true);
+      }
+
+      return () => media.removeListener(updateTarget);
+    }, []);
+
+    return targetReached;
+  };
+  const isBreakpoint = useMediaQuery(450);
   const [email, setEmail] = useState(false);
   const [pass, setPass] = useState("password");
 
@@ -144,12 +169,14 @@ function Login() {
                 </button>
               </div>
             </form>
-            <div className="border-2 border-slate-300 px-4 py-1 mb-3 sm:w-[320px] w-[260px] font-medium flex items-center justify-center gap-2">
-              <Image src={logo} alt="googleLogo" width={34} height={34} />
-              <button type="submit" onClick={googleLogin}>
-                Sign in with Google
-              </button>
-            </div>
+            {isBreakpoint ? null : (
+              <div className="border-2 border-slate-300 px-4 py-1 mb-3 sm:w-[320px] w-[260px] font-medium  items-center flex justify-center gap-2">
+                <Image src={logo} alt="googleLogo" width={34} height={34} />
+                <button type="submit" onClick={googleLogin}>
+                  Sign in with Google
+                </button>
+              </div>
+            )}
             <div className="">
               <p className="  font-medium">
                 Donot have an account?{" "}
