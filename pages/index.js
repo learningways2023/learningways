@@ -1,4 +1,6 @@
 import React from "react";
+import { useState, useEffect } from "react";
+
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Newhero from "../components/hero";
@@ -8,14 +10,50 @@ import Ongoing from "../components/ongoing";
 import Categories from "../components/categories";
 import Upcoming from "../components/upcoming";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
-
+import { getCookies, getCookie, setCookies, removeCookies } from "cookies-next";
+import close from "../public/close.svg";
+import Image from "next/image";
+import { useRouter } from "next/router";
 import ApptitudeSlide from "../components/apptitudeSlide";
-
+import Logincomp from "../components/loginComp";
 import Access from "../components/access";
 import Uparrow from "../components/uparrow";
 const Index = () => {
+  const router = useRouter()
+  const [needloging, setNeed] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      console.log("This will run after 1 second!");
+      getCookie("user") ? setNeed(false) : setNeed(true);
+    }, 6000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="bg-white">
+      {needloging ? (
+        <>
+          <div className="justify-center items-start flex overflow-x-hidden overflow-y-auto fixed inset-0  z-50 outline-none focus:outline-none cursor-pointer">
+            <div className="relative mx-auto w-11/12 lg:w-9/12 sm:px-1 px-0  my-20 ">
+              {/*content*/}
+              <div className="bg-white px-4 rounded-md drop-shadow-md">
+                <div className="p-4">
+                  <div
+                    className="flex justify-end items-end cursor-pointer pb-4"
+                    onClick={function handleModal() {
+                      setNeed(false);
+                    }}
+                  >
+                    <Image src={close} width={20} height={20} />
+                  </div>
+                  <Logincomp />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+        </>
+      ) : null}
       <Uparrow url="/" />
       <Navbar />
       <Newhero />
@@ -29,7 +67,12 @@ const Index = () => {
               discussions. Expand your network and make new friends today!
             </div>
             <div className="pt-10">
-              <div className="border-2 text-black rounded px-4 md:px-20 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+              <div
+                className="border-2 text-black rounded px-4 md:px-20 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                onClick={function handlePaage() {
+                  router.push("/community");
+                }}
+              >
                 <button>Join our community club !</button>
               </div>
             </div>
@@ -58,8 +101,8 @@ const Index = () => {
             <div className="py-7 flex justify-center items-center pb-4">
               <div
                 className=" border-2 text-black rounded px-5 py-1 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
-                onClick={function showModal() {
-                  setModal(true);
+                onClick={function handlePaage() {
+                  router.push("/community");
                 }}
               >
                 Join Now
@@ -80,8 +123,8 @@ const Index = () => {
             <div className="py-7 flex justify-center items-center pb-4">
               <div
                 className=" border-2 text-black rounded px-5 py-1 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
-                onClick={function showModal() {
-                  setModal(true);
+                onClick={function handlePaage() {
+                  router.push("/community");
                 }}
               >
                 Join Now
@@ -102,8 +145,8 @@ const Index = () => {
             <div className="py-7 flex justify-center items-center pb-4">
               <div
                 className=" border-2 text-black rounded px-5 py-1 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
-                onClick={function showModal() {
-                  setModal(true);
+                onClick={function handlePaage() {
+                  router.push("/community");
                 }}
               >
                 Join Now

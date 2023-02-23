@@ -6,8 +6,9 @@ import Link from "next/link";
 import { getCookie } from "cookies-next";
 
 import { Player } from "@lottiefiles/react-lottie-player";
-
+import { useRouter } from "next/router";
 function Newhero() {
+  const router = useRouter()
   const useMediaQuery = (width) => {
     const [targetReached, setTargetReached] = useState(false);
 
@@ -52,7 +53,9 @@ function Newhero() {
                 skill development courses for children and professionals
               </span>
             </div>
-            <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150 ">
+            <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150 " onClick={function handleClick(){
+              getCookie("user")?(router.push("/dashboard")):(router.push("/login"))
+            }}>
               <button>Explore Now !</button>
             </div>
           </div>

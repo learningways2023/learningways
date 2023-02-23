@@ -3,7 +3,7 @@ import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import Image from "next/image";
-
+import { useRouter } from "next/router";
 import Link from "next/link";
 
 import s1 from "../public/s11.png";
@@ -15,6 +15,7 @@ import s4 from "../public/s14.png";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 const Access = () => {
+  const router = useRouter()
   const squareVariants = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
     hidden: { opacity: 0, scale: 0 },
@@ -51,7 +52,12 @@ const Access = () => {
                 </div>
                 <div className=" flex justify-center items-center  ">
                   <div className="fixed bottom-3">
-                    <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                    <div
+                      className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                      onClick={function handlePaage() {
+                        router.push("/NCERT_Solutions");
+                      }}
+                    >
                       <button>Learn & Grow</button>
                     </div>
                   </div>
@@ -74,7 +80,12 @@ const Access = () => {
                 </div>
                 <div className=" flex justify-center items-center ">
                   <div className="fixed bottom-3">
-                    <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                    <div
+                      className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                      onClick={function handlePaage() {
+                        router.push("/UPSC_Current_Affairs");
+                      }}
+                    >
                       <button>Choose Here</button>
                     </div>
                   </div>
@@ -97,7 +108,12 @@ const Access = () => {
                 </div>
                 <div className=" flex justify-center items-center ">
                   <div className="fixed bottom-3">
-                    <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                    <div
+                      className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                      onClick={function handlePaage() {
+                        router.push("/Coding_tutorials");
+                      }}
+                    >
                       <button>Decide Here</button>
                     </div>
                   </div>
@@ -119,7 +135,12 @@ const Access = () => {
                 </div>
                 <div className=" flex justify-center items-center ">
                   <div className="fixed bottom-3">
-                    <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                    <div
+                      className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                      onClick={function handlePaage() {
+                        router.push("/courses");
+                      }}
+                    >
                       <button>Decide Here</button>
                     </div>
                   </div>
@@ -144,8 +165,13 @@ const Access = () => {
                   <span>Let us Learn- Practice & Grow together</span>
                 </div>
                 <div className=" rounded-md flex items-center justify-center lg:justify-start xl:justify-start pt-4">
-                  <div className="border-2 text-black rounded px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
-                    <button>Signup</button>
+                  <div
+                    className="border-2 text-black rounded px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                    onClick={function handlePaage() {
+                      router.push("/community");
+                    }}
+                  >
+                    <button>Join Our Community</button>
                   </div>
                 </div>
               </div>

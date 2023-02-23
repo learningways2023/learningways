@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -15,6 +15,7 @@ import s3 from "../public/s13.png";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 
 const Categories = () => {
+  const router = useRouter();
   const squareVariants = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
     hidden: { opacity: 0, scale: 0 },
@@ -51,7 +52,12 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                <div
+                  className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                  onClick={function handlePaage() {
+                    router.push("/classFivetoTen");
+                  }}
+                >
                   <button>Learn & Grow</button>
                 </div>
               </div>
@@ -69,7 +75,12 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                <div
+                  className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                  onClick={function handlePaage() {
+                    router.push("/classEleventoTwelve");
+                  }}
+                >
                   <button>Learn & Grow</button>
                 </div>
               </div>
@@ -87,7 +98,12 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                <div
+                  className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                  onClick={function handlePaage() {
+                    router.push("/Engineering");
+                  }}
+                >
                   <button>Master Your code</button>
                 </div>
               </div>
@@ -105,7 +121,12 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                <div
+                  className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                  onClick={function handlePaage() {
+                    router.push("/courses");
+                  }}
+                >
                   <button>Lets Empower</button>
                 </div>
               </div>
@@ -124,7 +145,12 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                <div
+                  className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                  onClick={function handlePaage() {
+                    router.push("/national_entrance_eligiblity_test");
+                  }}
+                >
                   <button>Ace the exam</button>
                 </div>
               </div>

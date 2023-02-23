@@ -21,7 +21,7 @@ const ApptitudeSlide = () => {
               Unlock Your Potential !
             </span>
           </div>
-          <div className="xl:text-[26px] pt-10 pl-4 lg:text-[25px] sm:text-[25px] text-[18px] font-semibold flex items-start justify-start text-center text-white">
+          <div className="xl:text-[26px] pt-10 px-4 lg:text-[25px] sm:text-[25px] text-[18px] font-semibold flex items-start justify-start text-center text-white">
             <span>
               Take our online test to discover your strengths and find the
               career path that's right for you. Our comprehensive assessment

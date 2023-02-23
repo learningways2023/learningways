@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import Image from "next/image";
 import expand from "../public/expand.png";
 import { useRouter } from "next/router";
@@ -8,7 +8,9 @@ import { auth } from "../firebase";
 import { getCookies, getCookie, setCookies, removeCookies } from "cookies-next";
 export default function Navbar() {
   const router = useRouter();
+ 
   const [navbar, setNavbar] = useState(false);
+  
   return (
     <div>
       <nav className="w-full bg-gradient-to-r from-blue-500 to-cyan-500">
