@@ -111,11 +111,11 @@ const Ongoing = () => {
               shadowScale: 0.94,
             }}
             autoplay={{
-              delay: 3500,
+              delay: 4500,
               disableOnInteraction: false,
             }}
-            pagination={true}
-            modules={[EffectCube, Pagination,Autoplay]}
+          
+            modules={[EffectCube,Autoplay]}
             className="mySwiper w-12/12 h-[90vh] md:h-[70vh]  lg:h-[70vh]  xl:h-[70vh]  "
             
           >

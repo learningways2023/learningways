@@ -52,7 +52,7 @@ function Newhero() {
                 skill development courses for children and professionals
               </span>
             </div>
-            <div className="border-2 text-white rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-black border-black duration-150 ">
+            <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150 ">
               <button>Explore Now !</button>
             </div>
           </div>

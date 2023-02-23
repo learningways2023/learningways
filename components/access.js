@@ -49,9 +49,11 @@ const Access = () => {
                     curriculum
                   </span>
                 </div>
-                <div className=" flex justify-center items-center px-3 py-6">
-                  <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
-                    <button>Learn & Grow</button>
+                <div className=" flex justify-center items-center  ">
+                  <div className="fixed bottom-3">
+                    <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                      <button>Learn & Grow</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -70,9 +72,11 @@ const Access = () => {
                     Services Examination.
                   </span>
                 </div>
-                <div className=" flex justify-center items-center px-3 py-6">
-                  <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
-                    <button>Choose Here</button>
+                <div className=" flex justify-center items-center ">
+                  <div className="fixed bottom-3">
+                    <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                      <button>Choose Here</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -91,9 +95,11 @@ const Access = () => {
                     improvement
                   </span>
                 </div>
-                <div className=" flex justify-center items-center px-3 py-6">
-                  <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
-                    <button>Decide Here</button>
+                <div className=" flex justify-center items-center ">
+                  <div className="fixed bottom-3">
+                    <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                      <button>Decide Here</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -111,9 +117,11 @@ const Access = () => {
                     Take our Skill-Based Assessment Test and find out
                   </span>
                 </div>
-                <div className=" flex justify-center items-center px-3 py-6">
-                  <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
-                    <button>Start Here</button>
+                <div className=" flex justify-center items-center ">
+                  <div className="fixed bottom-3">
+                    <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
+                      <button>Decide Here</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -136,7 +144,7 @@ const Access = () => {
                   <span>Let us Learn- Practice & Grow together</span>
                 </div>
                 <div className=" rounded-md flex items-center justify-center lg:justify-start xl:justify-start pt-4">
-                  <div className="border-2 text-white rounded px-7 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                  <div className="border-2 text-black rounded px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
                     <button>Signup</button>
                   </div>
                 </div>

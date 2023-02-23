@@ -28,6 +28,9 @@ const Categories = () => {
   }, [controls, inView]);
   return (
     <div>
+      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-0 md:mt-10 lg:mt-10 xl:mt-10 ">
+        Explore our category & courses
+      </div>
       <div className="w-full min-h-[80vh] p-4 text-center grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
         <div className="w-full h-full flex justify-center items-center">
           <Player
@@ -48,7 +51,7 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
                   <button>Learn & Grow</button>
                 </div>
               </div>
@@ -66,7 +69,7 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
                   <button>Learn & Grow</button>
                 </div>
               </div>
@@ -84,7 +87,7 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
                   <button>Master Your code</button>
                 </div>
               </div>
@@ -102,7 +105,7 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
                   <button>Lets Empower</button>
                 </div>
               </div>
@@ -121,7 +124,7 @@ const Categories = () => {
               </div>
 
               <div className=" flex justify-center items-center px-3 pb-9">
-                <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                <div className="border-2 text-black rounded px-3 py-3 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
                   <button>Ace the exam</button>
                 </div>
               </div>

@@ -46,12 +46,13 @@ const Goals = () => {
               <div className="px-3 py-3 flex justify-center items-center rounded-md">
                 <Image src={kid} width={100} height={100} />
               </div>
-              <div className="px-3 py-3 text-[20px] font-medium flex justify-center items-center pb-3">
-                <span>kid</span>
+              <div className="px-3 py-3 text-[24px] text-black font-semibold flex justify-center items-center pb-3">
+                <span>Ayush</span>
               </div>
+              
               <div className="px-3 py-3 text-[17px]  flex justify-center items-center pb-3">
                 <span className="text-center leading-relaxed">
-                  "I used to think coding was boring, but this program made it
+                  I used to think coding was boring, but this program made it
                   so much fun! I love being able to bring my ideas to life with
                   code. I can't wait to show my friends and family all the cool
                   things I've made
@@ -64,8 +65,8 @@ const Goals = () => {
               <div className="px-3 py-3 flex justify-center items-center rounded-md">
                 <Image src={upsc} width={100} height={100} />
               </div>
-              <div className="px-3 py-3 text-[20px] font-medium flex justify-center items-center pb-3">
-                <span>UPSC Aspirant </span>
+              <div className="px-3 py-3 text-[24px] font-semibold text-black flex justify-center items-center pb-3">
+                <span>Omkar</span>
               </div>
               <div className="px-3 py-3 text-[17px]  flex justify-center items-center pb-3">
                 <span className="text-center leading-relaxed">
@@ -81,12 +82,12 @@ const Goals = () => {
               <div className="px-3 py-3 flex justify-center items-center rounded-md">
                 <Image src={parent} width={100} height={100} />
               </div>
-              <div className="px-3 py-3 text-[20px] font-medium flex justify-center items-center pb-3">
-                <span>Parent</span>
+              <div className="px-3 py-3 text-[24px] font-semibold text-black flex justify-center items-center pb-3">
+                <span>Avinash</span>
               </div>
               <div className="px-3 py-3 text-[17px]  flex justify-center items-center pb-3">
                 <span className="text-center leading-relaxed">
-                  "As parents, we were always worried about our child's studies
+                  As parents, we were always worried about our child's studies
                   and their ability to understand the concepts. But this program
                   has made such a huge difference. Our child is now able to
                   understand the material better, retain information longer and

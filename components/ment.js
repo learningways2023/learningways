@@ -31,9 +31,8 @@ const Ment = () => {
             <div className="rounded-md flex items-center justify-center">
               <div className="w-auto h-auto bg-[#ffff]  flex justify-center items-center high1">
                 <span className="text-black   lg:text-xl md:text-lg p-2 text-sm text-center">
-                  "John helped me improve my coding skills and gave me valuable
-                  insights on how to advance in my career." - Jane Smith, Junior
-                  Developer
+                  "Jayesh guidance helped me land a job as a full-stack
+                  developer. He's knowledgeable and effective in teaching."
                 </span>
               </div>
             </div>
@@ -53,10 +52,10 @@ const Ment = () => {
               </div>
               <div className="pl-5">
                 <div className="lg:text-lg md:text-lg text-base text-black font-semibold">
-                  Mr John Doe
+                  Mr Jayesh
                 </div>
                 <div className="sm:text-[14px] text-[13px] font-semibold   text-gray-700">
-                  Senior Software Engineer
+                  Full Stack Development
                 </div>
               </div>
             </div>
@@ -77,9 +76,9 @@ const Ment = () => {
             <div className="rounded-md flex items-center justify-center">
               <div className="w-auto h-auto bg-[#ffff]  flex justify-center items-center high1">
                 <span className="text-black   lg:text-xl md:text-lg p-2 text-sm text-center">
-                  "John helped me improve my coding skills and gave me valuable
-                  insights on how to advance in my career." - Jane Smith, Junior
-                  Developer
+                  "Rishabh mentorship helped me develop a comprehensive digital
+                  marketing strategy for my business. Her experience and
+                  knowledge are invaluable."
                 </span>
               </div>
             </div>
@@ -99,10 +98,10 @@ const Ment = () => {
               </div>
               <div className="pl-5">
                 <div className="lg:text-lg md:text-lg text-base text-black font-semibold">
-                  Mr John Doe
+                  Mr Rishabh
                 </div>
                 <div className="sm:text-[14px] text-[13px] font-semibold   text-gray-700">
-                  Senior Software Engineer
+                  Digital Marketing
                 </div>
               </div>
             </div>
@@ -123,9 +122,9 @@ const Ment = () => {
             <div className="rounded-md flex items-center justify-center">
               <div className="w-auto h-auto bg-[#ffff]  flex justify-center items-center high1">
                 <span className="text-black   lg:text-xl md:text-lg p-2 text-sm text-center">
-                  "John helped me improve my coding skills and gave me valuable
-                  insights on how to advance in my career." - Jane Smith, Junior
-                  Developer
+                  "Aafiya mentorship made the learning process easier.She taught
+                  me the technical skills I needed and how to approach data
+                  problems strategically."
                 </span>
               </div>
             </div>
@@ -145,10 +144,10 @@ const Ment = () => {
               </div>
               <div className="pl-5">
                 <div className="lg:text-lg md:text-lg text-base text-black font-semibold">
-                  Mr John Doe
+                  Mr Aafiya
                 </div>
                 <div className="sm:text-[14px] text-[13px] font-semibold   text-gray-700">
-                  Senior Software Engineer
+                  Data Science
                 </div>
               </div>
             </div>

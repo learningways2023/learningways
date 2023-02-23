@@ -37,7 +37,7 @@ const OngoingSlider = (props) => {
             </div>
           </div>
           <div className="pb-3 flex items-center justify-center ">
-            <div className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+            <div className="border-2 text-black rounded px-3 py-1 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
               Register Now !
             </div>
           </div>

@@ -385,7 +385,7 @@ export default function Navbar() {
                       setNavbar(false);
                     }}
                   >
-                    <div className="border-2 text-white rounded px-7 py-2 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                    <div className="border-2 text-black rounded px-7 py-2 text-base  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
                       <button>Logout</button>
                     </div>
                   </li>
@@ -398,7 +398,7 @@ export default function Navbar() {
                     }}
                   >
                     <div>
-                      <div className="border-2 text-white rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-black border-black duration-150">
+                      <div className="border-2 text-black rounded px-3 py-3 text-base  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150">
                         <button>Login / Sign up</button>
                       </div>
                     </div>
