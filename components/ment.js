@@ -36,17 +36,8 @@ const Ment = () => {
                 </span>
               </div>
             </div>
-            <div className="rounded-md flex items-center justify-center">
-              <div className="w-auto h-auto flex justify-center items-center">
-                <span className=" text-black lg:text-lg md:text-lg text-[14px] text-center   py-4">
-                  John is a Senior Software Engineer with over 10 years of
-                  experience in the tech industry. He specializes in Agile
-                  development methodologies and has a proven track record of
-                  successfully mentoring junior developers.
-                </span>
-              </div>
-            </div>
-            <div className="rounded-md flex items-center justify-center">
+
+            <div className="rounded-md flex pt-5 items-center justify-center">
               <div>
                 <Image src={ment} width={100} height={100} />
               </div>
@@ -82,17 +73,8 @@ const Ment = () => {
                 </span>
               </div>
             </div>
-            <div className="rounded-md flex items-center justify-center">
-              <div className="w-auto h-auto flex justify-center items-center">
-                <span className=" text-black lg:text-lg md:text-lg text-[14px] text-center   py-4">
-                  John is a Senior Software Engineer with over 10 years of
-                  experience in the tech industry. He specializes in Agile
-                  development methodologies and has a proven track record of
-                  successfully mentoring junior developers.
-                </span>
-              </div>
-            </div>
-            <div className="rounded-md flex items-center justify-center">
+
+            <div className="rounded-md flex pt-5 items-center justify-center">
               <div>
                 <Image src={ment} width={100} height={100} />
               </div>
@@ -128,17 +110,8 @@ const Ment = () => {
                 </span>
               </div>
             </div>
-            <div className="rounded-md flex items-center justify-center">
-              <div className="w-auto h-auto flex justify-center items-center">
-                <span className=" text-black lg:text-lg md:text-lg text-[14px] text-center   py-4">
-                  John is a Senior Software Engineer with over 10 years of
-                  experience in the tech industry. He specializes in Agile
-                  development methodologies and has a proven track record of
-                  successfully mentoring junior developers.
-                </span>
-              </div>
-            </div>
-            <div className="rounded-md flex items-center justify-center">
+
+            <div className="rounded-md flex pt-5 items-center justify-center">
               <div>
                 <Image src={ment} width={100} height={100} />
               </div>
@@ -169,3 +142,7 @@ const Ment = () => {
 };
 
 export default Ment;
+
+// "https://assets7.lottiefiles.com/packages/lf20_l13zwx3i.json"
+// https://assets9.lottiefiles.com/packages/lf20_1rsb3quq.json
+// https://assets10.lottiefiles.com/packages/lf20_qrtp2d9r.json

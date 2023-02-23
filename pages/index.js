@@ -19,7 +19,7 @@ import Logincomp from "../components/loginComp";
 import Access from "../components/access";
 import Uparrow from "../components/uparrow";
 const Index = () => {
-  const router = useRouter()
+  const router = useRouter();
   const [needloging, setNeed] = useState(false);
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -97,6 +97,14 @@ const Index = () => {
                 </span>
               </div>
             </div>
+            <div className="w-full h-full flex justify-center items-center">
+              <Player
+                autoplay
+                loop
+                src="https://assets7.lottiefiles.com/packages/lf20_l13zwx3i.json"
+                className=" w-[250px] h-[250px]"
+              ></Player>
+            </div>
 
             <div className="py-7 flex justify-center items-center pb-4">
               <div
@@ -119,7 +127,14 @@ const Index = () => {
                 </span>
               </div>
             </div>
-
+            <div className="w-full h-full flex justify-center items-center">
+              <Player
+                autoplay
+                loop
+                src="https://assets4.lottiefiles.com/private_files/lf30_e9t04qcb.json"
+                className=" w-[250px] h-[250px]"
+              ></Player>
+            </div>
             <div className="py-7 flex justify-center items-center pb-4">
               <div
                 className=" border-2 text-black rounded px-5 py-1 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
@@ -141,7 +156,14 @@ const Index = () => {
                 </span>
               </div>
             </div>
-
+            <div className="w-full h-full flex justify-center items-center">
+              <Player
+                autoplay
+                loop
+                src="https://assets9.lottiefiles.com/packages/lf20_dT1E1P.json"
+                className=" w-[250px] h-[250px]"
+              ></Player>
+            </div>
             <div className="py-7 flex justify-center items-center pb-4">
               <div
                 className=" border-2 text-black rounded px-5 py-1 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
@@ -172,4 +194,6 @@ const Index = () => {
 };
 
 export default Index;
-// https://assets4.lottiefiles.com/packages/lf20_ikvz7qhc.json
+// "https://assets7.lottiefiles.com/packages/lf20_l13zwx3i.json"
+// https://assets9.lottiefiles.com/packages/lf20_1rsb3quq.json
+// https://assets10.lottiefiles.com/packages/lf20_qrtp2d9r.json
