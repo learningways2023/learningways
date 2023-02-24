@@ -52,12 +52,12 @@ const Ment = () => {
             </div>
             <div className="py-7 flex justify-center items-center pb-4">
               <div
-                className=" border-2 text-white rounded px-4 py-2 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
+                className=" border-2 text-black rounded px-4 py-2 text-base  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function showModal() {
                   setModal(true);
                 }}
               >
-                Schedule a session with John
+                Schedule a session with Jayesh
               </div>
             </div>
           </div>
@@ -89,12 +89,12 @@ const Ment = () => {
             </div>
             <div className="py-7 flex justify-center items-center pb-4">
               <div
-                className=" border-2 text-white rounded px-4 py-2 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
+                className=" border-2 text-black rounded px-4 py-2 text-base  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function showModal() {
                   setModal(true);
                 }}
               >
-                Schedule a session with John
+                Schedule a session with Rishabh
               </div>
             </div>
           </div>
@@ -126,12 +126,12 @@ const Ment = () => {
             </div>
             <div className="py-7 flex justify-center items-center pb-4">
               <div
-                className=" border-2 text-white rounded px-4 py-2 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
+                className=" border-2 text-black rounded px-4 py-2 text-base  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08 duration-150"
                 onClick={function showModal() {
                   setModal(true);
                 }}
               >
-                Schedule a session with John
+                Schedule a session with Aafiya
               </div>
             </div>
           </div>
