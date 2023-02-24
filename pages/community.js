@@ -82,7 +82,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -112,7 +112,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -142,7 +142,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -172,7 +172,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -202,7 +202,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -232,7 +232,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -262,7 +262,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -292,7 +292,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -322,7 +322,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -352,7 +352,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -382,7 +382,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
@@ -412,7 +412,7 @@ const Community = () => {
             </div>
             <div className="pb-7 flex justify-center items-center">
               <div
-                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-7 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
