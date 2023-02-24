@@ -87,91 +87,123 @@ const Index = () => {
           </div>
         </div>
       </div>
-      <div className="py-9 grid grid-cols-1 cardbg1 rounded-md md:grid-cols-2  lg:grid-cols-3 gap-6 sm:mx-4 mx-1">
-        <div className="sm:p-6 p-4 mx-4 rounded-lg flex border border-[#d3d2d2]  items-center justify-center card-col infPic drop-shadow-lg">
+      <div className="py-9 grid grid-cols-1 cardbg1 rounded-md md:grid-cols-2  lg:grid-cols-4 gap-6 sm:mx-4 mx-1">
+        <div className=" rounded-lg flex  items-center justify-center  infPic card-col  ">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
             <div className="rounded-md flex items-center justify-center">
-              <div className="w-auto h-auto bg-[#fff] flex justify-center items-center high1">
-                <span className="text-black font-semibold lg:text-3xl md:text-lg text-sm text-center p-4">
+              <div className="w-auto h-auto bg-[#ffff] mt-2 mx-2 flex justify-center items-center high1">
+                <span className="text-black   lg:text-2xl md:text-xl px-4 py-2  text-lg text-center">
                   Health & Fitness
                 </span>
               </div>
             </div>
+
             <div className="w-full h-full flex justify-center items-center">
               <Player
                 autoplay
                 loop
                 src="https://assets7.lottiefiles.com/packages/lf20_l13zwx3i.json"
-                className=" w-[250px] h-[250px]"
+                className=" w-[250px] h-[200px]"
               ></Player>
             </div>
-
-            <div className="py-7 flex justify-center items-center pb-4">
+            <div className="pb-7 flex justify-center items-center">
               <div
-                className=" border-2 text-black rounded px-5 py-1 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
               >
-                Join Now
+                <button>Join our community club !</button>
               </div>
             </div>
           </div>
         </div>
-        <div className="sm:p-6 p-4 mx-4 rounded-lg flex border border-[#d3d2d2]  items-center justify-center card-col infPic drop-shadow-lg">
+        <div className=" rounded-lg flex  items-center justify-center  infPic card-col  ">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
             <div className="rounded-md flex items-center justify-center">
-              <div className="w-auto h-auto bg-[#fff] flex justify-center items-center high1">
-                <span className="text-black font-semibold lg:text-3xl md:text-lg text-sm text-center p-4">
+              <div className="w-auto h-auto bg-[#ffff] mt-2 mx-2 flex justify-center items-center high1">
+                <span className="text-black   lg:text-2xl md:text-xl px-4 py-2  text-lg text-center">
                   Digital Marketing
                 </span>
               </div>
             </div>
+
             <div className="w-full h-full flex justify-center items-center">
               <Player
                 autoplay
                 loop
                 src="https://assets4.lottiefiles.com/private_files/lf30_e9t04qcb.json"
-                className=" w-[250px] h-[250px]"
+                className=" w-[250px] h-[200px]"
               ></Player>
             </div>
-            <div className="py-7 flex justify-center items-center pb-4">
+            <div className="pb-7 flex justify-center items-center">
               <div
-                className=" border-2 text-black rounded px-5 py-1 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
               >
-                Join Now
+                <button>Join our community club !</button>
               </div>
             </div>
           </div>
         </div>
-        <div className="sm:p-6 p-4 mx-4 rounded-lg flex border border-[#d3d2d2]  items-center justify-center card-col infPic drop-shadow-lg">
+        <div className=" rounded-lg flex  items-center justify-center  infPic card-col  ">
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
             <div className="rounded-md flex items-center justify-center">
-              <div className="w-auto h-auto bg-[#fff] flex justify-center items-center high1">
-                <span className="text-black font-semibold lg:text-3xl md:text-lg text-sm text-center p-4">
+              <div className="w-auto h-auto bg-[#ffff] mt-2 mx-2 flex justify-center items-center high1">
+                <span className="text-black   lg:text-2xl md:text-xl px-4 py-2  text-lg text-center">
                   School Science
                 </span>
               </div>
             </div>
+
             <div className="w-full h-full flex justify-center items-center">
               <Player
                 autoplay
                 loop
                 src="https://assets9.lottiefiles.com/packages/lf20_dT1E1P.json"
-                className=" w-[250px] h-[250px]"
+                className=" w-[250px] h-[200px]"
               ></Player>
             </div>
-            <div className="py-7 flex justify-center items-center pb-4">
+            <div className="pb-7 flex justify-center items-center">
               <div
-                className=" border-2 text-black rounded px-5 py-1 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                 onClick={function handlePaage() {
                   router.push("/community");
                 }}
               >
-                Join Now
+                <button>Join our community club !</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" rounded-lg flex  items-center justify-center  infPic card-col  ">
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2">
+            <div className="rounded-md flex items-center justify-center">
+              <div className="w-auto h-auto bg-[#ffff] mt-2 mx-2 flex justify-center items-center high1">
+                <span className="text-black   lg:text-2xl md:text-xl px-4 py-2  text-lg text-center">
+                  Data Science 
+                </span>
+              </div>
+            </div>
+
+            <div className="w-full h-full flex justify-center items-center">
+              <Player
+                autoplay
+                loop
+                src="https://assets5.lottiefiles.com/packages/lf20_qp1q7mct.json"
+                className=" w-[250px] h-[200px]"
+              ></Player>
+            </div>
+            <div className="pb-7 flex justify-center items-center">
+              <div
+                className="border-2 text-black rounded px-4 md:px-12 py-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                onClick={function handlePaage() {
+                  router.push("/community");
+                }}
+              >
+                <button>Join our community club !</button>
               </div>
             </div>
           </div>
