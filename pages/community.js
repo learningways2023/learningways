@@ -8,11 +8,12 @@ import forum from "../public/forum.png";
 import group from "../public/group.png";
 import member from "../public/members.png";
 import dbms from "../public/dbms.png";
-
+import { useRouter } from "next/router";
 import ment from "../public/john.png";
 import Uparrow from "../components/uparrow";
 import Image from "next/image";
 const Community = () => {
+  const router = useRouter();
   return (
     <div>
       <Navbar />
@@ -31,20 +32,50 @@ const Community = () => {
               </span>
             </div>
             <div className=" mt-7 grid  grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-6">
-              <div className="bg-white w-full p-2 h-full flex justify-center rounded-lg items-center cursor-pointer">
-                <Image src={community} width={100} height={100} />
+              <div
+                className="bg-white w-full p-2 h-full flex flex-col justify-center rounded-lg items-center cursor-pointer"
+                onClick={function handleEvent() {
+                  router.push("/community#activites");
+                }}
+              >
+                <Image src={community} width={90} height={90} />
+                <div className="font-semibold">Activity</div>
               </div>
-              <div className="bg-white w-full p-2 h-full flex justify-center rounded-lg items-center cursor-pointer">
-                <Image src={blog} width={100} height={100} />
+              <div
+                className="bg-white w-full p-2 h-full flex flex-col justify-center rounded-lg items-center cursor-pointer"
+                onClick={function handleEvent() {
+                  router.push("/community#blogs");
+                }}
+              >
+                <Image src={blog} width={90} height={90} />
+                <div className="font-semibold">Blog</div>
               </div>
-              <div className="bg-white w-full p-2 h-full flex justify-center rounded-lg items-center cursor-pointer">
-                <Image src={forum} width={100} height={100} />
+              <div
+                className="bg-white w-full p-2 h-full flex flex-col justify-center rounded-lg items-center cursor-pointer"
+                onClick={function handleEvent() {
+                  router.push("/community#forums");
+                }}
+              >
+                <Image src={forum} width={90} height={90} />
+                <div className="font-semibold">Formus</div>
               </div>
-              <div className="bg-white w-full p-2 h-full flex justify-center rounded-lg items-center cursor-pointer">
-                <Image src={group} width={100} height={100} />
+              <div
+                className="bg-white w-full p-2 h-full flex flex-col justify-center rounded-lg items-center cursor-pointer"
+                onClick={function handleEvent() {
+                  router.push("/community#groups");
+                }}
+              >
+                <Image src={group} width={90} height={90} />
+                <div className="font-semibold">Groups</div>
               </div>
-              <div className="bg-white w-full p-2 h-full flex justify-center rounded-lg items-center cursor-pointer">
-                <Image src={member} width={100} height={100} />
+              <div
+                className="bg-white w-full p-2 h-full flex flex-col justify-center rounded-lg items-center cursor-pointer"
+                onClick={function handleEvent() {
+                  router.push("/community#members");
+                }}
+              >
+                <Image src={member} width={90} height={90} />
+                <div className="font-semibold">Members</div>
               </div>
             </div>
           </div>
@@ -58,7 +89,10 @@ const Community = () => {
           </div>
         </div>
       </div>
-      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
+      <div
+        id="groups"
+        className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10"
+      >
         Popular Groups
       </div>
       <div className=" py-9 mx-4 p-4 my-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 cardbg1 rounded-md gap-6 ">
@@ -423,7 +457,10 @@ const Community = () => {
           </div>
         </div>
       </div>
-      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
+      <div
+        id="members"
+        className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10"
+      >
         3,600 Members and Counting ....
       </div>
       <div className="px-4 py-8 mx-1 md:mx-4 lg:mx-4 xl:mx-4 my-8 rounded-md grid bg-gradient-to-r from-blue-500 to-cyan-500 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 lg:text-xl sm:text-lg text-base font-semibold">
@@ -472,7 +509,7 @@ const Community = () => {
           </div>
         </div>
       </div>
-      <div className="mx-4 my-5">
+      <div id="activites" className="mx-4 my-5">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-6">
           <div className=" rounded-md  min-h-[70vh] lg:grid-cols-2 xl:grid-cols-2 gap-6">
             <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[34px] lg:text-[28px] sm:text-[26px] text-[20px] ">
@@ -553,7 +590,10 @@ const Community = () => {
               </div>
             </div>
           </div>
-          <div className=" rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 min-h-[90vh]">
+          <div
+            id="forums"
+            className=" rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 min-h-[90vh]"
+          >
             <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[34px] lg:text-[28px] sm:text-[26px] text-[20px] ">
               On the Forums
             </div>
@@ -616,7 +656,10 @@ const Community = () => {
           </div>
         </div>
       </div>
-      <div className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10">
+      <div
+        id="blogs"
+        className="text-black p-4 font-semibold flex justify-center  items-center text-center xl:text-[38px] lg:text-[30px] sm:text-[30px] text-[20px] mt-10"
+      >
         Blogs
       </div>
       <div className="mx-4 my-5">
@@ -646,7 +689,7 @@ const Community = () => {
             </div>
             <div className="flex justify-end items-center">
               <span className="text-black text-[18px] font-semibold cursor-pointer">
-               Continue Reading -{`>`}
+                Continue Reading -{`>`}
               </span>
             </div>
           </div>
