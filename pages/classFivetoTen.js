@@ -126,7 +126,7 @@ const ClassFivetoTen = () => {
       <div className="mx-4 py-2 px-1 min-h-[80vh] cardbg1 rounded-md grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
         <div className="flex justify-center items-center">
           <ClassFiveToTenCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets1.lottiefiles.com/packages/lf20_0yfsb3a1.json"
             tittle="Introduction to Coding"
             desc="In this course, students will learn the basics of coding, including problem-solving, logical thinking, and creativity. They will use different online tools and platforms, such as Code.org, Scratch, and Tynker, to create simple programs, games, and animations. They will also learn about different careers in tech and how coding can be used in real-life situations."
             level="Beginner"
@@ -136,7 +136,7 @@ const ClassFivetoTen = () => {
         </div>
         <div className="flex justify-center items-center">
           <ClassFiveToTenCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets2.lottiefiles.com/packages/lf20_8cxcnczq.json"
             tittle="Mobile App Development"
             desc="In this course, students will learn how to design and develop their own mobile apps using MIT App Inventor, a block-based visual programming tool. They will create apps that can interact with sensors, databases, and external APIs, using design thinking principles and user-centered design. They will also learn how to publish and share their app on different platforms, such as Android and iOS."
             level="Intermediate"
@@ -146,7 +146,7 @@ const ClassFivetoTen = () => {
         </div>
         <div className="flex justify-center items-center">
           <ClassFiveToTenCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets8.lottiefiles.com/packages/lf20_480AU4.json"
             tittle="Cybersecurity and Ethical Hacking"
             desc="In this course, students will learn about the basics of cybersecurity and ethical hacking, including network security, cryptography, and social engineering. They will use different tools and techniques to assess and exploit vulnerabilities in computer systems, while following ethical guidelines and legal frameworks. They will also learn about different careers in cybersecurity and how to stay safe online in a connected world"
             level="Advanced"
@@ -282,7 +282,7 @@ const ClassFivetoTen = () => {
       <div className="mx-4 mt-10 py-2 px-1 min-h-[80vh] cardbg1 rounded-md grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
         <div className="flex justify-center items-center">
           <ClassFiveToTenCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets3.lottiefiles.com/packages/lf20_6c4q0CWf6g.json"
             tittle="Public Speaking and Communication Skills"
             desc="In this course, students will learn the basics of public speaking and effective communication. They will develop their speaking skills through fun activities such as role-playing, storytelling, and impromptu speaking. They will also learn about body language, vocal variety, and active listening. At the end of the course, they will deliver a short speech to showcase their progress."
             level="Beginner"
@@ -292,7 +292,7 @@ const ClassFivetoTen = () => {
         </div>
         <div className="flex justify-center items-center">
           <ClassFiveToTenCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets4.lottiefiles.com/packages/lf20_8udmnhsx.json"
             tittle="  Leadership and Team Building  "
             desc="In this course, students will learn about leadership and team building skills through hands-on activities and group projects. They will learn about different leadership styles, goal setting, conflict resolution, and delegation. They will also learn how to work effectively in a team, communicate clearly, and give and receive feedback. At the end of the course, they will showcase their teamwork skills through a group presentation"
             level="Intermediate"
@@ -302,7 +302,7 @@ const ClassFivetoTen = () => {
         </div>
         <div className="flex justify-center items-center">
           <ClassFiveToTenCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets10.lottiefiles.com/private_files/lf30_aaviocjd.json"
             tittle="Emotional Intelligence and Self-awareness"
             desc="In this course, students will learn about emotional intelligence and self-awareness, which are crucial skills for personal and professional success. They will learn how to manage their emotions, understand their strengths and weaknesses, and develop empathy and resilience. They will also learn how to set personal and career goals and make informed decisions based on their values and interests. At the end of the course, they will create a personal development plan"
             level="Advanced"
@@ -349,7 +349,7 @@ const ClassFivetoTen = () => {
       <div className="mx-4 py-2 px-1 min-h-[80vh] cardbg1 rounded-md grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
         <div className="flex justify-center items-center">
           <SummerCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets2.lottiefiles.com/packages/lf20_4kx2q32n.json"
             tittle="Summer Coding Camp"
             desc="This 10-day coding camp is perfect for students who want to learn and enhance their coding skills in a fun and interactive way. Students will learn programming concepts through games, puzzles, and real-world applications. They will also work on projects and get personalized feedback from our expert instructors.At the end of the camp, they will showcase their projects in a demo day."
             age="10-15 years"
@@ -360,7 +360,7 @@ const ClassFivetoTen = () => {
         </div>
         <div className="flex justify-center items-center">
           <SummerCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets3.lottiefiles.com/packages/lf20_e7y2w0zq.json"
             tittle="Personality Development Workshop"
             desc="This 2-week workshop is designed to help students build their self-confidence, interpersonal skills, and leadership abilities. Students will learn about different aspects of personality development such as body language, communication skills, goal setting, and stress management. They will also engage in group discussions, role plays, and reflection exercises to enhance their self-awareness and social skills."
             age="12-18 years"
@@ -371,7 +371,7 @@ const ClassFivetoTen = () => {
         </div>
         <div className="flex justify-center items-center">
           <SummerCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets3.lottiefiles.com/packages/lf20_e7y2w0zq.json"
             tittle="Personality Development Workshop"
             desc="This 2-week workshop is designed to help students build their self-confidence, interpersonal skills, and leadership abilities. Students will learn about different aspects of personality development such as body language, communication skills, goal setting, and stress management. They will also engage in group discussions, role plays, and reflection exercises to enhance their self-awareness and social skills."
             age="12-18 years"
@@ -393,7 +393,7 @@ const ClassFivetoTen = () => {
       <div className="mx-4 py-2 mt-10 px-1 min-h-[80vh] cardbg1 rounded-md grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
         <div className="flex justify-center items-center">
           <SummerCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets1.lottiefiles.com/packages/lf20_hahoikjc.json"
             tittle="Digital Art and Design Camp"
             desc="This 2-week camp is designed for students who want to explore their creativity in the digital world. They will learn about different digital art forms such as graphic design, animation, and video production. They will also learn about visual storytelling, branding, and marketing. They will have the opportunity to showcase their artworks and projects in a virtual exhibition. "
             age="10-15 years"
@@ -404,7 +404,7 @@ const ClassFivetoTen = () => {
         </div>
         <div className="flex justify-center items-center">
           <SummerCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets8.lottiefiles.com/packages/lf20_isyut9wy.json"
             tittle="Science and Technology Camp"
             desc=" This 2-week camp is perfect for students who love science and technology. They will learn about different scientific concepts such as physics, chemistry, and biology. They will also learn about technology tools such as coding, robotics, and AI. They will have the opportunity to participate in hands-on experiments and projects. This camp will develop their critical thinking, problem-solving, and innovation skills."
             age="12-16 years"
@@ -415,7 +415,7 @@ const ClassFivetoTen = () => {
         </div>
         <div className="flex justify-center items-center">
           <SummerCard
-            img="https://assets10.lottiefiles.com/packages/lf20_4djadzzo.json"
+            img="https://assets8.lottiefiles.com/packages/lf20_myazuUmn3l.json"
             tittle="Language and Culture Camp"
             desc="This 2-week camp is designed for students who want to explore different cultures and languages. They will learn about different countries, customs, and traditions. They will also learn about different languages such as Spanish, French, and Mandarin. They will have the opportunity to participate in language lessons and cultural activities. This camp will foster their global awareness, communication skills, and empathy."
             age="8-12 years"
