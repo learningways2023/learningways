@@ -146,7 +146,7 @@ const ClassFivetoTen = () => {
         </div>
         <div className="flex justify-center items-center">
           <ClassFiveToTenCard
-            img="https://assets8.lottiefiles.com/packages/lf20_480AU4.json"
+            img="https://assets7.lottiefiles.com/packages/lf20_hgoxocuy.json"
             tittle="Cybersecurity and Ethical Hacking"
             desc="In this course, students will learn about the basics of cybersecurity and ethical hacking, including network security, cryptography, and social engineering. They will use different tools and techniques to assess and exploit vulnerabilities in computer systems, while following ethical guidelines and legal frameworks. They will also learn about different careers in cybersecurity and how to stay safe online in a connected world"
             level="Advanced"
