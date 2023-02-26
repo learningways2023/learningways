@@ -13,7 +13,7 @@ const ClassFiveToTenCard = (props) => {
               autoplay
               loop
               src={props.img}
-              className=" w-[280px] h-[200px] "
+              className=" w-[280px] h-[200px] -z-50"
             ></Player>
           </div>
           <div className="flex justify-center items-center ">
