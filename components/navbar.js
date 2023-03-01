@@ -21,7 +21,7 @@ export default function Navbar() {
                 href="/"
                 className="cursor-pointer lg:w-60 xl:w-60 w-40 h-15"
                 onClick={function handleLogo() {
-                  router.push("/");
+                  router.push("/home");
                   setNavbar(false);
                 }}
               >
