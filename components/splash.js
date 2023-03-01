@@ -44,7 +44,7 @@ const Splash = () => {
                   className=" w-[250px] h-[200px] "
                 ></Player>
               </div>
-              <div className="min-h-[40vh] min-w-[290px] mx-4 rounded-[5%] bg-white  opacity-90 flex flex-col justify-between items-center">
+              <div className="min-h-[40vh] min-w-[290px] mx-4 rounded-[5%] bg-white  opacity-95 flex flex-col justify-between items-center">
                 <div className="font-semibold text-black text-xl text-center py-2">
                   Discover your next skill Learn anything you want !
                 </div>
@@ -52,7 +52,7 @@ const Splash = () => {
                   Discover the things you want to learn & grow with them
                 </div>
                 <div
-                  className="border-2 text-black rounded px-7  py-1 my-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                  className="border-2 text-black rounded px-7  py-1 mb-5 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                   onClick={function handlePaage() {
                     router.push("/home");
                   }}
@@ -61,13 +61,13 @@ const Splash = () => {
                 </div>
               </div>
             </div>
-            <div className="fixed bottom-1">
+            <div className="fixed bottom-3">
               <div
-                className="font-normal text-black text-md text-center py-2 cursor-pointer"
+                className="font-normal text-black text-lg text-center py-2 cursor-pointer"
                 onClick={function handlePaage() {
                   router.push("/home");
                 }}
-                I
+                
               >
                 Skip
               </div>
@@ -88,7 +88,7 @@ const Splash = () => {
                   className=" w-[250px] h-[200px] "
                 ></Player>
               </div>
-              <div className="min-h-[40vh] min-w-[290px] mx-4 rounded-[5%] bg-white  opacity-90 flex flex-col justify-between items-center">
+              <div className="min-h-[40vh] min-w-[290px] mx-4 rounded-[5%] bg-white  opacity-95 flex flex-col justify-between items-center">
                 <div className="font-semibold text-black text-xl text-center px-2 py-2">
                   Education is for improving the lives of others & for leaving
                   your community & world better than you found it.
@@ -97,7 +97,7 @@ const Splash = () => {
                   Join our community now !
                 </div>
                 <div
-                  className="border-2 text-black rounded px-7  py-1 my-2 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
+                  className="border-2 text-black rounded px-7  py-1 mb-5 text-lg  cursor-pointer font-semibold bg-[#fbcf08] border-[#fbcf08] duration-150"
                   onClick={function handlePaage() {
                     router.push("/community");
                   }}
@@ -106,9 +106,9 @@ const Splash = () => {
                 </div>
               </div>
             </div>
-            <div className="fixed bottom-1">
+            <div className="fixed bottom-3">
               <div
-                className="font-normal text-black text-md text-center pt-2 cursor-pointer"
+                className="font-normal text-black text-lg text-center pt-2 cursor-pointer"
                 onClick={function handlePaage() {
                   router.push("/home");
                 }}
