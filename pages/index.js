@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 import Newhero from "../components/hero";
 import Goals from "../components/goals";
 import Ment from "../components/ment";
-import KommunicateChat from "../components/chat";
+import Chat from "../components/chat";
 import Ongoing from "../components/ongoing";
 import Categories from "../components/categories";
 import Upcoming from "../components/upcoming";
@@ -62,7 +62,7 @@ const Index = () => {
         <Uparrow url="/" />
         <Navbar />
         <Newhero />
-        <div className="mx-4 my-10 min-h-[70vh] bg-gradient-to-r from-blue-500 to-cyan-500 ">
+        <div className="mx-4 my-10 min-h-[70vh] bg-gradient-to-r from-blue-500  to-cyan-500 ">
           <div className="grid grid-cols-1 md:grid-col-1 lg:grid-cols-2 xl:grid-cols-2 gap-6">
             <div className="flex flex-col justify-center items-center p-4">
               <div className="xl:text-[26px]  lg:text-[25px] sm:text-[25px] text-[18px] font-semibold flex items-center justify-start text-center text-white">
@@ -79,7 +79,7 @@ const Index = () => {
                     router.push("/community");
                   }}
                 >
-                  <button>Join our community club !</button>
+                  <button >Join our community club !</button>
                 </div>
               </div>
             </div>
@@ -225,7 +225,7 @@ const Index = () => {
         <Access />
         <Goals />
         <Ment />
-        <KommunicateChat />
+        <Chat />
         <Footer />
       </div>
     </div>
