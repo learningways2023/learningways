@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 import Newhero from "../components/hero";
 import Goals from "../components/goals";
 import Ment from "../components/ment";
-import Chat from "../components/chat";
+import KommunicateChat from "../components/chat";
 import Ongoing from "../components/ongoing";
 import Categories from "../components/categories";
 import Upcoming from "../components/upcoming";
@@ -225,7 +225,7 @@ const Index = () => {
         <Access />
         <Goals />
         <Ment />
-        <Chat />
+        <KommunicateChat />
         <Footer />
       </div>
     </div>

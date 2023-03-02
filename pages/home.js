@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Newhero from "../components/hero";
 import Goals from "../components/goals";
-import Chat from "../components/chat";
+import KommunicateChat from "../components/chat";
 import Ment from "../components/ment";
 import Ongoing from "../components/ongoing";
 import Categories from "../components/categories";
@@ -219,7 +219,7 @@ const Home = () => {
       <Access />
       <Goals />
       <Ment />
-      <Chat />
+      <KommunicateChat />
 
       <Footer />
     </div>
