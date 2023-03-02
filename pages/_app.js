@@ -1,7 +1,7 @@
 import { Halant, Lato } from "@next/font/google";
 import { ParallaxProvider } from "react-scroll-parallax";
 import "../styles/globals.css";
-import Kommunicate from "@kommunicate/kommunicate-chatbot-plugin";
+// import Kommunicate from "@kommunicate/kommunicate-chatbot-plugin";
 
 // Kommunicate.init(process.env.NEXT_PUBLIC_KOMMUNICATE_ID);
 
