@@ -14,7 +14,6 @@
     "@capacitor/ios": "^4.6.1",
     "@emailjs/browser": "^3.10.0",
     "@headlessui/react": "^1.7.10",
-    "@kommunicate/kommunicate-chatbot-plugin": "^0.0.5",
     "@lottiefiles/react-lottie-player": "^3.5.0",
     "@next/font": "13.1.1",
     "@ramonak/react-progress-bar": "^5.0.3",
