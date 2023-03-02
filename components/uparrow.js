@@ -6,7 +6,7 @@ const Uparrow = (props) => {
   const router = useRouter();
   return (
     <div
-      className="w-[50px] h-[50px] bg-gradient-to-r from-cyan-500 to-blue-500 up fixed bottom-3 right-3 z-50 cursor-pointer"
+      className="w-[50px] h-[50px] bg-gradient-to-r from-cyan-500 to-blue-500 up fixed bottom-[5.5rem] right-10 z-50 cursor-pointer"
       onClick={function handleUp() {
         router.push(`/${props.url}`);
       }}
