@@ -108,38 +108,38 @@ const Professional = () => {
         <div className="grid py-5 grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-8">
           {isBreakpoint ? (
             <div className="flex justify-center items-center ">
-              <YouTube videoId="RJRa57xGmQI" opts={opts2} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts2} />
             </div>
           ) : (
             <div className="flex justify-center items-center ">
-              <YouTube videoId="RJRa57xGmQI" opts={opts} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts} />
             </div>
           )}
           {isBreakpoint ? (
             <div className="flex justify-center items-center pt-9">
-              <YouTube videoId="RJRa57xGmQI" opts={opts2} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts2} />
             </div>
           ) : (
             <div className="flex justify-center items-center ">
-              <YouTube videoId="RJRa57xGmQI" opts={opts} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts} />
             </div>
           )}
           {isBreakpoint ? (
             <div className="flex justify-center items-center pt-9">
-              <YouTube videoId="RJRa57xGmQI" opts={opts2} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts2} />
             </div>
           ) : (
             <div className="flex justify-center items-center ">
-              <YouTube videoId="RJRa57xGmQI" opts={opts} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts} />
             </div>
           )}
           {isBreakpoint ? (
             <div className="flex justify-center items-center pt-9">
-              <YouTube videoId="RJRa57xGmQI" opts={opts2} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts2} />
             </div>
           ) : (
             <div className="flex justify-center items-center ">
-              <YouTube videoId="RJRa57xGmQI" opts={opts} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts} />
             </div>
           )}
         </div>
@@ -388,20 +388,20 @@ const Professional = () => {
         <div className="grid py-5 grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-8">
           {isBreakpoint ? (
             <div className="flex justify-center items-center ">
-              <YouTube videoId="RJRa57xGmQI" opts={opts2} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts2} />
             </div>
           ) : (
             <div className="flex justify-center items-center ">
-              <YouTube videoId="RJRa57xGmQI" opts={opts} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts} />
             </div>
           )}
           {isBreakpoint ? (
             <div className="flex justify-center items-center pt-9">
-              <YouTube videoId="RJRa57xGmQI" opts={opts2} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts2} />
             </div>
           ) : (
             <div className="flex justify-center items-center ">
-              <YouTube videoId="RJRa57xGmQI" opts={opts} />
+              <YouTube videoId="EpFNhgLmBJE" opts={opts} />
             </div>
           )}
         </div>

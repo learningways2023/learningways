@@ -80,11 +80,11 @@ const UPSCCurrentAffairs = () => {
 
               {isBreakpoint ? (
                 <div className="flex justify-center items-center pt-9">
-                  <YouTube videoId="RJRa57xGmQI" opts={opts2} />
+                  <YouTube videoId="EpFNhgLmBJE" opts={opts2} />
                 </div>
               ) : (
                 <div className="flex justify-center items-center ">
-                  <YouTube videoId="RJRa57xGmQI" opts={opts} />
+                  <YouTube videoId="EpFNhgLmBJE" opts={opts} />
                 </div>
               )}
             </div>
@@ -915,11 +915,11 @@ const UPSCCurrentAffairs = () => {
 
               {isBreakpoint ? (
                 <div className="flex justify-center items-center pt-9">
-                  <YouTube videoId="RJRa57xGmQI" opts={opts2} />
+                  <YouTube videoId="EpFNhgLmBJE" opts={opts2} />
                 </div>
               ) : (
                 <div className="flex justify-center items-center ">
-                  <YouTube videoId="RJRa57xGmQI" opts={opts} />
+                  <YouTube videoId="EpFNhgLmBJE" opts={opts} />
                 </div>
               )}
             </div>
