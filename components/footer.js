@@ -25,7 +25,7 @@ function Footer() {
               <br />
               <ul className="flex justify-center md:justify-start items-center">
                 <li className="py-1 foottext hover:text-[#79c5d4] cursor-pointer" onClick={function handleAndroid(){
-                  router.push("/")
+                  router.push("https://play.google.com/store/apps/details?id=com.exapmle.learningways")
                 }}>
                   <Image src={android} width={200} height={100} />
                 </li>

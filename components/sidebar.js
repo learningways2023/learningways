@@ -37,7 +37,11 @@ function SideNavbar(props) {
         </Disclosure.Button>
         <div className=" p-2 w-full min-h-[120vh]  bg-gradient-to-r from-blue-500 to-cyan-500 z-20 relative  md:top-0  -left-[500px] md:left-0 md:w-80  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
           <div className="flex justify-between items-center py-4 px-4 w-full">
-            <div>
+            <div
+              onClick={function handleLinkl() {
+                router.push("/home");
+              }}
+            >
               <Image src={logo} height={70} width={250} />
             </div>
             <div className="md:hidden flex justify-end items-center pl-9">
@@ -62,7 +66,7 @@ function SideNavbar(props) {
               <div
                 className="text-xl text-black flex w-full  justify-start items-center  font-semibold   cursor-pointer "
                 onClick={function handleLinkl() {
-                  router.push("/");
+                  router.push("/home");
                 }}
               >
                 <Image src={home} width={40} height={30} />
