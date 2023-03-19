@@ -70,10 +70,7 @@ function Login() {
   const loginSubmitHandler = async (e) => {
     // console.log("e");
     e.preventDefault();
-    if (
-      email == process.env.NEXT_PUBLIC_ADMIN_EMAIL &&
-      pass == process.env.NEXT_PUBLIC_PASS
-    ) {
+    if (email == "info.learningways@gmail.com" && pass == "Admin@learn1729") {
       setCookie("add", email + email + email, { maxAge: 10000 });
 
       toastifySuccess();
