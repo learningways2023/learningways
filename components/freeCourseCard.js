@@ -5,6 +5,8 @@ import { useState } from "react";
 import Link from "next/link";
 import close from "../public/close.svg";
 import bullet from "../public/bulletblack.svg";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
+
 const FreeCourseCard = (props) => {
   const [modal, setModal] = useState(false);
   console.log(props);
@@ -62,13 +64,19 @@ const FreeCourseCard = (props) => {
       <div className="w-full sm:w-1/2 md:w-1/2 xl:w-4/12  p-4 ">
         <div className="card-col block  min-h-[90vh] infp overflow-hidden">
           <div className="w-full h-full p-4 ">
-            <Image
+            {/* <Image
               width={450}
               height={200}
               className="h-[200px] rounded-md"
               src={props.img}
               alt=""
-            />
+            /> */}
+            <Player
+              autoplay
+              loop
+              src={props.img}
+              className="h-[200px]"
+            ></Player>
           </div>
           <div className="px-4">
             <h2 className="mt-2 mb-2 py-2 text-xl  font-bold text-black bg-white rounded-md opacity-[0.7]   text-center">
@@ -136,7 +144,6 @@ const FreeCourseCard = (props) => {
             </div>
           </div>
           <div className="my-3 float">
-            
             <span className="  p-2 pr-4 flex justify-center items-center  cursor-pointer">
               <div
                 className=" border-2 text-white rounded px-2 py-1 text-base  cursor-pointer font-semibold bg-black border-black duration-150"
@@ -148,7 +155,6 @@ const FreeCourseCard = (props) => {
               </div>
             </span>
           </div>
-          
         </div>
       </div>
     </>
